@@ -7,3 +7,4 @@
 }
 
 @media(max-width:760px){.mobile-theoretical{display:block;font-size:10px;font-weight:400;color:var(--muted);line-height:1.6;margin-top:2px}}
+@media(max-width:760px){.research{width:calc(100% - 20px);min-width:0}}
