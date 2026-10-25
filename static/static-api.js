@@ -2,7 +2,7 @@
 (()=>{
 const nativeFetch=window.fetch.bind(window),base=new URL('../',document.currentScript.src),cache=new Map(),recordKey='diamond-records-v1';
 const response=(obj,status=200)=>new Response(JSON.stringify(obj),{status,headers:{'Content-Type':'application/json;charset=utf-8'}});
-async function read(path){if(!cache.has(path)){const url=new URL(path,base);url.searchParams.set('v','20261025base2');cache.set(path,nativeFetch(url,{cache:'no-cache'}).then(async r=>{if(!r.ok)throw Error('快照读取失败：'+path);return r.json()}).catch(e=>{cache.delete(path);throw e}));}return cache.get(path);}
+async function read(path){if(!cache.has(path)){const url=new URL(path,base);url.searchParams.set('v','20261025cal3');cache.set(path,nativeFetch(url,{cache:'no-cache'}).then(async r=>{if(!r.ok)throw Error('快照读取失败：'+path);return r.json()}).catch(e=>{cache.delete(path);throw e}));}return cache.get(path);}
 function records(){try{return JSON.parse(localStorage.getItem(recordKey)||'[]')}catch{return []}}
 const normalized=value=>Array.isArray(value)?value.map(normalized):value&&typeof value==='object'?Object.fromEntries(Object.keys(value).sort().map(k=>[k,normalized(value[k])])):value;
 const stable=value=>JSON.stringify(normalized(value));

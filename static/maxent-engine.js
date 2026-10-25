@@ -1,7 +1,7 @@
 /* 与 model_maxent.py 对照的正式浏览器最大熵模型；旧工具函数只用于实测分层。 */
 (()=>{
 'use strict';
-const engine=globalThis.DiamondEngine,empiricalCalculate=engine.calculate,round=engine.round,maxBid=engine.maxBid,EPS=1e-10;
+const engine=globalThis.DiamondEngine,empiricalCalculate=engine.calculate,round=engine.round,maxBid=engine.maxBid,EPS=1e-10,BASELINE_SMOOTHING=.015;
 const payouts={normal:[.5,.3,.2,0,0,0],winner_take_all:[1,0,0,0,0,0]},cache=new Map();
 function num(o,...keys){for(const k of keys){const v=o[k];if(v===null||v===undefined||typeof v==='object'||(typeof v==='string'&&!v.trim()))continue;const n=Number(v);if(Number.isFinite(n))return n;}return null;}
 function distribution(p,avg){const key=p+':'+avg;if(cache.has(key))return cache.get(key);if(!Number.isFinite(p)||p<0||p>1||!Number.isFinite(avg))throw Error('夺冠率或平均名次无效。');if(avg<2-p-EPS||avg>6-5*p+EPS)throw Error('夺冠率与平均名次无法同时组成合法的六人名次分布。');let probs;
@@ -20,7 +20,7 @@ function strictBaseline(pack,items,pool,manual=null,event='normal'){
 const fitCache=new Map();
 function regularizedDistribution(prior,r,t1,tmean){
  const key=JSON.stringify([prior,r,t1,tmean]);if(fitCache.has(key))return fitCache.get(key);
- const features=prior.map((_,i)=>[Number(i===0),i/5]),logs=prior.map(p=>Math.log(Math.max(p,1e-12))),tau2=.01;
+ const features=prior.map((_,i)=>[Number(i===0),i/5]),logs=prior.map(p=>Math.log(Math.max(p,1e-12))),tau2=BASELINE_SMOOTHING**2;
  function state(beta){const z=logs.map((v,i)=>v-beta[0]*features[i][0]-beta[1]*features[i][1]),top=Math.max(...z),weights=z.map(v=>Math.exp(v-top)),total=weights.reduce((a,b)=>a+b,0),q=weights.map(v=>v/total),mean=[0,1].map(j=>q.reduce((s,v,i)=>s+v*features[i][j],0)),objective=.5*tau2*beta.reduce((s,v)=>s+v*v,0)+r*r*(top+Math.log(total))+r*(t1*beta[0]+tmean*beta[1]);return {q,mean,objective};}
  let beta=[0,0];for(let k=0;k<80;k++){const {q,mean,objective}=state(beta),grad=[t1,tmean].map((t,j)=>tau2*beta[j]-r*r*mean[j]+r*t);if(Math.max(...grad.map(Math.abs))<1e-12)break;
  const cov=(a,b)=>q.reduce((s,v,i)=>s+v*features[i][a]*features[i][b],0)-mean[a]*mean[b],h00=tau2+r*r*cov(0,0),h01=r*r*cov(0,1),h11=tau2+r*r*cov(1,1),det=h00*h11-h01*h01,step=[(h11*grad[0]-h01*grad[1])/det,(h00*grad[1]-h01*grad[0])/det];let scale=1,candidate;for(let j=0;j<35;j++){candidate=beta.map((v,i)=>v-scale*step[i]);if(state(candidate).objective<=objective+1e-15)break;scale*=.5;}beta=candidate;
@@ -31,10 +31,10 @@ function baseline(pack,items,pool,manual=null,event='normal'){
  try{const overall=estimate(pack,pool,event),p=overall.p1,avg=num(pack,'averageRank','平均排名');let prior;if(event==='normal')prior=distribution(p,avg);else{try{prior=distribution(p,avg)}catch{prior=[p,...Array(5).fill((1-p)/5)];}}
  let usage=0,champions=0,means=0;for(const item of items){const u=num(item,'usageRate','使用率(%)'),rate=num(item,'top1Rate','第一名比例(%)'),rank=num(item,'averageRank','平均排名');if(u===null||u<0||u>100||rate===null||rate<0||rate>100)throw Error('拍品指标缺失或无效。');if(event==='normal')estimate(item,pool,event);usage+=u/100;champions+=u/100*rate/100;if(event==='normal')means+=u/100*(rank-1)/5;}
  const r=Math.max(0,1-usage),targetMean=event==='normal'?(avg-1)/5-means:0;let base;
- if(event==='winner_take_all'){let low=1e-12,high=1-1e-12;const priorP=Math.max(low,Math.min(high,p)),target=p-champions;for(let i=0;i<90;i++){const x=(low+high)/2,derivative=r*(r*x-target)+.01*Math.log(x*(1-priorP)/((1-x)*priorP));if(derivative<0)low=x;else high=x;}base=estimate({top1Rate:round((low+high)/2,12)*100,averageRank:avg},pool,event);}
+ if(event==='winner_take_all'){let low=1e-12,high=1-1e-12;const priorP=Math.max(low,Math.min(high,p)),target=p-champions;for(let i=0;i<90;i++){const x=(low+high)/2,derivative=r*(r*x-target)+BASELINE_SMOOTHING**2*Math.log(x*(1-priorP)/((1-x)*priorP));if(derivative<0)low=x;else high=x;}base=estimate({top1Rate:round((low+high)/2,12)*100,averageRank:avg},pool,event);}
  else{const q=regularizedDistribution(prior,r,p-champions,targetMean);base=estimate({top1Rate:round(q[0],12)*100,averageRank:round(q.reduce((s,v,i)=>s+(i+1)*v,0),12)},pool,event);}
  Object.assign(base,{residual:r*100,source:r>EPS?'正则化最大熵不买估计（近似）':'整体表现参考基准（无法识别不买人群）',approximate:true});
- const reason=messages.join(' ').replace('停止反推；可指定手动不买名次。','').replace('停止反推。','');return [base,[`自动基准采用近似估计，原因：${reason}。以当前整体最大熵分布作先验，平滑强度0.1；结果依赖模型假设，不是真实不买对局收益。`,'分布可行范围仅针对估计出的矩约束，不包含自动基准估计误差；并非置信区间。']];
+ const reason=messages.join(' ').replace('停止反推；可指定手动不买名次。','').replace('停止反推。','');return [base,[`自动基准采用近似估计，原因：${reason}。以当前整体最大熵分布作先验，平滑强度0.015（经验校准）；结果依赖模型假设，不是真实不买对局收益。`,'分布可行范围仅针对估计出的矩约束，不包含自动基准估计误差；并非置信区间。']];
  }catch{return [null,messages];}
 }
 function evaluate(pack,items,item,pool=10000,safety=.7,manual=null,budget=null,mode='same_price',event='normal',baseResult=null){const [base,messages]=baseResult||baseline(pack,items,pool,manual,event),warnings=[...messages];let bought=null;try{bought=estimate(item,pool,event)}catch(e){warnings.push('天赋估值停止：'+e.message)}const delta=base&&bought?pool*(bought.reward_ratio-base.reward_ratio):null,theoretical=delta===null?null:maxBid(pool,bought.reward_ratio,base.reward_ratio,mode),low=delta===null?null:maxBid(pool,bought.low,base.high,mode),high=delta===null?null:maxBid(pool,bought.high,base.low,mode);const bid=theoretical===null?null:Math.floor(Math.min(theoretical*safety,budget??Infinity)/200)*200,robust=low===null?null:Math.floor(Math.min(low*safety,budget??Infinity)/200)*200;if(delta!==null&&delta<0)warnings.push('未观察到正的历史收益增量；这不证明天赋本身有负面效果。');if(delta!==null&&theoretical===null)warnings.push('理论价无有限上限，无法给出可靠建议。');if(num(item,'sampleCount','样本数')===null)warnings.push('实际样本数未知，不生成样本置信区间。');warnings.push(event==='normal'?'亚军、季军概率由最大熵模型推算；上下界是分布可行范围，不是置信区间。':'夺冠独享直接采用历史夺冠率，未进行事件分层，不保证因果效果。');return {base,bought,delta,theoretical_bid:theoretical,bid,theoretical_low:low,theoretical_high:high,robust_bid:robust,warnings};}
