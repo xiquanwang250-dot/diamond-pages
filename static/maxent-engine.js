@@ -1,7 +1,7 @@
 /* 与 model_maxent.py 对照的正式浏览器最大熵模型；旧工具函数只用于实测分层。 */
 (()=>{
 'use strict';
-const engine=globalThis.DiamondEngine,empiricalCalculate=engine.calculate,round=engine.round,maxBid=engine.maxBid,EPS=1e-10,BASELINE_SMOOTHING=.015;
+const engine=globalThis.DiamondEngine,empiricalCalculate=engine.calculate,round=engine.round,maxBid=engine.maxBid,EPS=1e-10,BASELINE_SMOOTHING=.1;
 const payouts={normal:[.5,.3,.2,0,0,0],winner_take_all:[1,0,0,0,0,0]},cache=new Map();
 function num(o,...keys){for(const k of keys){const v=o[k];if(v===null||v===undefined||typeof v==='object'||(typeof v==='string'&&!v.trim()))continue;const n=Number(v);if(Number.isFinite(n))return n;}return null;}
 function distribution(p,avg){const key=p+':'+avg;if(cache.has(key))return cache.get(key);if(!Number.isFinite(p)||p<0||p>1||!Number.isFinite(avg))throw Error('夺冠率或平均名次无效。');if(avg<2-p-EPS||avg>6-5*p+EPS)throw Error('夺冠率与平均名次无法同时组成合法的六人名次分布。');let probs;
@@ -34,7 +34,7 @@ function baseline(pack,items,pool,manual=null,event='normal'){
  if(event==='winner_take_all'){let low=1e-12,high=1-1e-12;const priorP=Math.max(low,Math.min(high,p)),target=p-champions;for(let i=0;i<90;i++){const x=(low+high)/2,derivative=r*(r*x-target)+BASELINE_SMOOTHING**2*Math.log(x*(1-priorP)/((1-x)*priorP));if(derivative<0)low=x;else high=x;}base=estimate({top1Rate:round((low+high)/2,12)*100,averageRank:avg},pool,event);}
  else{const q=regularizedDistribution(prior,r,p-champions,targetMean);base=estimate({top1Rate:round(q[0],12)*100,averageRank:round(q.reduce((s,v,i)=>s+(i+1)*v,0),12)},pool,event);}
  Object.assign(base,{residual:r*100,source:r>EPS?'正则化最大熵不买估计（近似）':'整体表现参考基准（无法识别不买人群）',approximate:true});
- const reason=messages.join(' ').replace('停止反推；可指定手动不买名次。','').replace('停止反推。','');return [base,[`自动基准采用近似估计，原因：${reason}。以当前整体最大熵分布作先验，平滑强度0.015（经验校准）；结果依赖模型假设，不是真实不买对局收益。`,'分布可行范围仅针对估计出的矩约束，不包含自动基准估计误差；并非置信区间。']];
+ const reason=messages.join(' ').replace('停止反推；可指定手动不买名次。','').replace('停止反推。','');return [base,[`自动基准采用近似估计，原因：${reason}。以当前整体最大熵分布作先验，平滑强度0.1；结果依赖模型假设，不是真实不买对局收益。`,'分布可行范围仅针对估计出的矩约束，不包含自动基准估计误差；并非置信区间。']];
  }catch{return [null,messages];}
 }
 function evaluate(pack,items,item,pool=10000,safety=.7,manual=null,budget=null,mode='same_price',event='normal',baseResult=null){const [base,messages]=baseResult||baseline(pack,items,pool,manual,event),warnings=[...messages];let bought=null;try{bought=estimate(item,pool,event)}catch(e){warnings.push('天赋估值停止：'+e.message)}const delta=base&&bought?pool*(bought.reward_ratio-base.reward_ratio):null,theoretical=delta===null?null:maxBid(pool,bought.reward_ratio,base.reward_ratio,mode),low=delta===null?null:maxBid(pool,bought.low,base.high,mode),high=delta===null?null:maxBid(pool,bought.high,base.low,mode);const bid=theoretical===null?null:Math.floor(Math.min(theoretical*safety,budget??Infinity)/200)*200,robust=low===null?null:Math.floor(Math.min(low*safety,budget??Infinity)/200)*200;if(delta!==null&&delta<0)warnings.push('未观察到正的历史收益增量；这不证明天赋本身有负面效果。');if(delta!==null&&theoretical===null)warnings.push('理论价无有限上限，无法给出可靠建议。');if(num(item,'sampleCount','样本数')===null)warnings.push('实际样本数未知，不生成样本置信区间。');warnings.push(event==='normal'?'亚军、季军概率由最大熵模型推算；上下界是分布可行范围，不是置信区间。':'夺冠独享直接采用历史夺冠率，未进行事件分层，不保证因果效果。');return {base,bought,delta,theoretical_bid:theoretical,bid,theoretical_low:low,theoretical_high:high,robust_bid:robust,warnings};}
