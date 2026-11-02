@@ -13,7 +13,7 @@ function stop(){clearInterval(timer);timer=null;active=null;button.disabled=fals
 async function applyLatest(info){
  window.DiamondPublishedData?.clearCache();await load();await loadHeroes();
  try{IMAGE_MAP=await fetch('/api/local-images').then(r=>r.json());renderHeroes();if(RESULT)render(RESULT.rows,false);window.refreshLineupImages?.();}catch{}
- status.textContent=`更新完成：${info.packs}卡包、${info.offers}条拍品，${info.version}，大师场最近3天。`;stop();
+ status.textContent=`更新完成：${info.packs}卡包、${info.offers}条拍品，${info.version}，大师场最近3天。`+(info.detailFailures?`${info.detailFailures}条阵容详情暂不可用，已单独标注。`:'');stop();
 }
 async function poll(){
  if(busy||!active)return;busy=true;

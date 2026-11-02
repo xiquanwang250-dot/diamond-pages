@@ -1,4 +1,4 @@
-"""公开静态站点的全量数据更新。先暂存整套数据，全部成功后替换；不改算法或卡包关联。"""
+"""公开静态站点数据更新。核心快照完整后替换，可选详情失败明确标注；不改算法或卡包关联。"""
 from pathlib import Path
 from datetime import datetime,timezone,timedelta
 from concurrent.futures import ThreadPoolExecutor
@@ -131,8 +131,11 @@ def fetch_lineups(data,stamp):
         if row['lineupKey'] not in keys:keys.append(row['lineupKey'])
     existing={r.get('lookupKey',r['lineupKey']):r for r in old_details};ranked={r['lineupKey']:r for r in rows}
     def fetch(key):
+        error=None
         try:row=query({**payload,'lineupKey':key},'/wzwxq/lineups/detail')
-        except NoSamples:
+        except (ValueError,requests.RequestException) as failure:
+            error=failure
+        if error is not None:
             source=ranked.get(key) or existing.get(key)
             if not source:raise ValueError('无法恢复阵容身份。')
             row={k:copy.deepcopy(source[k]) for k in ('lineupKey','heroes')}
@@ -141,6 +144,9 @@ def fetch_lineups(data,stamp):
             if key in ranked:
                 row.update({k:copy.deepcopy(ranked[key].get(k)) for k in ('count','appearanceRate','avgPlacement','firstRate','top3Rate','recommendedUnits')});status='summary_only';message='近3天详情样本不足，仅展示本次排行摘要，不使用旧详情填充。'
             else:status='unavailable';message='原有对应阵容近3天样本不足；只保留对应关系及英雄身份，不使用历史统计。'
+            if not isinstance(error,NoSamples):
+                status='fetch_failed';message='来源接口本次无法提供该阵容详情。'+('仅展示本次排行摘要；' if key in ranked else '仅保留原对应关系和英雄身份；')+'未使用旧统计填充，可稍后重新更新。'
+                print('详情暂不可用：'+key,flush=True)
         else:
             if not isinstance(row,dict) or not row.get('lineupKey') or not isinstance(row.get('heroes'),list):raise ValueError('阵容详情缺少身份字段。')
             for field in ('variants','heroEquipment','recommendedUnits'):
@@ -151,8 +157,10 @@ def fetch_lineups(data,stamp):
         row['lookupKey']=key;row['_snapshot']=dict(status=status,message=message,query=payload,fetchedAt=stamp)
         return row
     with ThreadPoolExecutor(max_workers=3) as pool:details=list(pool.map(fetch,keys))
+    fresh=sum(r['_snapshot']['status'] in ('current','source_redirect') for r in details)
+    if not fresh:raise ValueError('未获得任何有效阵容详情，保留原数据。')
     assert graph(old_mapping)==original
-    return ranking,dict(meta={**ranking['meta'],'api':API+'/wzwxq/lineups/detail'},details=details),old_mapping
+    return ranking,dict(meta={**ranking['meta'],'api':API+'/wzwxq/lineups/detail','detailFailures':sum(r['_snapshot']['status']=='fetch_failed' for r in details)},details=details),old_mapping
 
 def image_cache(data,sources):
     folder=data/'images';folder.mkdir(exist_ok=True);manifest=read(folder/'manifest.json');failed=[]
@@ -208,7 +216,7 @@ def refresh(site):
         public_keys=('lineupKey','lookupKey','_snapshot','heroes','count','appearanceRate','avgPlacement','firstRate','top3Rate','recommendedUnits','variants','heroEquipment')
         for i,row in enumerate(details['details'],1):write(data/'lineups'/f'{i}.json',dict(detail={k:row.get(k) for k in public_keys},meta=details['meta']))
         render_reports(stage,ranking,details,mapping)
-        result=dict(updatedAt=stamp,runId=os.environ.get('GITHUB_RUN_ID'),days=3,venue='master',version=ranking['meta']['query']['version'],packs=len(valuation['packs']),offers=len(valuation['talents']),lineups=len(ranking['lineups']),detailSlots=len(details['details']),iconFailures=icon_failures,relationshipStrategy='reuse-original')
+        result=dict(updatedAt=stamp,runId=os.environ.get('GITHUB_RUN_ID'),days=3,venue='master',version=ranking['meta']['query']['version'],packs=len(valuation['packs']),offers=len(valuation['talents']),lineups=len(ranking['lineups']),detailSlots=len(details['details']),detailFailures=details['meta'].get('detailFailures',0),iconFailures=icon_failures,relationshipStrategy='reuse-original')
         write(data/'update.json',result)
         # 完整暂存并渲染后再替换；失败时还原原目录。CI还会保存完整旧数据artifact及Git历史。
         backup=site/('.data-before-refresh-'+str(time.time_ns()))
