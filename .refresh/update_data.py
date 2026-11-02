@@ -102,20 +102,23 @@ def fetch_lineups(data,stamp):
     old_mapping=read(data/'pack_lineup_matches.json');original=graph(old_mapping)
     version=latest_version();print('阵容版本：'+version,flush=True)
     payload=dict(version=version,gameType='4',subModeName='大师场',time=3,operator='AND',advancedMode=False,filters=[],exclusions=[],page=1,pageSize=12,minimumCount=50,sortBy='appearanceRate')
-    rows=[];pages=[];seen=set()
+    rows=[];pages=[];seen=set();raw_count=0;duplicates=0
     for page in range(1,501):
         result=query({**payload,'page':page},'/wzwxq/lineups/search');batch=result.get('lineups')
         if not isinstance(batch,list):raise ValueError('阵容排行缺少lineups。')
-        pages.append(result)
+        pages.append(result);raw_count+=len(batch)
         for row in batch:
-            if not row.get('lineupKey') or row['lineupKey'] in seen:raise ValueError('阵容分页重复或标识缺失。')
+            if not row.get('lineupKey'):raise ValueError('阵容标识缺失。')
+            if row['lineupKey'] in seen:
+                duplicates+=1;continue
             seen.add(row['lineupKey']);rows.append(row)
         total=int(result.get('total',0))
-        if len(rows)==total and total>0:break
-        if not batch or len(rows)>total:raise ValueError('阵容分页不完整。')
+        if raw_count==total and total>0:break
+        if not batch or raw_count>total:raise ValueError('阵容分页不完整。')
     else:raise ValueError('阵容分页超过上限。')
-    if not rows:raise ValueError('新阵容排行为空。')
-    ranking=dict(meta=dict(source=DATAWXQ+'/lineups?gameType=4&subModeName=大师场',api=API+'/wzwxq/lineups/search',query=payload,downloadedAt=stamp,total=total,sampleCount=pages[0].get('sampleCount')),lineups=rows)
+    if not rows or len(rows)<total*.8:raise ValueError('新阵容排行为空或重复比例异常。')
+    if duplicates:print(f'上游返回{total}行，其中{duplicates}行标识重复；保留首次记录，不合并统计。',flush=True)
+    ranking=dict(meta=dict(source=DATAWXQ+'/lineups?gameType=4&subModeName=大师场',api=API+'/wzwxq/lineups/search',query=payload,downloadedAt=stamp,total=len(rows),sourceTotal=total,duplicateRows=duplicates,note='少量跨页重复标识保留首次记录，不合并统计；如重复过多则停止更新。',sampleCount=pages[0].get('sampleCount')),lineups=rows)
     old_details=[]
     for path in sorted((data/'lineups').glob('*.json'),key=lambda p:int(p.stem)):
         old_details.append(read(path)['detail'])
