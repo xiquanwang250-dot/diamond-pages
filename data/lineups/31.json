@@ -1,0 +1,182 @@
+{
+  "detail": {
+    "lineupKey": "7|1061|1231|1241|1271|1281|1461|5211",
+    "lookupKey": "7|1061|1231|1241|1271|1281|1461|5211",
+    "_snapshot": {
+      "status": "fetch_failed",
+      "message": "来源接口本次无法提供该阵容详情。仅展示本次排行摘要；未使用旧统计填充，可稍后重新更新。",
+      "query": {
+        "version": "v261029",
+        "gameType": "4",
+        "subModeName": "大师场",
+        "time": 3,
+        "operator": "AND",
+        "advancedMode": false,
+        "filters": [],
+        "exclusions": [],
+        "page": 1,
+        "pageSize": 12,
+        "minimumCount": 50,
+        "sortBy": "appearanceRate"
+      },
+      "fetchedAt": "2026-11-02T13:55:04.692228+00:00"
+    },
+    "heroes": [
+      {
+        "name": "小乔",
+        "id": "1061"
+      },
+      {
+        "name": "吕布",
+        "id": "1231"
+      },
+      {
+        "name": "周瑜",
+        "id": "1241"
+      },
+      {
+        "name": "甄姬",
+        "id": "1271"
+      },
+      {
+        "name": "曹操",
+        "id": "1281"
+      },
+      {
+        "name": "露娜",
+        "id": "1461"
+      },
+      {
+        "name": "海月",
+        "id": "5211"
+      }
+    ],
+    "count": 439,
+    "appearanceRate": 0.0812,
+    "avgPlacement": 3.246,
+    "firstRate": 0.2164,
+    "top3Rate": 0.5535,
+    "recommendedUnits": [
+      {
+        "avgLevel": 567.7927,
+        "recommendationCount": 14,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.6446,
+        "itemIds": [
+          "643103",
+          "643705",
+          "643803"
+        ],
+        "count": 439,
+        "heroId": "1231",
+        "awakenedRate": 0.7312,
+        "recommendationType": "three_item"
+      },
+      {
+        "avgLevel": 634.3508,
+        "recommendationCount": 7,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.5809,
+        "itemIds": [
+          "643404",
+          "643502",
+          "643604"
+        ],
+        "count": 439,
+        "heroId": "1241",
+        "awakenedRate": 0.9339,
+        "recommendationType": "three_item"
+      },
+      {
+        "avgLevel": 733.7737,
+        "recommendationCount": 10,
+        "appearanceRate": 0.7449,
+        "threeItemRate": 0.6239,
+        "itemIds": [
+          "643402",
+          "643705",
+          "643803"
+        ],
+        "count": 327,
+        "heroId": "1461",
+        "awakenedRate": 0.8287,
+        "recommendationType": "three_item"
+      },
+      {
+        "avgLevel": 558.4784,
+        "recommendationCount": 14,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.1367,
+        "itemIds": [
+          "643208"
+        ],
+        "count": 439,
+        "heroId": "1271",
+        "awakenedRate": 0.9544,
+        "recommendationType": "single_item"
+      },
+      {
+        "avgLevel": 529.9749,
+        "recommendationCount": 21,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.0888,
+        "itemIds": [
+          "641010"
+        ],
+        "count": 439,
+        "heroId": "1281",
+        "awakenedRate": 0.8497,
+        "recommendationType": "single_item"
+      },
+      {
+        "avgLevel": 522.3596,
+        "recommendationCount": 0,
+        "appearanceRate": 0.9818,
+        "threeItemRate": 0.0603,
+        "itemIds": [],
+        "count": 431,
+        "heroId": "1061",
+        "awakenedRate": 0.877,
+        "recommendationType": "none"
+      },
+      {
+        "avgLevel": 658.2353,
+        "recommendationCount": 0,
+        "appearanceRate": 0.4647,
+        "threeItemRate": 0.4314,
+        "itemIds": [],
+        "count": 204,
+        "heroId": "5211",
+        "awakenedRate": 0.1225,
+        "recommendationType": "none"
+      }
+    ],
+    "variants": [],
+    "heroEquipment": []
+  },
+  "meta": {
+    "source": "https://www.datawxq.com/lineups?gameType=4&subModeName=大师场",
+    "api": "https://api.datatft.com/wzwxq/lineups/detail",
+    "query": {
+      "version": "v261029",
+      "gameType": "4",
+      "subModeName": "大师场",
+      "time": 3,
+      "operator": "AND",
+      "advancedMode": false,
+      "filters": [],
+      "exclusions": [],
+      "page": 1,
+      "pageSize": 12,
+      "minimumCount": 50,
+      "sortBy": "appearanceRate"
+    },
+    "downloadedAt": "2026-11-02T13:55:04.692228+00:00",
+    "total": 26,
+    "sourceTotal": 27,
+    "duplicateRows": 1,
+    "note": "少量跨页重复标识保留首次记录，不合并统计；如重复过多则停止更新。",
+    "sampleCount": 32430,
+    "detailFailures": 22
+  }
+}

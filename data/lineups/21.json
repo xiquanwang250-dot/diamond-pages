@@ -1,1 +1,92 @@
-{"detail":{"lineupKey":"8|1161|1311|1461|1501|1671|1951|5021|5061","lookupKey":"8|1161|1311|1461|1501|1671|1951|5021|5061","_snapshot":{"status":"unavailable","query":{"version":"v261022","gameType":"4","subModeName":"大师场","time":3,"operator":"AND","advancedMode":false,"filters":[],"exclusions":[],"page":1,"pageSize":12,"minimumCount":50,"sortBy":"appearanceRate"},"fetchedAt":"2026-10-25T10:37:45.990713+00:00","message":"此原有对应阵容近3天样本不足，暂无可用统计；仅保留原对应关系和英雄身份，未使用历史数值填充。"},"heroes":[{"name":"阿轲","id":"1161"},{"name":"李白","id":"1311"},{"name":"露娜","id":"1461"},{"name":"韩信","id":"1501"},{"name":"孙悟空","id":"1671"},{"name":"百里玄策","id":"1951"},{"name":"裴擒虎","id":"5021"},{"name":"云中君","id":"5061"}],"count":null,"appearanceRate":null,"avgPlacement":null,"firstRate":null,"top3Rate":null,"recommendedUnits":[],"variants":[],"heroEquipment":[]},"meta":{"source":"https://www.datawxq.com/lineups?gameType=4&subModeName=大师场","api":"https://api.datatft.com/wzwxq/lineups/detail","query":{"version":"v261022","gameType":"4","subModeName":"大师场","time":3,"operator":"AND","advancedMode":false,"filters":[],"exclusions":[],"page":1,"pageSize":12,"minimumCount":50,"sortBy":"appearanceRate"},"downloadedAt":"2026-10-25T10:37:45.990713+00:00","total":27,"sampleCount":23304,"note":"保留原卡包映射与查询编号。每条lookupKey是原查询标识，lineupKey是官网实际返回的主阵容；历史/摘要条目由_snapshot单独标注。","rankedTotal":22}}
+{
+  "detail": {
+    "lineupKey": "8|1161|1311|1461|1501|1671|1951|5021|5061",
+    "lookupKey": "8|1161|1311|1461|1501|1671|1951|5021|5061",
+    "_snapshot": {
+      "status": "fetch_failed",
+      "message": "来源接口本次无法提供该阵容详情。仅保留原对应关系和英雄身份；未使用旧统计填充，可稍后重新更新。",
+      "query": {
+        "version": "v261029",
+        "gameType": "4",
+        "subModeName": "大师场",
+        "time": 3,
+        "operator": "AND",
+        "advancedMode": false,
+        "filters": [],
+        "exclusions": [],
+        "page": 1,
+        "pageSize": 12,
+        "minimumCount": 50,
+        "sortBy": "appearanceRate"
+      },
+      "fetchedAt": "2026-11-02T13:55:04.692228+00:00"
+    },
+    "heroes": [
+      {
+        "name": "阿轲",
+        "id": "1161"
+      },
+      {
+        "name": "李白",
+        "id": "1311"
+      },
+      {
+        "name": "露娜",
+        "id": "1461"
+      },
+      {
+        "name": "韩信",
+        "id": "1501"
+      },
+      {
+        "name": "孙悟空",
+        "id": "1671"
+      },
+      {
+        "name": "百里玄策",
+        "id": "1951"
+      },
+      {
+        "name": "裴擒虎",
+        "id": "5021"
+      },
+      {
+        "name": "云中君",
+        "id": "5061"
+      }
+    ],
+    "count": null,
+    "appearanceRate": null,
+    "avgPlacement": null,
+    "firstRate": null,
+    "top3Rate": null,
+    "recommendedUnits": [],
+    "variants": [],
+    "heroEquipment": []
+  },
+  "meta": {
+    "source": "https://www.datawxq.com/lineups?gameType=4&subModeName=大师场",
+    "api": "https://api.datatft.com/wzwxq/lineups/detail",
+    "query": {
+      "version": "v261029",
+      "gameType": "4",
+      "subModeName": "大师场",
+      "time": 3,
+      "operator": "AND",
+      "advancedMode": false,
+      "filters": [],
+      "exclusions": [],
+      "page": 1,
+      "pageSize": 12,
+      "minimumCount": 50,
+      "sortBy": "appearanceRate"
+    },
+    "downloadedAt": "2026-11-02T13:55:04.692228+00:00",
+    "total": 26,
+    "sourceTotal": 27,
+    "duplicateRows": 1,
+    "note": "少量跨页重复标识保留首次记录，不合并统计；如重复过多则停止更新。",
+    "sampleCount": 32430,
+    "detailFailures": 22
+  }
+}

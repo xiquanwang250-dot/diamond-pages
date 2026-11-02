@@ -1,0 +1,14 @@
+{
+  "updatedAt": "2026-11-02T13:55:04.692228+00:00",
+  "runId": "41456984905",
+  "days": 3,
+  "venue": "master",
+  "version": "v261029",
+  "packs": 55,
+  "offers": 1469,
+  "lineups": 26,
+  "detailSlots": 40,
+  "detailFailures": 22,
+  "iconFailures": 159,
+  "relationshipStrategy": "reuse-original"
+}

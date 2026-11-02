@@ -1,0 +1,197 @@
+{
+  "detail": {
+    "lineupKey": "8|1051|1101|1121|1131|1191|5211|5231|5241",
+    "lookupKey": "8|1051|1101|1121|1131|1191|5211|5231|5241",
+    "_snapshot": {
+      "status": "fetch_failed",
+      "message": "来源接口本次无法提供该阵容详情。仅展示本次排行摘要；未使用旧统计填充，可稍后重新更新。",
+      "query": {
+        "version": "v261029",
+        "gameType": "4",
+        "subModeName": "大师场",
+        "time": 3,
+        "operator": "AND",
+        "advancedMode": false,
+        "filters": [],
+        "exclusions": [],
+        "page": 1,
+        "pageSize": 12,
+        "minimumCount": 50,
+        "sortBy": "appearanceRate"
+      },
+      "fetchedAt": "2026-11-02T13:55:04.692228+00:00"
+    },
+    "heroes": [
+      {
+        "name": "廉颇",
+        "id": "1051"
+      },
+      {
+        "name": "嬴政",
+        "id": "1101"
+      },
+      {
+        "name": "鲁班七号",
+        "id": "1121"
+      },
+      {
+        "name": "庄周",
+        "id": "1131"
+      },
+      {
+        "name": "扁鹊",
+        "id": "1191"
+      },
+      {
+        "name": "海月",
+        "id": "5211"
+      },
+      {
+        "name": "西施",
+        "id": "5231"
+      },
+      {
+        "name": "蒙犽",
+        "id": "5241"
+      }
+    ],
+    "count": 466,
+    "appearanceRate": 0.0862,
+    "avgPlacement": 1.9099,
+    "firstRate": 0.4871,
+    "top3Rate": 0.8948,
+    "recommendedUnits": [
+      {
+        "avgLevel": 802.0515,
+        "recommendationCount": 5,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.5043,
+        "itemIds": [
+          "643501",
+          "643604",
+          "810253"
+        ],
+        "count": 466,
+        "heroId": "1131",
+        "awakenedRate": 0.985,
+        "recommendationType": "three_item"
+      },
+      {
+        "avgLevel": 856.676,
+        "recommendationCount": 17,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.676,
+        "itemIds": [
+          "643103",
+          "643705",
+          "643803"
+        ],
+        "count": 466,
+        "heroId": "5241",
+        "awakenedRate": 0.9957,
+        "recommendationType": "three_item"
+      },
+      {
+        "avgLevel": 871.1147,
+        "recommendationCount": 7,
+        "appearanceRate": 0.7296,
+        "threeItemRate": 0.7029,
+        "itemIds": [
+          "643403",
+          "643801",
+          "644116"
+        ],
+        "count": 340,
+        "heroId": "1101",
+        "awakenedRate": 0.9971,
+        "recommendationType": "three_item"
+      },
+      {
+        "avgLevel": 715.5086,
+        "recommendationCount": 12,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.3691,
+        "itemIds": [
+          "643302"
+        ],
+        "count": 466,
+        "heroId": "1121",
+        "awakenedRate": 0.9979,
+        "recommendationType": "single_item"
+      },
+      {
+        "avgLevel": 664.0601,
+        "recommendationCount": 22,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.0665,
+        "itemIds": [
+          "641006"
+        ],
+        "count": 466,
+        "heroId": "5231",
+        "awakenedRate": 0.9979,
+        "recommendationType": "single_item"
+      },
+      {
+        "avgLevel": 646.0704,
+        "recommendationCount": 0,
+        "appearanceRate": 0.9142,
+        "threeItemRate": 0.1549,
+        "itemIds": [],
+        "count": 426,
+        "heroId": "1191",
+        "awakenedRate": 0.946,
+        "recommendationType": "none"
+      },
+      {
+        "avgLevel": 696.2534,
+        "recommendationCount": 0,
+        "appearanceRate": 0.6352,
+        "threeItemRate": 0.4899,
+        "itemIds": [],
+        "count": 296,
+        "heroId": "5211",
+        "awakenedRate": 0.2095,
+        "recommendationType": "none"
+      },
+      {
+        "avgLevel": 723.974,
+        "recommendationCount": 0,
+        "appearanceRate": 0.4957,
+        "threeItemRate": 0.4675,
+        "itemIds": [],
+        "count": 231,
+        "heroId": "1051",
+        "awakenedRate": 0.9394,
+        "recommendationType": "none"
+      }
+    ],
+    "variants": [],
+    "heroEquipment": []
+  },
+  "meta": {
+    "source": "https://www.datawxq.com/lineups?gameType=4&subModeName=大师场",
+    "api": "https://api.datatft.com/wzwxq/lineups/detail",
+    "query": {
+      "version": "v261029",
+      "gameType": "4",
+      "subModeName": "大师场",
+      "time": 3,
+      "operator": "AND",
+      "advancedMode": false,
+      "filters": [],
+      "exclusions": [],
+      "page": 1,
+      "pageSize": 12,
+      "minimumCount": 50,
+      "sortBy": "appearanceRate"
+    },
+    "downloadedAt": "2026-11-02T13:55:04.692228+00:00",
+    "total": 26,
+    "sourceTotal": 27,
+    "duplicateRows": 1,
+    "note": "少量跨页重复标识保留首次记录，不合并统计；如重复过多则停止更新。",
+    "sampleCount": 32430,
+    "detailFailures": 22
+  }
+}

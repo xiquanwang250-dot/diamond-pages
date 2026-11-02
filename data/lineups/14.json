@@ -1,1 +1,5049 @@
-{"detail":{"lineupKey":"8|1421|1591|1661|5021|5031|5041|5051|5141","lookupKey":"8|1421|1591|1661|1751|5031|5041|5051|5141","_snapshot":{"query":{"version":"v261022","gameType":"4","subModeName":"大师场","time":3,"operator":"AND","advancedMode":false,"filters":[],"exclusions":[],"page":1,"pageSize":12,"minimumCount":50,"sortBy":"appearanceRate"},"fetchedAt":"2026-10-25T10:37:45.990713+00:00","status":"source_redirect","message":"沿用原有卡包关联；官网对该原阵容查询返回了调整后的主阵容。以下统计按上方当前英雄组成展示，未重新匹配卡包。"},"heroes":[{"name":"安琪拉","id":"1421"},{"name":"朵莉亚","id":"1591"},{"name":"亚瑟","id":"1661"},{"name":"裴擒虎","id":"5021"},{"name":"狂铁","id":"5031"},{"name":"米莱狄","id":"5041"},{"name":"瑶","id":"5051"},{"name":"亚连","id":"5141"}],"count":53,"appearanceRate":0.0136,"avgPlacement":3.0755,"firstRate":0.1132,"top3Rate":0.6226,"recommendedUnits":[{"avgLevel":895.3585,"recommendationCount":2,"appearanceRate":1.0,"threeItemRate":0.8113,"itemIds":["643202","643402","810251"],"count":53,"heroId":"1421","awakenedRate":1.0,"recommendationType":"three_item","itemNames":["虚无法杖","法源之杯","日暮之流"]},{"avgLevel":683.4717,"recommendationCount":6,"appearanceRate":1.0,"threeItemRate":0.1698,"itemIds":["643402"],"count":53,"heroId":"1591","awakenedRate":0.9434,"recommendationType":"single_item","itemNames":["法源之杯"]},{"avgLevel":346.9545,"recommendationCount":4,"appearanceRate":0.4151,"threeItemRate":0.0,"itemIds":["643403"],"count":22,"heroId":"5051","awakenedRate":0.5455,"recommendationType":"single_item","itemNames":["破茧之衣"]},{"avgLevel":686.8113,"recommendationCount":0,"appearanceRate":1.0,"threeItemRate":0.2642,"itemIds":[],"count":53,"heroId":"1661","awakenedRate":0.9245,"recommendationType":"none","itemNames":[]},{"avgLevel":669.0,"recommendationCount":0,"appearanceRate":1.0,"threeItemRate":0.1132,"itemIds":[],"count":53,"heroId":"5031","awakenedRate":0.9811,"recommendationType":"none","itemNames":[]},{"avgLevel":621.7358,"recommendationCount":0,"appearanceRate":1.0,"threeItemRate":0.1887,"itemIds":[],"count":53,"heroId":"5041","awakenedRate":0.9623,"recommendationType":"none","itemNames":[]},{"avgLevel":609.0189,"recommendationCount":0,"appearanceRate":1.0,"threeItemRate":0.0755,"itemIds":[],"count":53,"heroId":"5141","awakenedRate":0.9434,"recommendationType":"none","itemNames":[]},{"avgLevel":756.1778,"recommendationCount":0,"appearanceRate":0.8491,"threeItemRate":0.3778,"itemIds":[],"count":45,"heroId":"5021","awakenedRate":0.6444,"recommendationType":"none","itemNames":[]},{"avgLevel":348.8421,"recommendationCount":0,"appearanceRate":0.3585,"threeItemRate":0.0,"itemIds":[],"count":19,"heroId":"1751","awakenedRate":0.4211,"recommendationType":"none","itemNames":[]},{"avgLevel":453.9231,"recommendationCount":0,"appearanceRate":0.2453,"threeItemRate":0.0769,"itemIds":[],"count":13,"heroId":"5111","awakenedRate":0.6154,"recommendationType":"none","itemNames":[]},{"avgLevel":247.5714,"recommendationCount":0,"appearanceRate":0.1321,"threeItemRate":0.0,"itemIds":[],"count":7,"heroId":"5011","awakenedRate":0.2857,"recommendationType":"none","itemNames":[]}],"variants":[{"addedHeroes":[{"id":"5111"}],"removedHeroes":[{"id":"5051"}],"heroes":[{"name":"安琪拉","id":"1421"},{"name":"朵莉亚","id":"1591"},{"name":"亚瑟","id":"1661"},{"name":"裴擒虎","id":"5021"},{"name":"狂铁","id":"5031"},{"name":"米莱狄","id":"5041"},{"name":"猪八戒","id":"5111"},{"name":"亚连","id":"5141"}],"lineupKey":"8|1421|1591|1661|5021|5031|5041|5111|5141","appearanceRate":0.2453,"avgPlacement":3.3846,"similarity":0.7778,"count":13,"lineupCode":"","firstRate":0.0,"top3Rate":0.4615},{"addedHeroes":[{"id":"1751"}],"removedHeroes":[{"id":"5051"}],"heroes":[{"name":"安琪拉","id":"1421"},{"name":"朵莉亚","id":"1591"},{"name":"亚瑟","id":"1661"},{"name":"钟馗","id":"1751"},{"name":"裴擒虎","id":"5021"},{"name":"狂铁","id":"5031"},{"name":"米莱狄","id":"5041"},{"name":"亚连","id":"5141"}],"lineupKey":"8|1421|1591|1661|1751|5021|5031|5041|5141","appearanceRate":0.2075,"avgPlacement":3.0909,"similarity":0.7778,"count":11,"lineupCode":"","firstRate":0.1818,"top3Rate":0.6364},{"addedHeroes":[{"id":"1751"}],"removedHeroes":[{"id":"5021"}],"heroes":[{"name":"安琪拉","id":"1421"},{"name":"朵莉亚","id":"1591"},{"name":"亚瑟","id":"1661"},{"name":"钟馗","id":"1751"},{"name":"狂铁","id":"5031"},{"name":"米莱狄","id":"5041"},{"name":"瑶","id":"5051"},{"name":"亚连","id":"5141"}],"lineupKey":"8|1421|1591|1661|1751|5031|5041|5051|5141","appearanceRate":0.1509,"avgPlacement":3.75,"similarity":0.7778,"count":8,"lineupCode":"","firstRate":0.0,"top3Rate":0.375},{"addedHeroes":[{"id":"5011"}],"removedHeroes":[{"id":"5051"}],"heroes":[{"name":"安琪拉","id":"1421"},{"name":"朵莉亚","id":"1591"},{"name":"亚瑟","id":"1661"},{"name":"明世隐","id":"5011"},{"name":"裴擒虎","id":"5021"},{"name":"狂铁","id":"5031"},{"name":"米莱狄","id":"5041"},{"name":"亚连","id":"5141"}],"lineupKey":"8|1421|1591|1661|5011|5021|5031|5041|5141","appearanceRate":0.1321,"avgPlacement":2.4286,"similarity":0.7778,"count":7,"lineupCode":"","firstRate":0.2857,"top3Rate":0.8571}],"heroEquipment":[{"avgLevel":895.3585,"appearanceRate":1.0,"avgPlacement":3.0755,"count":53,"heroId":"1421","averageItemCount":3.0,"top3Rate":0.6226,"mvpRate":0.6981,"builds":[{"avgPlacement":3.0,"appearanceRate":0.0377,"itemIds":["643202","643402","810251"],"count":2,"firstRate":0.0,"itemNames":["虚无法杖","法源之杯","日暮之流"],"top3Rate":0.5},{"avgPlacement":4.5,"appearanceRate":0.0377,"itemIds":["643202","643803","810074"],"count":2,"firstRate":0.0,"itemNames":["虚无法杖","炽热支配者","魔道之石"],"top3Rate":0.0},{"avgPlacement":5.0,"appearanceRate":0.0377,"itemIds":["643402","643803","810223"],"count":2,"firstRate":0.0,"itemNames":["法源之杯","炽热支配者","徐行·凛冬"],"top3Rate":0.0},{"avgPlacement":3.0,"appearanceRate":0.0189,"itemIds":["641003","643206","810096"],"count":1,"firstRate":0.0,"itemNames":["聚灵法杖","梦魇之牙","夺魂刃"],"top3Rate":1.0},{"avgPlacement":4.0,"appearanceRate":0.0189,"itemIds":["641015","643105","810098"],"count":1,"firstRate":0.0,"itemNames":["日渊","纯净苍穹","暗影战斧"],"top3Rate":0.0},{"avgPlacement":2.0,"appearanceRate":0.0189,"itemIds":["643104","643105","643202"],"count":1,"firstRate":0.0,"itemNames":["制裁之剑","纯净苍穹","虚无法杖"],"top3Rate":1.0},{"avgPlacement":2.0,"appearanceRate":0.0189,"itemIds":["643105","643202","643803"],"count":1,"firstRate":0.0,"itemNames":["纯净苍穹","虚无法杖","炽热支配者"],"top3Rate":1.0},{"avgPlacement":3.0,"appearanceRate":0.0189,"itemIds":["643105","643402","643803"],"count":1,"firstRate":0.0,"itemNames":["纯净苍穹","法源之杯","炽热支配者"],"top3Rate":1.0},{"avgPlacement":3.0,"appearanceRate":0.0189,"itemIds":["643105","643402","644104"],"count":1,"firstRate":0.0,"itemNames":["纯净苍穹","法源之杯","法潮灵杖"],"top3Rate":1.0},{"avgPlacement":3.0,"appearanceRate":0.0189,"itemIds":["643105","643802","643803"],"count":1,"firstRate":0.0,"itemNames":["纯净苍穹","贤者之书","炽热支配者"],"top3Rate":1.0},{"avgPlacement":5.0,"appearanceRate":0.0189,"itemIds":["643202","643206","810075"],"count":1,"firstRate":0.0,"itemNames":["虚无法杖","梦魇之牙","砂之守卫"],"top3Rate":0.0},{"avgPlacement":2.0,"appearanceRate":0.0189,"itemIds":["643202","643402","643703"],"count":1,"firstRate":0.0,"itemNames":["虚无法杖","法源之杯","名刀·司命"],"top3Rate":1.0},{"avgPlacement":3.0,"appearanceRate":0.0189,"itemIds":["643202","643402","643803"],"count":1,"firstRate":0.0,"itemNames":["虚无法杖","法源之杯","炽热支配者"],"top3Rate":1.0},{"avgPlacement":1.0,"appearanceRate":0.0189,"itemIds":["643202","643703","643803"],"count":1,"firstRate":1.0,"itemNames":["虚无法杖","名刀·司命","炽热支配者"],"top3Rate":1.0},{"avgPlacement":4.0,"appearanceRate":0.0189,"itemIds":["643202","643703","810074"],"count":1,"firstRate":0.0,"itemNames":["虚无法杖","名刀·司命","魔道之石"],"top3Rate":0.0},{"avgPlacement":2.0,"appearanceRate":0.0189,"itemIds":["643202","643703","810075"],"count":1,"firstRate":0.0,"itemNames":["虚无法杖","名刀·司命","砂之守卫"],"top3Rate":1.0},{"avgPlacement":4.0,"appearanceRate":0.0189,"itemIds":["643202","643703","810251"],"count":1,"firstRate":0.0,"itemNames":["虚无法杖","名刀·司命","日暮之流"],"top3Rate":0.0},{"avgPlacement":2.0,"appearanceRate":0.0189,"itemIds":["643202","643703","810252"],"count":1,"firstRate":0.0,"itemNames":["虚无法杖","名刀·司命","霸者重装"],"top3Rate":1.0},{"avgPlacement":2.0,"appearanceRate":0.0189,"itemIds":["643202","643801","643803"],"count":1,"firstRate":0.0,"itemNames":["虚无法杖","噬神之书","炽热支配者"],"top3Rate":1.0},{"avgPlacement":1.0,"appearanceRate":0.0189,"itemIds":["643202","643801","810075"],"count":1,"firstRate":1.0,"itemNames":["虚无法杖","噬神之书","砂之守卫"],"top3Rate":1.0},{"avgPlacement":1.0,"appearanceRate":0.0189,"itemIds":["643202","643802","643803"],"count":1,"firstRate":1.0,"itemNames":["虚无法杖","贤者之书","炽热支配者"],"top3Rate":1.0},{"avgPlacement":2.0,"appearanceRate":0.0189,"itemIds":["643202","643802","644116"],"count":1,"firstRate":0.0,"itemNames":["虚无法杖","贤者之书","机器头"],"top3Rate":1.0},{"avgPlacement":2.0,"appearanceRate":0.0189,"itemIds":["643202","643803","810098"],"count":1,"firstRate":0.0,"itemNames":["虚无法杖","炽热支配者","暗影战斧"],"top3Rate":1.0},{"avgPlacement":2.0,"appearanceRate":0.0189,"itemIds":["643202","643803","810251"],"count":1,"firstRate":0.0,"itemNames":["虚无法杖","炽热支配者","日暮之流"],"top3Rate":1.0},{"avgPlacement":3.0,"appearanceRate":0.0189,"itemIds":["643206","643402","643803"],"count":1,"firstRate":0.0,"itemNames":["梦魇之牙","法源之杯","炽热支配者"],"top3Rate":1.0},{"avgPlacement":4.0,"appearanceRate":0.0189,"itemIds":["643206","643803","810096"],"count":1,"firstRate":0.0,"itemNames":["梦魇之牙","炽热支配者","夺魂刃"],"top3Rate":0.0},{"avgPlacement":1.0,"appearanceRate":0.0189,"itemIds":["643206","644116","810251"],"count":1,"firstRate":1.0,"itemNames":["梦魇之牙","机器头","日暮之流"],"top3Rate":1.0},{"avgPlacement":5.0,"appearanceRate":0.0189,"itemIds":["643208","643703","643803"],"count":1,"firstRate":0.0,"itemNames":["自然法杖","名刀·司命","炽热支配者"],"top3Rate":0.0},{"avgPlacement":3.0,"appearanceRate":0.0189,"itemIds":["643401","643402","643803"],"count":1,"firstRate":0.0,"itemNames":["痛苦面具","法源之杯","炽热支配者"],"top3Rate":1.0},{"avgPlacement":3.0,"appearanceRate":0.0189,"itemIds":["643401","643402","810074"],"count":1,"firstRate":0.0,"itemNames":["痛苦面具","法源之杯","魔道之石"],"top3Rate":1.0},{"avgPlacement":4.0,"appearanceRate":0.0189,"itemIds":["643402","643703","810077"],"count":1,"firstRate":0.0,"itemNames":["法源之杯","名刀·司命","符文大剑"],"top3Rate":0.0},{"avgPlacement":3.0,"appearanceRate":0.0189,"itemIds":["643402","643705","643801"],"count":1,"firstRate":0.0,"itemNames":["法源之杯","魔律之刃","噬神之书"],"top3Rate":1.0},{"avgPlacement":2.0,"appearanceRate":0.0189,"itemIds":["643402","643803","644111"],"count":1,"firstRate":0.0,"itemNames":["法源之杯","炽热支配者","怒神项链"],"top3Rate":1.0},{"avgPlacement":4.0,"appearanceRate":0.0189,"itemIds":["643402","643803","810251"],"count":1,"firstRate":0.0,"itemNames":["法源之杯","炽热支配者","日暮之流"],"top3Rate":0.0},{"avgPlacement":2.0,"appearanceRate":0.0189,"itemIds":["643703","643803","644105"],"count":1,"firstRate":0.0,"itemNames":["名刀·司命","炽热支配者","护命灵珠"],"top3Rate":1.0},{"avgPlacement":5.0,"appearanceRate":0.0189,"itemIds":["643705","643801","643803"],"count":1,"firstRate":0.0,"itemNames":["魔律之刃","噬神之书","炽热支配者"],"top3Rate":0.0},{"avgPlacement":1.0,"appearanceRate":0.0189,"itemIds":["643705","643803","810074"],"count":1,"firstRate":1.0,"itemNames":["魔律之刃","炽热支配者","魔道之石"],"top3Rate":1.0},{"avgPlacement":4.0,"appearanceRate":0.0189,"itemIds":["643705","644116","810077"],"count":1,"firstRate":0.0,"itemNames":["魔律之刃","机器头","符文大剑"],"top3Rate":0.0},{"avgPlacement":3.0,"appearanceRate":0.0189,"itemIds":["643803","644101","810077"],"count":1,"firstRate":0.0,"itemNames":["炽热支配者","破妄之刃","符文大剑"],"top3Rate":1.0},{"avgPlacement":3.0,"appearanceRate":0.0189,"itemIds":["644116","644119","810223"],"count":1,"firstRate":0.0,"itemNames":["机器头","磐石之心","徐行·凛冬"],"top3Rate":1.0}],"awakenedRate":1.0,"heroName":"安琪拉","firstRate":0.1132,"items":[{"itemId":"643803","itemName":"炽热支配者","avgPlacement":3.1786,"appearanceRate":0.5283,"count":28,"firstRate":0.1071,"top3Rate":0.6071},{"itemId":"643202","itemName":"虚无法杖","avgPlacement":2.7917,"appearanceRate":0.4528,"count":24,"firstRate":0.125,"top3Rate":0.6667},{"itemId":"643402","itemName":"法源之杯","avgPlacement":3.4211,"appearanceRate":0.3585,"count":19,"firstRate":0.0,"top3Rate":0.6316},{"itemId":"643703","itemName":"名刀·司命","avgPlacement":2.9,"appearanceRate":0.1887,"count":10,"firstRate":0.1,"top3Rate":0.6},{"itemId":"643105","itemName":"纯净苍穹","avgPlacement":3.125,"appearanceRate":0.1509,"count":8,"firstRate":0.0,"top3Rate":0.75},{"itemId":"810074","itemName":"魔道之石","avgPlacement":3.8571,"appearanceRate":0.1321,"count":7,"firstRate":0.1429,"top3Rate":0.2857},{"itemId":"810251","itemName":"日暮之流","avgPlacement":3.1429,"appearanceRate":0.1321,"count":7,"firstRate":0.1429,"top3Rate":0.4286},{"itemId":"643206","itemName":"梦魇之牙","avgPlacement":3.1667,"appearanceRate":0.1132,"count":6,"firstRate":0.1667,"top3Rate":0.6667},{"itemId":"643802","itemName":"贤者之书","avgPlacement":2.4,"appearanceRate":0.0943,"count":5,"firstRate":0.2,"top3Rate":0.8},{"itemId":"810075","itemName":"砂之守卫","avgPlacement":3.0,"appearanceRate":0.0943,"count":5,"firstRate":0.2,"top3Rate":0.6},{"itemId":"810077","itemName":"符文大剑","avgPlacement":3.2,"appearanceRate":0.0943,"count":5,"firstRate":0.0,"top3Rate":0.6},{"itemId":"643705","itemName":"魔律之刃","avgPlacement":3.25,"appearanceRate":0.0755,"count":4,"firstRate":0.25,"top3Rate":0.5},{"itemId":"643801","itemName":"噬神之书","avgPlacement":2.75,"appearanceRate":0.0755,"count":4,"firstRate":0.25,"top3Rate":0.75},{"itemId":"644116","itemName":"机器头","avgPlacement":2.5,"appearanceRate":0.0755,"count":4,"firstRate":0.25,"top3Rate":0.75},{"itemId":"810096","itemName":"夺魂刃","avgPlacement":3.6667,"appearanceRate":0.0566,"count":3,"firstRate":0.0,"top3Rate":0.3333},{"itemId":"810223","itemName":"徐行·凛冬","avgPlacement":4.3333,"appearanceRate":0.0566,"count":3,"firstRate":0.0,"top3Rate":0.3333},{"itemId":"643401","itemName":"痛苦面具","avgPlacement":3.0,"appearanceRate":0.0377,"count":2,"firstRate":0.0,"top3Rate":1.0},{"itemId":"644101","itemName":"破妄之刃","avgPlacement":3.5,"appearanceRate":0.0377,"count":2,"firstRate":0.0,"top3Rate":0.5},{"itemId":"810098","itemName":"暗影战斧","avgPlacement":3.0,"appearanceRate":0.0377,"count":2,"firstRate":0.0,"top3Rate":0.5},{"itemId":"641003","itemName":"聚灵法杖","avgPlacement":3.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"641004","itemName":"分身镜","avgPlacement":3.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"641015","itemName":"日渊","avgPlacement":4.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":0.0},{"itemId":"643104","itemName":"制裁之剑","avgPlacement":2.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"643208","itemName":"自然法杖","avgPlacement":5.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":0.0},{"itemId":"644102","itemName":"破阵战芒","avgPlacement":4.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":0.0},{"itemId":"644104","itemName":"法潮灵杖","avgPlacement":3.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"644105","itemName":"护命灵珠","avgPlacement":2.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"644111","itemName":"怒神项链","avgPlacement":2.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"644119","itemName":"磐石之心","avgPlacement":3.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"810252","itemName":"霸者重装","avgPlacement":2.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0}]},{"avgLevel":683.4717,"appearanceRate":1.0,"avgPlacement":3.0755,"count":53,"heroId":"1591","averageItemCount":1.283,"top3Rate":0.6226,"mvpRate":0.0,"builds":[{"avgPlacement":1.0,"appearanceRate":0.0189,"itemIds":["643105","643207","643705"],"count":1,"firstRate":1.0,"itemNames":["纯净苍穹","金色圣剑","魔律之刃"],"top3Rate":1.0},{"avgPlacement":1.0,"appearanceRate":0.0189,"itemIds":["643207","643208","643403"],"count":1,"firstRate":1.0,"itemNames":["金色圣剑","自然法杖","破茧之衣"],"top3Rate":1.0},{"avgPlacement":3.0,"appearanceRate":0.0189,"itemIds":["643207","643603","810097"],"count":1,"firstRate":0.0,"itemNames":["金色圣剑","近卫荣耀","极影·形昭"],"top3Rate":1.0},{"avgPlacement":5.0,"appearanceRate":0.0189,"itemIds":["643207","643705","644109"],"count":1,"firstRate":0.0,"itemNames":["金色圣剑","魔律之刃","灵泉项链"],"top3Rate":0.0},{"avgPlacement":3.0,"appearanceRate":0.0189,"itemIds":["643301","643402","643403"],"count":1,"firstRate":0.0,"itemNames":["影牙","法源之杯","破茧之衣"],"top3Rate":1.0},{"avgPlacement":1.0,"appearanceRate":0.0189,"itemIds":["643402","643502","643705"],"count":1,"firstRate":1.0,"itemNames":["法源之杯","不死鸟之眼","魔律之刃"],"top3Rate":1.0},{"avgPlacement":2.0,"appearanceRate":0.0189,"itemIds":["643402","643502","644109"],"count":1,"firstRate":0.0,"itemNames":["法源之杯","不死鸟之眼","灵泉项链"],"top3Rate":1.0},{"avgPlacement":2.0,"appearanceRate":0.0189,"itemIds":["643402","643705","810097"],"count":1,"firstRate":0.0,"itemNames":["法源之杯","魔律之刃","极影·形昭"],"top3Rate":1.0},{"avgPlacement":2.0,"appearanceRate":0.0189,"itemIds":["643501","643502","643705"],"count":1,"firstRate":0.0,"itemNames":["霸者重铠","不死鸟之眼","魔律之刃"],"top3Rate":1.0}],"awakenedRate":0.9434,"heroName":"朵莉亚","firstRate":0.1132,"items":[{"itemId":"643705","itemName":"魔律之刃","avgPlacement":3.125,"appearanceRate":0.3019,"count":16,"firstRate":0.1875,"top3Rate":0.5625},{"itemId":"643402","itemName":"法源之杯","avgPlacement":2.7857,"appearanceRate":0.2642,"count":14,"firstRate":0.0714,"top3Rate":0.7143},{"itemId":"643207","itemName":"金色圣剑","avgPlacement":3.0,"appearanceRate":0.0943,"count":5,"firstRate":0.4,"top3Rate":0.6},{"itemId":"643603","itemName":"近卫荣耀","avgPlacement":2.8,"appearanceRate":0.0943,"count":5,"firstRate":0.2,"top3Rate":0.8},{"itemId":"643208","itemName":"自然法杖","avgPlacement":2.25,"appearanceRate":0.0755,"count":4,"firstRate":0.25,"top3Rate":0.75},{"itemId":"643403","itemName":"破茧之衣","avgPlacement":3.0,"appearanceRate":0.0566,"count":3,"firstRate":0.3333,"top3Rate":0.6667},{"itemId":"643502","itemName":"不死鸟之眼","avgPlacement":1.6667,"appearanceRate":0.0566,"count":3,"firstRate":0.3333,"top3Rate":1.0},{"itemId":"644109","itemName":"灵泉项链","avgPlacement":3.3333,"appearanceRate":0.0566,"count":3,"firstRate":0.0,"top3Rate":0.6667},{"itemId":"641006","itemName":"鼓舞之戒","avgPlacement":1.5,"appearanceRate":0.0377,"count":2,"firstRate":0.5,"top3Rate":1.0},{"itemId":"643802","itemName":"贤者之书","avgPlacement":2.0,"appearanceRate":0.0377,"count":2,"firstRate":0.5,"top3Rate":1.0},{"itemId":"644103","itemName":"断念","avgPlacement":1.5,"appearanceRate":0.0377,"count":2,"firstRate":0.5,"top3Rate":1.0},{"itemId":"810097","itemName":"极影·形昭","avgPlacement":2.5,"appearanceRate":0.0377,"count":2,"firstRate":0.0,"top3Rate":1.0},{"itemId":"643105","itemName":"纯净苍穹","avgPlacement":1.0,"appearanceRate":0.0189,"count":1,"firstRate":1.0,"top3Rate":1.0},{"itemId":"643301","itemName":"影牙","avgPlacement":3.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"643304","itemName":"铸梦·逐风","avgPlacement":4.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":0.0},{"itemId":"643501","itemName":"霸者重铠","avgPlacement":2.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"643703","itemName":"名刀·司命","avgPlacement":2.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"643803","itemName":"炽热支配者","avgPlacement":3.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"643805","itemName":"御灵之纱","avgPlacement":4.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":0.0}]},{"avgLevel":686.8113,"appearanceRate":1.0,"avgPlacement":3.0755,"count":53,"heroId":"1661","averageItemCount":1.4906,"top3Rate":0.6226,"mvpRate":0.0189,"builds":[{"avgPlacement":4.0,"appearanceRate":0.0189,"itemIds":["643103","643301","643604"],"count":1,"firstRate":0.0,"itemNames":["无尽巨剑","影牙","反伤重甲"],"top3Rate":0.0},{"avgPlacement":3.0,"appearanceRate":0.0189,"itemIds":["643402","643504","810252"],"count":1,"firstRate":0.0,"itemNames":["法源之杯","红莲炎甲","霸者重装"],"top3Rate":1.0},{"avgPlacement":3.0,"appearanceRate":0.0189,"itemIds":["643404","643501","643504"],"count":1,"firstRate":0.0,"itemNames":["聚灵水晶","霸者重铠","红莲炎甲"],"top3Rate":1.0},{"avgPlacement":1.0,"appearanceRate":0.0189,"itemIds":["643404","643602","644103"],"count":1,"firstRate":1.0,"itemNames":["聚灵水晶","极寒风暴","断念"],"top3Rate":1.0},{"avgPlacement":5.0,"appearanceRate":0.0189,"itemIds":["643501","643502","643504"],"count":1,"firstRate":0.0,"itemNames":["霸者重铠","不死鸟之眼","红莲炎甲"],"top3Rate":0.0},{"avgPlacement":1.0,"appearanceRate":0.0189,"itemIds":["643501","643602","643604"],"count":1,"firstRate":1.0,"itemNames":["霸者重铠","极寒风暴","反伤重甲"],"top3Rate":1.0},{"avgPlacement":1.0,"appearanceRate":0.0189,"itemIds":["643502","643504","810252"],"count":1,"firstRate":1.0,"itemNames":["不死鸟之眼","红莲炎甲","霸者重装"],"top3Rate":1.0},{"avgPlacement":2.0,"appearanceRate":0.0189,"itemIds":["643503","643504","643602"],"count":1,"firstRate":0.0,"itemNames":["魔女斗篷","红莲炎甲","极寒风暴"],"top3Rate":1.0},{"avgPlacement":2.0,"appearanceRate":0.0189,"itemIds":["643503","643504","644105"],"count":1,"firstRate":0.0,"itemNames":["魔女斗篷","红莲炎甲","护命灵珠"],"top3Rate":1.0},{"avgPlacement":5.0,"appearanceRate":0.0189,"itemIds":["643504","643703","810252"],"count":1,"firstRate":0.0,"itemNames":["红莲炎甲","名刀·司命","霸者重装"],"top3Rate":0.0},{"avgPlacement":5.0,"appearanceRate":0.0189,"itemIds":["643504","643704","644113"],"count":1,"firstRate":0.0,"itemNames":["红莲炎甲","红魔","驱雷"],"top3Rate":0.0},{"avgPlacement":2.0,"appearanceRate":0.0189,"itemIds":["643601","643602","643604"],"count":1,"firstRate":0.0,"itemNames":["不祥征兆","极寒风暴","反伤重甲"],"top3Rate":1.0},{"avgPlacement":4.0,"appearanceRate":0.0189,"itemIds":["643601","643602","643804"],"count":1,"firstRate":0.0,"itemNames":["不祥征兆","极寒风暴","生命魔典"],"top3Rate":0.0},{"avgPlacement":2.0,"appearanceRate":0.0189,"itemIds":["644105","644110","810223"],"count":1,"firstRate":0.0,"itemNames":["护命灵珠","魂灭灵冠","徐行·凛冬"],"top3Rate":1.0}],"awakenedRate":0.9245,"heroName":"亚瑟","firstRate":0.1132,"items":[{"itemId":"643504","itemName":"红莲炎甲","avgPlacement":3.3125,"appearanceRate":0.3019,"count":16,"firstRate":0.0625,"top3Rate":0.5625},{"itemId":"643602","itemName":"极寒风暴","avgPlacement":2.5455,"appearanceRate":0.2075,"count":11,"firstRate":0.1818,"top3Rate":0.8182},{"itemId":"643501","itemName":"霸者重铠","avgPlacement":2.625,"appearanceRate":0.1509,"count":8,"firstRate":0.125,"top3Rate":0.875},{"itemId":"643604","itemName":"反伤重甲","avgPlacement":2.6667,"appearanceRate":0.1132,"count":6,"firstRate":0.1667,"top3Rate":0.6667},{"itemId":"643502","itemName":"不死鸟之眼","avgPlacement":3.25,"appearanceRate":0.0755,"count":4,"firstRate":0.25,"top3Rate":0.5},{"itemId":"810252","itemName":"霸者重装","avgPlacement":3.0,"appearanceRate":0.0755,"count":4,"firstRate":0.25,"top3Rate":0.75},{"itemId":"643404","itemName":"聚灵水晶","avgPlacement":2.0,"appearanceRate":0.0566,"count":3,"firstRate":0.3333,"top3Rate":1.0},{"itemId":"644105","itemName":"护命灵珠","avgPlacement":3.0,"appearanceRate":0.0566,"count":3,"firstRate":0.0,"top3Rate":0.6667},{"itemId":"643503","itemName":"魔女斗篷","avgPlacement":2.0,"appearanceRate":0.0377,"count":2,"firstRate":0.0,"top3Rate":1.0},{"itemId":"643601","itemName":"不祥征兆","avgPlacement":3.0,"appearanceRate":0.0377,"count":2,"firstRate":0.0,"top3Rate":0.5},{"itemId":"643703","itemName":"名刀·司命","avgPlacement":3.0,"appearanceRate":0.0377,"count":2,"firstRate":0.5,"top3Rate":0.5},{"itemId":"644102","itemName":"破阵战芒","avgPlacement":2.0,"appearanceRate":0.0377,"count":2,"firstRate":0.5,"top3Rate":1.0},{"itemId":"641006","itemName":"鼓舞之戒","avgPlacement":2.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"641014","itemName":"盛华","avgPlacement":3.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"643103","itemName":"无尽巨剑","avgPlacement":4.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":0.0},{"itemId":"643208","itemName":"自然法杖","avgPlacement":2.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"643301","itemName":"影牙","avgPlacement":4.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":0.0},{"itemId":"643402","itemName":"法源之杯","avgPlacement":3.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"643403","itemName":"破茧之衣","avgPlacement":5.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":0.0},{"itemId":"643603","itemName":"近卫荣耀","avgPlacement":3.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"643704","itemName":"红魔","avgPlacement":5.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":0.0},{"itemId":"643804","itemName":"生命魔典","avgPlacement":4.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":0.0},{"itemId":"644103","itemName":"断念","avgPlacement":1.0,"appearanceRate":0.0189,"count":1,"firstRate":1.0,"top3Rate":1.0},{"itemId":"644106","itemName":"光辉圣铠","avgPlacement":2.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"644110","itemName":"魂灭灵冠","avgPlacement":2.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"644113","itemName":"驱雷","avgPlacement":5.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":0.0},{"itemId":"810223","itemName":"徐行·凛冬","avgPlacement":2.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"810253","itemName":"近卫·星泉","avgPlacement":3.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0}]},{"avgLevel":669.0,"appearanceRate":1.0,"avgPlacement":3.0755,"count":53,"heroId":"5031","averageItemCount":0.7358,"top3Rate":0.6226,"mvpRate":0.0,"builds":[{"avgPlacement":5.0,"appearanceRate":0.0189,"itemIds":["641010","643304","643504"],"count":1,"firstRate":0.0,"itemNames":["凝渊","铸梦·逐风","红莲炎甲"],"top3Rate":0.0},{"avgPlacement":1.0,"appearanceRate":0.0189,"itemIds":["643105","643804","810098"],"count":1,"firstRate":1.0,"itemNames":["纯净苍穹","生命魔典","暗影战斧"],"top3Rate":1.0},{"avgPlacement":1.0,"appearanceRate":0.0189,"itemIds":["643304","643504","643703"],"count":1,"firstRate":1.0,"itemNames":["铸梦·逐风","红莲炎甲","名刀·司命"],"top3Rate":1.0},{"avgPlacement":3.0,"appearanceRate":0.0189,"itemIds":["643501","643603","643604"],"count":1,"firstRate":0.0,"itemNames":["霸者重铠","近卫荣耀","反伤重甲"],"top3Rate":1.0},{"avgPlacement":5.0,"appearanceRate":0.0189,"itemIds":["643504","643601","644105"],"count":1,"firstRate":0.0,"itemNames":["红莲炎甲","不祥征兆","护命灵珠"],"top3Rate":0.0},{"avgPlacement":4.0,"appearanceRate":0.0189,"itemIds":["643504","643602","643703"],"count":1,"firstRate":0.0,"itemNames":["红莲炎甲","极寒风暴","名刀·司命"],"top3Rate":0.0}],"awakenedRate":0.9811,"heroName":"狂铁","firstRate":0.1132,"items":[{"itemId":"643504","itemName":"红莲炎甲","avgPlacement":4.0,"appearanceRate":0.0943,"count":5,"firstRate":0.2,"top3Rate":0.2},{"itemId":"643601","itemName":"不祥征兆","avgPlacement":3.75,"appearanceRate":0.0755,"count":4,"firstRate":0.0,"top3Rate":0.5},{"itemId":"643703","itemName":"名刀·司命","avgPlacement":2.0,"appearanceRate":0.0755,"count":4,"firstRate":0.5,"top3Rate":0.75},{"itemId":"643301","itemName":"影牙","avgPlacement":2.6667,"appearanceRate":0.0566,"count":3,"firstRate":0.3333,"top3Rate":0.6667},{"itemId":"643304","itemName":"铸梦·逐风","avgPlacement":2.3333,"appearanceRate":0.0566,"count":3,"firstRate":0.6667,"top3Rate":0.6667},{"itemId":"641010","itemName":"凝渊","avgPlacement":3.0,"appearanceRate":0.0377,"count":2,"firstRate":0.5,"top3Rate":0.5},{"itemId":"643501","itemName":"霸者重铠","avgPlacement":4.0,"appearanceRate":0.0377,"count":2,"firstRate":0.0,"top3Rate":0.5},{"itemId":"643602","itemName":"极寒风暴","avgPlacement":3.5,"appearanceRate":0.0377,"count":2,"firstRate":0.0,"top3Rate":0.5},{"itemId":"643603","itemName":"近卫荣耀","avgPlacement":4.0,"appearanceRate":0.0377,"count":2,"firstRate":0.0,"top3Rate":0.5},{"itemId":"644102","itemName":"破阵战芒","avgPlacement":2.5,"appearanceRate":0.0377,"count":2,"firstRate":0.0,"top3Rate":1.0},{"itemId":"644105","itemName":"护命灵珠","avgPlacement":3.5,"appearanceRate":0.0377,"count":2,"firstRate":0.0,"top3Rate":0.5},{"itemId":"644106","itemName":"光辉圣铠","avgPlacement":1.5,"appearanceRate":0.0377,"count":2,"firstRate":0.5,"top3Rate":1.0},{"itemId":"643105","itemName":"纯净苍穹","avgPlacement":1.0,"appearanceRate":0.0189,"count":1,"firstRate":1.0,"top3Rate":1.0},{"itemId":"643604","itemName":"反伤重甲","avgPlacement":3.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"643702","itemName":"冥王","avgPlacement":5.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":0.0},{"itemId":"643804","itemName":"生命魔典","avgPlacement":1.0,"appearanceRate":0.0189,"count":1,"firstRate":1.0,"top3Rate":1.0},{"itemId":"810097","itemName":"极影·形昭","avgPlacement":3.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"810098","itemName":"暗影战斧","avgPlacement":1.0,"appearanceRate":0.0189,"count":1,"firstRate":1.0,"top3Rate":1.0}]},{"avgLevel":621.7358,"appearanceRate":1.0,"avgPlacement":3.0755,"count":53,"heroId":"5041","averageItemCount":0.9811,"top3Rate":0.6226,"mvpRate":0.0,"builds":[{"avgPlacement":2.5,"appearanceRate":0.0377,"itemIds":["643105","643402","643703"],"count":2,"firstRate":0.5,"itemNames":["纯净苍穹","法源之杯","名刀·司命"],"top3Rate":0.5},{"avgPlacement":5.0,"appearanceRate":0.0189,"itemIds":["643105","643202","643301"],"count":1,"firstRate":0.0,"itemNames":["纯净苍穹","虚无法杖","影牙"],"top3Rate":0.0},{"avgPlacement":3.0,"appearanceRate":0.0189,"itemIds":["643105","643202","644108"],"count":1,"firstRate":0.0,"itemNames":["纯净苍穹","虚无法杖","根源之力"],"top3Rate":1.0},{"avgPlacement":5.0,"appearanceRate":0.0189,"itemIds":["643105","643208","643703"],"count":1,"firstRate":0.0,"itemNames":["纯净苍穹","自然法杖","名刀·司命"],"top3Rate":0.0},{"avgPlacement":2.0,"appearanceRate":0.0189,"itemIds":["643202","643207","643208"],"count":1,"firstRate":0.0,"itemNames":["虚无法杖","金色圣剑","自然法杖"],"top3Rate":1.0},{"avgPlacement":2.0,"appearanceRate":0.0189,"itemIds":["643208","643802","643803"],"count":1,"firstRate":0.0,"itemNames":["自然法杖","贤者之书","炽热支配者"],"top3Rate":1.0},{"avgPlacement":1.0,"appearanceRate":0.0189,"itemIds":["643402","643404","644108"],"count":1,"firstRate":1.0,"itemNames":["法源之杯","聚灵水晶","根源之力"],"top3Rate":1.0},{"avgPlacement":3.0,"appearanceRate":0.0189,"itemIds":["643402","643802","643803"],"count":1,"firstRate":0.0,"itemNames":["法源之杯","贤者之书","炽热支配者"],"top3Rate":1.0},{"avgPlacement":2.0,"appearanceRate":0.0189,"itemIds":["643803","644108","810097"],"count":1,"firstRate":0.0,"itemNames":["炽热支配者","根源之力","极影·形昭"],"top3Rate":1.0}],"awakenedRate":0.9623,"heroName":"米莱狄","firstRate":0.1132,"items":[{"itemId":"643105","itemName":"纯净苍穹","avgPlacement":3.7143,"appearanceRate":0.1321,"count":7,"firstRate":0.1429,"top3Rate":0.4286},{"itemId":"643402","itemName":"法源之杯","avgPlacement":2.8,"appearanceRate":0.0943,"count":5,"firstRate":0.4,"top3Rate":0.6},{"itemId":"643703","itemName":"名刀·司命","avgPlacement":2.6,"appearanceRate":0.0943,"count":5,"firstRate":0.4,"top3Rate":0.6},{"itemId":"643803","itemName":"炽热支配者","avgPlacement":2.4,"appearanceRate":0.0943,"count":5,"firstRate":0.2,"top3Rate":0.8},{"itemId":"643802","itemName":"贤者之书","avgPlacement":3.0,"appearanceRate":0.0755,"count":4,"firstRate":0.0,"top3Rate":0.75},{"itemId":"643202","itemName":"虚无法杖","avgPlacement":3.3333,"appearanceRate":0.0566,"count":3,"firstRate":0.0,"top3Rate":0.6667},{"itemId":"643207","itemName":"金色圣剑","avgPlacement":3.0,"appearanceRate":0.0566,"count":3,"firstRate":0.0,"top3Rate":0.6667},{"itemId":"643208","itemName":"自然法杖","avgPlacement":3.0,"appearanceRate":0.0566,"count":3,"firstRate":0.0,"top3Rate":0.6667},{"itemId":"643301","itemName":"影牙","avgPlacement":3.6667,"appearanceRate":0.0566,"count":3,"firstRate":0.0,"top3Rate":0.3333},{"itemId":"644108","itemName":"根源之力","avgPlacement":2.0,"appearanceRate":0.0566,"count":3,"firstRate":0.3333,"top3Rate":1.0},{"itemId":"644109","itemName":"灵泉项链","avgPlacement":3.0,"appearanceRate":0.0566,"count":3,"firstRate":0.0,"top3Rate":0.6667},{"itemId":"643403","itemName":"破茧之衣","avgPlacement":3.0,"appearanceRate":0.0377,"count":2,"firstRate":0.5,"top3Rate":0.5},{"itemId":"643404","itemName":"聚灵水晶","avgPlacement":1.5,"appearanceRate":0.0377,"count":2,"firstRate":0.5,"top3Rate":1.0},{"itemId":"641015","itemName":"日渊","avgPlacement":1.0,"appearanceRate":0.0189,"count":1,"firstRate":1.0,"top3Rate":1.0},{"itemId":"643805","itemName":"御灵之纱","avgPlacement":4.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":0.0},{"itemId":"644111","itemName":"怒神项链","avgPlacement":4.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":0.0},{"itemId":"810097","itemName":"极影·形昭","avgPlacement":2.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0}]},{"avgLevel":609.0189,"appearanceRate":1.0,"avgPlacement":3.0755,"count":53,"heroId":"5141","averageItemCount":0.6226,"top3Rate":0.6226,"mvpRate":0.0377,"builds":[{"avgPlacement":1.0,"appearanceRate":0.0189,"itemIds":["641006","643404","643604"],"count":1,"firstRate":1.0,"itemNames":["鼓舞之戒","聚灵水晶","反伤重甲"],"top3Rate":1.0},{"avgPlacement":4.0,"appearanceRate":0.0189,"itemIds":["643105","643301","643702"],"count":1,"firstRate":0.0,"itemNames":["纯净苍穹","影牙","冥王"],"top3Rate":0.0},{"avgPlacement":2.0,"appearanceRate":0.0189,"itemIds":["643206","643207","643301"],"count":1,"firstRate":0.0,"itemNames":["梦魇之牙","金色圣剑","影牙"],"top3Rate":1.0},{"avgPlacement":1.0,"appearanceRate":0.0189,"itemIds":["643501","643702","643703"],"count":1,"firstRate":1.0,"itemNames":["霸者重铠","冥王","名刀·司命"],"top3Rate":1.0}],"awakenedRate":0.9434,"heroName":"亚连","firstRate":0.1132,"items":[{"itemId":"643301","itemName":"影牙","avgPlacement":2.7778,"appearanceRate":0.1698,"count":9,"firstRate":0.1111,"top3Rate":0.6667},{"itemId":"643702","itemName":"冥王","avgPlacement":3.0,"appearanceRate":0.0755,"count":4,"firstRate":0.25,"top3Rate":0.5},{"itemId":"643105","itemName":"纯净苍穹","avgPlacement":3.3333,"appearanceRate":0.0566,"count":3,"firstRate":0.3333,"top3Rate":0.3333},{"itemId":"641006","itemName":"鼓舞之戒","avgPlacement":2.0,"appearanceRate":0.0377,"count":2,"firstRate":0.5,"top3Rate":1.0},{"itemId":"643206","itemName":"梦魇之牙","avgPlacement":2.0,"appearanceRate":0.0377,"count":2,"firstRate":0.0,"top3Rate":1.0},{"itemId":"641010","itemName":"凝渊","avgPlacement":3.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"643207","itemName":"金色圣剑","avgPlacement":2.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"643404","itemName":"聚灵水晶","avgPlacement":1.0,"appearanceRate":0.0189,"count":1,"firstRate":1.0,"top3Rate":1.0},{"itemId":"643501","itemName":"霸者重铠","avgPlacement":1.0,"appearanceRate":0.0189,"count":1,"firstRate":1.0,"top3Rate":1.0},{"itemId":"643502","itemName":"不死鸟之眼","avgPlacement":5.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":0.0},{"itemId":"643604","itemName":"反伤重甲","avgPlacement":1.0,"appearanceRate":0.0189,"count":1,"firstRate":1.0,"top3Rate":1.0},{"itemId":"643703","itemName":"名刀·司命","avgPlacement":1.0,"appearanceRate":0.0189,"count":1,"firstRate":1.0,"top3Rate":1.0},{"itemId":"643803","itemName":"炽热支配者","avgPlacement":4.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":0.0},{"itemId":"643805","itemName":"御灵之纱","avgPlacement":4.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":0.0},{"itemId":"644108","itemName":"根源之力","avgPlacement":5.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":0.0},{"itemId":"644109","itemName":"灵泉项链","avgPlacement":1.0,"appearanceRate":0.0189,"count":1,"firstRate":1.0,"top3Rate":1.0},{"itemId":"644111","itemName":"怒神项链","avgPlacement":2.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"644118","itemName":"套娃枪","avgPlacement":3.0,"appearanceRate":0.0189,"count":1,"firstRate":0.0,"top3Rate":1.0}]},{"avgLevel":756.1778,"appearanceRate":0.8491,"avgPlacement":2.9556,"count":45,"heroId":"5021","averageItemCount":1.8222,"top3Rate":0.6667,"mvpRate":0.2,"builds":[{"avgPlacement":1.5,"appearanceRate":0.0444,"itemIds":["641010","643103","643304"],"count":2,"firstRate":0.5,"itemNames":["凝渊","无尽巨剑","铸梦·逐风"],"top3Rate":1.0},{"avgPlacement":4.5,"appearanceRate":0.0444,"itemIds":["641010","643304","643703"],"count":2,"firstRate":0.0,"itemNames":["凝渊","铸梦·逐风","名刀·司命"],"top3Rate":0.0},{"avgPlacement":3.0,"appearanceRate":0.0222,"itemIds":["641010","643103","643704"],"count":1,"firstRate":0.0,"itemNames":["凝渊","无尽巨剑","红魔"],"top3Rate":1.0},{"avgPlacement":2.0,"appearanceRate":0.0222,"itemIds":["641010","643301","644107"],"count":1,"firstRate":0.0,"itemNames":["凝渊","影牙","魂祭绝刃"],"top3Rate":1.0},{"avgPlacement":4.0,"appearanceRate":0.0222,"itemIds":["641010","643304","643803"],"count":1,"firstRate":0.0,"itemNames":["凝渊","铸梦·逐风","炽热支配者"],"top3Rate":0.0},{"avgPlacement":3.0,"appearanceRate":0.0222,"itemIds":["641010","643304","810250"],"count":1,"firstRate":0.0,"itemNames":["凝渊","铸梦·逐风","碎星锤"],"top3Rate":1.0},{"avgPlacement":2.0,"appearanceRate":0.0222,"itemIds":["641010","643803","644101"],"count":1,"firstRate":0.0,"itemNames":["凝渊","炽热支配者","破妄之刃"],"top3Rate":1.0},{"avgPlacement":2.0,"appearanceRate":0.0222,"itemIds":["641010","643803","810223"],"count":1,"firstRate":0.0,"itemNames":["凝渊","炽热支配者","徐行·凛冬"],"top3Rate":1.0},{"avgPlacement":1.0,"appearanceRate":0.0222,"itemIds":["641021","643703","810075"],"count":1,"firstRate":1.0,"itemNames":["青莲剑谱","名刀·司命","砂之守卫"],"top3Rate":1.0},{"avgPlacement":5.0,"appearanceRate":0.0222,"itemIds":["643103","643803","810096"],"count":1,"firstRate":0.0,"itemNames":["无尽巨剑","炽热支配者","夺魂刃"],"top3Rate":0.0},{"avgPlacement":4.0,"appearanceRate":0.0222,"itemIds":["643105","643703","644112"],"count":1,"firstRate":0.0,"itemNames":["纯净苍穹","名刀·司命","强敌克星"],"top3Rate":0.0},{"avgPlacement":3.0,"appearanceRate":0.0222,"itemIds":["643304","643703","810096"],"count":1,"firstRate":0.0,"itemNames":["铸梦·逐风","名刀·司命","夺魂刃"],"top3Rate":1.0},{"avgPlacement":5.0,"appearanceRate":0.0222,"itemIds":["643304","643803","644112"],"count":1,"firstRate":0.0,"itemNames":["铸梦·逐风","炽热支配者","强敌克星"],"top3Rate":0.0},{"avgPlacement":3.0,"appearanceRate":0.0222,"itemIds":["643702","643703","643704"],"count":1,"firstRate":0.0,"itemNames":["冥王","名刀·司命","红魔"],"top3Rate":1.0},{"avgPlacement":1.0,"appearanceRate":0.0222,"itemIds":["643703","643803","644103"],"count":1,"firstRate":1.0,"itemNames":["名刀·司命","炽热支配者","断念"],"top3Rate":1.0}],"awakenedRate":0.6444,"heroName":"裴擒虎","firstRate":0.1333,"items":[{"itemId":"641010","itemName":"凝渊","avgPlacement":3.0625,"appearanceRate":0.3556,"count":16,"firstRate":0.0625,"top3Rate":0.625},{"itemId":"643304","itemName":"铸梦·逐风","avgPlacement":3.4545,"appearanceRate":0.2444,"count":11,"firstRate":0.0909,"top3Rate":0.4545},{"itemId":"643703","itemName":"名刀·司命","avgPlacement":3.2,"appearanceRate":0.2222,"count":10,"firstRate":0.2,"top3Rate":0.6},{"itemId":"643803","itemName":"炽热支配者","avgPlacement":3.1111,"appearanceRate":0.2,"count":9,"firstRate":0.1111,"top3Rate":0.5556},{"itemId":"643301","itemName":"影牙","avgPlacement":3.0,"appearanceRate":0.1333,"count":6,"firstRate":0.0,"top3Rate":0.6667},{"itemId":"643103","itemName":"无尽巨剑","avgPlacement":3.2,"appearanceRate":0.1111,"count":5,"firstRate":0.2,"top3Rate":0.6},{"itemId":"643702","itemName":"冥王","avgPlacement":3.6667,"appearanceRate":0.0667,"count":3,"firstRate":0.0,"top3Rate":0.6667},{"itemId":"641021","itemName":"青莲剑谱","avgPlacement":1.5,"appearanceRate":0.0444,"count":2,"firstRate":0.5,"top3Rate":1.0},{"itemId":"643105","itemName":"纯净苍穹","avgPlacement":3.0,"appearanceRate":0.0444,"count":2,"firstRate":0.0,"top3Rate":0.5},{"itemId":"643704","itemName":"红魔","avgPlacement":3.0,"appearanceRate":0.0444,"count":2,"firstRate":0.0,"top3Rate":1.0},{"itemId":"644105","itemName":"护命灵珠","avgPlacement":1.5,"appearanceRate":0.0444,"count":2,"firstRate":0.5,"top3Rate":1.0},{"itemId":"644112","itemName":"强敌克星","avgPlacement":4.5,"appearanceRate":0.0444,"count":2,"firstRate":0.0,"top3Rate":0.0},{"itemId":"810096","itemName":"夺魂刃","avgPlacement":4.0,"appearanceRate":0.0444,"count":2,"firstRate":0.0,"top3Rate":0.5},{"itemId":"643302","itemName":"破晓","avgPlacement":3.0,"appearanceRate":0.0222,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"643501","itemName":"霸者重铠","avgPlacement":2.0,"appearanceRate":0.0222,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"643705","itemName":"魔律之刃","avgPlacement":2.0,"appearanceRate":0.0222,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"644101","itemName":"破妄之刃","avgPlacement":2.0,"appearanceRate":0.0222,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"644103","itemName":"断念","avgPlacement":1.0,"appearanceRate":0.0222,"count":1,"firstRate":1.0,"top3Rate":1.0},{"itemId":"644107","itemName":"魂祭绝刃","avgPlacement":2.0,"appearanceRate":0.0222,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"810075","itemName":"砂之守卫","avgPlacement":1.0,"appearanceRate":0.0222,"count":1,"firstRate":1.0,"top3Rate":1.0},{"itemId":"810097","itemName":"极影·形昭","avgPlacement":3.0,"appearanceRate":0.0222,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"810223","itemName":"徐行·凛冬","avgPlacement":2.0,"appearanceRate":0.0222,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"810250","itemName":"碎星锤","avgPlacement":3.0,"appearanceRate":0.0222,"count":1,"firstRate":0.0,"top3Rate":1.0}]},{"avgLevel":346.9545,"appearanceRate":0.4151,"avgPlacement":3.0909,"count":22,"heroId":"5051","averageItemCount":1.1364,"top3Rate":0.6364,"mvpRate":0.0,"builds":[],"awakenedRate":0.5455,"heroName":"瑶","firstRate":0.0909,"items":[{"itemId":"643603","itemName":"近卫荣耀","avgPlacement":3.4,"appearanceRate":0.2273,"count":5,"firstRate":0.0,"top3Rate":0.6},{"itemId":"643403","itemName":"破茧之衣","avgPlacement":3.25,"appearanceRate":0.1818,"count":4,"firstRate":0.0,"top3Rate":0.5},{"itemId":"641006","itemName":"鼓舞之戒","avgPlacement":2.6667,"appearanceRate":0.1364,"count":3,"firstRate":0.3333,"top3Rate":0.6667},{"itemId":"643304","itemName":"铸梦·逐风","avgPlacement":3.6667,"appearanceRate":0.1364,"count":3,"firstRate":0.0,"top3Rate":0.6667},{"itemId":"643501","itemName":"霸者重铠","avgPlacement":3.0,"appearanceRate":0.0909,"count":2,"firstRate":0.0,"top3Rate":1.0},{"itemId":"644109","itemName":"灵泉项链","avgPlacement":2.0,"appearanceRate":0.0909,"count":2,"firstRate":0.0,"top3Rate":1.0},{"itemId":"643208","itemName":"自然法杖","avgPlacement":1.0,"appearanceRate":0.0455,"count":1,"firstRate":1.0,"top3Rate":1.0},{"itemId":"643404","itemName":"聚灵水晶","avgPlacement":1.0,"appearanceRate":0.0455,"count":1,"firstRate":1.0,"top3Rate":1.0},{"itemId":"643703","itemName":"名刀·司命","avgPlacement":2.0,"appearanceRate":0.0455,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"643804","itemName":"生命魔典","avgPlacement":2.0,"appearanceRate":0.0455,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"643805","itemName":"御灵之纱","avgPlacement":4.0,"appearanceRate":0.0455,"count":1,"firstRate":0.0,"top3Rate":0.0},{"itemId":"644103","itemName":"断念","avgPlacement":3.0,"appearanceRate":0.0455,"count":1,"firstRate":0.0,"top3Rate":1.0}]},{"avgLevel":348.8421,"appearanceRate":0.3585,"avgPlacement":3.3684,"count":19,"heroId":"1751","averageItemCount":0.3158,"top3Rate":0.5263,"mvpRate":0.0,"builds":[],"awakenedRate":0.4211,"heroName":"钟馗","firstRate":0.1053,"items":[{"itemId":"643603","itemName":"近卫荣耀","avgPlacement":4.0,"appearanceRate":0.1579,"count":3,"firstRate":0.0,"top3Rate":0.3333},{"itemId":"644106","itemName":"光辉圣铠","avgPlacement":2.0,"appearanceRate":0.1053,"count":2,"firstRate":0.5,"top3Rate":1.0},{"itemId":"641006","itemName":"鼓舞之戒","avgPlacement":5.0,"appearanceRate":0.0526,"count":1,"firstRate":0.0,"top3Rate":0.0}]},{"avgLevel":453.9231,"appearanceRate":0.2453,"avgPlacement":3.3846,"count":13,"heroId":"5111","averageItemCount":0.8462,"top3Rate":0.4615,"mvpRate":0.0,"builds":[{"avgPlacement":2.0,"appearanceRate":0.0769,"itemIds":["643501","643604","810096"],"count":1,"firstRate":0.0,"itemNames":["霸者重铠","反伤重甲","夺魂刃"],"top3Rate":1.0}],"awakenedRate":0.6154,"heroName":"猪八戒","firstRate":0.0,"items":[{"itemId":"643501","itemName":"霸者重铠","avgPlacement":3.5,"appearanceRate":0.1538,"count":2,"firstRate":0.0,"top3Rate":0.5},{"itemId":"643502","itemName":"不死鸟之眼","avgPlacement":4.5,"appearanceRate":0.1538,"count":2,"firstRate":0.0,"top3Rate":0.0},{"itemId":"643504","itemName":"红莲炎甲","avgPlacement":3.0,"appearanceRate":0.1538,"count":2,"firstRate":0.0,"top3Rate":0.5},{"itemId":"643604","itemName":"反伤重甲","avgPlacement":3.0,"appearanceRate":0.1538,"count":2,"firstRate":0.0,"top3Rate":0.5},{"itemId":"644117","itemName":"阿科米亚之子","avgPlacement":4.0,"appearanceRate":0.0769,"count":1,"firstRate":0.0,"top3Rate":0.0},{"itemId":"810096","itemName":"夺魂刃","avgPlacement":2.0,"appearanceRate":0.0769,"count":1,"firstRate":0.0,"top3Rate":1.0},{"itemId":"810252","itemName":"霸者重装","avgPlacement":2.0,"appearanceRate":0.0769,"count":1,"firstRate":0.0,"top3Rate":1.0}]},{"avgLevel":247.5714,"appearanceRate":0.1321,"avgPlacement":2.4286,"count":7,"heroId":"5011","averageItemCount":0.0,"top3Rate":0.8571,"mvpRate":0.0,"builds":[],"awakenedRate":0.2857,"heroName":"明世隐","firstRate":0.2857,"items":[]}]},"meta":{"source":"https://www.datawxq.com/lineups?gameType=4&subModeName=大师场","api":"https://api.datatft.com/wzwxq/lineups/detail","query":{"version":"v261022","gameType":"4","subModeName":"大师场","time":3,"operator":"AND","advancedMode":false,"filters":[],"exclusions":[],"page":1,"pageSize":12,"minimumCount":50,"sortBy":"appearanceRate"},"downloadedAt":"2026-10-25T10:37:45.990713+00:00","total":27,"sampleCount":23304,"note":"保留原卡包映射与查询编号。每条lookupKey是原查询标识，lineupKey是官网实际返回的主阵容；历史/摘要条目由_snapshot单独标注。","rankedTotal":22}}
+{
+  "detail": {
+    "lineupKey": "8|1421|1591|1661|5021|5031|5041|5051|5141",
+    "lookupKey": "8|1421|1591|1661|1751|5031|5041|5051|5141",
+    "_snapshot": {
+      "status": "source_redirect",
+      "message": "沿用原对应关系；官网对该查询返回调整后的主阵容，统计按当前英雄组成展示。",
+      "query": {
+        "version": "v261029",
+        "gameType": "4",
+        "subModeName": "大师场",
+        "time": 3,
+        "operator": "AND",
+        "advancedMode": false,
+        "filters": [],
+        "exclusions": [],
+        "page": 1,
+        "pageSize": 12,
+        "minimumCount": 50,
+        "sortBy": "appearanceRate"
+      },
+      "fetchedAt": "2026-11-02T13:55:04.692228+00:00"
+    },
+    "heroes": [
+      {
+        "name": "安琪拉",
+        "id": "1421"
+      },
+      {
+        "name": "朵莉亚",
+        "id": "1591"
+      },
+      {
+        "name": "亚瑟",
+        "id": "1661"
+      },
+      {
+        "name": "裴擒虎",
+        "id": "5021"
+      },
+      {
+        "name": "狂铁",
+        "id": "5031"
+      },
+      {
+        "name": "米莱狄",
+        "id": "5041"
+      },
+      {
+        "name": "瑶",
+        "id": "5051"
+      },
+      {
+        "name": "亚连",
+        "id": "5141"
+      }
+    ],
+    "count": 91,
+    "appearanceRate": 0.0168,
+    "avgPlacement": 3.4286,
+    "firstRate": 0.0879,
+    "top3Rate": 0.4945,
+    "recommendedUnits": [
+      {
+        "avgLevel": 736.6484,
+        "recommendationCount": 3,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.7912,
+        "itemIds": [
+          "643105",
+          "643202",
+          "643803"
+        ],
+        "count": 91,
+        "heroId": "1421",
+        "awakenedRate": 0.956,
+        "recommendationType": "three_item",
+        "itemNames": [
+          "纯净苍穹",
+          "虚无法杖",
+          "炽热支配者"
+        ]
+      },
+      {
+        "avgLevel": 595.4725,
+        "recommendationCount": 7,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.0879,
+        "itemIds": [
+          "643603"
+        ],
+        "count": 91,
+        "heroId": "1591",
+        "awakenedRate": 0.9121,
+        "recommendationType": "single_item",
+        "itemNames": [
+          "近卫荣耀"
+        ]
+      },
+      {
+        "avgLevel": 600.6154,
+        "recommendationCount": 5,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.1758,
+        "itemIds": [
+          "643501"
+        ],
+        "count": 91,
+        "heroId": "1661",
+        "awakenedRate": 0.8901,
+        "recommendationType": "single_item",
+        "itemNames": [
+          "霸者重铠"
+        ]
+      },
+      {
+        "avgLevel": 586.3956,
+        "recommendationCount": 0,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.044,
+        "itemIds": [],
+        "count": 91,
+        "heroId": "5031",
+        "awakenedRate": 1.0,
+        "recommendationType": "none",
+        "itemNames": []
+      },
+      {
+        "avgLevel": 523.0,
+        "recommendationCount": 0,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.1209,
+        "itemIds": [],
+        "count": 91,
+        "heroId": "5041",
+        "awakenedRate": 0.8791,
+        "recommendationType": "none",
+        "itemNames": []
+      },
+      {
+        "avgLevel": 503.2418,
+        "recommendationCount": 0,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.0659,
+        "itemIds": [],
+        "count": 91,
+        "heroId": "5141",
+        "awakenedRate": 0.8791,
+        "recommendationType": "none",
+        "itemNames": []
+      },
+      {
+        "avgLevel": 606.2464,
+        "recommendationCount": 0,
+        "appearanceRate": 0.7582,
+        "threeItemRate": 0.3623,
+        "itemIds": [],
+        "count": 69,
+        "heroId": "5021",
+        "awakenedRate": 0.4928,
+        "recommendationType": "none",
+        "itemNames": []
+      },
+      {
+        "avgLevel": 310.125,
+        "recommendationCount": 0,
+        "appearanceRate": 0.3516,
+        "threeItemRate": 0.0313,
+        "itemIds": [],
+        "count": 32,
+        "heroId": "5051",
+        "awakenedRate": 0.5,
+        "recommendationType": "none",
+        "itemNames": []
+      },
+      {
+        "avgLevel": 469.9167,
+        "recommendationCount": 0,
+        "appearanceRate": 0.2637,
+        "threeItemRate": 0.3333,
+        "itemIds": [],
+        "count": 24,
+        "heroId": "1321",
+        "awakenedRate": 0.8333,
+        "recommendationType": "none",
+        "itemNames": []
+      },
+      {
+        "avgLevel": 376.3636,
+        "recommendationCount": 0,
+        "appearanceRate": 0.2418,
+        "threeItemRate": 0.0,
+        "itemIds": [],
+        "count": 22,
+        "heroId": "1751",
+        "awakenedRate": 0.5,
+        "recommendationType": "none",
+        "itemNames": []
+      },
+      {
+        "avgLevel": 277.6923,
+        "recommendationCount": 0,
+        "appearanceRate": 0.1429,
+        "threeItemRate": 0.0,
+        "itemIds": [],
+        "count": 13,
+        "heroId": "5641",
+        "awakenedRate": 0.5385,
+        "recommendationType": "none",
+        "itemNames": []
+      },
+      {
+        "avgLevel": 316.3,
+        "recommendationCount": 0,
+        "appearanceRate": 0.1099,
+        "threeItemRate": 0.1,
+        "itemIds": [],
+        "count": 10,
+        "heroId": "5111",
+        "awakenedRate": 0.2,
+        "recommendationType": "none",
+        "itemNames": []
+      }
+    ],
+    "variants": [
+      {
+        "addedHeroes": [
+          {
+            "id": "1321"
+          },
+          {
+            "id": "5641"
+          }
+        ],
+        "removedHeroes": [
+          {
+            "id": "5021"
+          },
+          {
+            "id": "5051"
+          }
+        ],
+        "heroes": [
+          {
+            "name": "马可波罗",
+            "id": "1321"
+          },
+          {
+            "name": "安琪拉",
+            "id": "1421"
+          },
+          {
+            "name": "朵莉亚",
+            "id": "1591"
+          },
+          {
+            "name": "亚瑟",
+            "id": "1661"
+          },
+          {
+            "name": "狂铁",
+            "id": "5031"
+          },
+          {
+            "name": "米莱狄",
+            "id": "5041"
+          },
+          {
+            "name": "亚连",
+            "id": "5141"
+          },
+          {
+            "name": "姬小满",
+            "id": "5641"
+          }
+        ],
+        "lineupKey": "8|1321|1421|1591|1661|5031|5041|5141|5641",
+        "appearanceRate": 0.1429,
+        "avgPlacement": 4.0,
+        "similarity": 0.6,
+        "count": 13,
+        "lineupCode": "",
+        "firstRate": 0.1538,
+        "top3Rate": 0.3077
+      },
+      {
+        "addedHeroes": [
+          {
+            "id": "1751"
+          }
+        ],
+        "removedHeroes": [
+          {
+            "id": "5051"
+          }
+        ],
+        "heroes": [
+          {
+            "name": "安琪拉",
+            "id": "1421"
+          },
+          {
+            "name": "朵莉亚",
+            "id": "1591"
+          },
+          {
+            "name": "亚瑟",
+            "id": "1661"
+          },
+          {
+            "name": "钟馗",
+            "id": "1751"
+          },
+          {
+            "name": "裴擒虎",
+            "id": "5021"
+          },
+          {
+            "name": "狂铁",
+            "id": "5031"
+          },
+          {
+            "name": "米莱狄",
+            "id": "5041"
+          },
+          {
+            "name": "亚连",
+            "id": "5141"
+          }
+        ],
+        "lineupKey": "8|1421|1591|1661|1751|5021|5031|5041|5141",
+        "appearanceRate": 0.1429,
+        "avgPlacement": 3.5385,
+        "similarity": 0.7778,
+        "count": 13,
+        "lineupCode": "",
+        "firstRate": 0.0769,
+        "top3Rate": 0.3846
+      },
+      {
+        "addedHeroes": [],
+        "removedHeroes": [
+          {
+            "id": "5051"
+          }
+        ],
+        "heroes": [
+          {
+            "name": "安琪拉",
+            "id": "1421"
+          },
+          {
+            "name": "朵莉亚",
+            "id": "1591"
+          },
+          {
+            "name": "亚瑟",
+            "id": "1661"
+          },
+          {
+            "name": "裴擒虎",
+            "id": "5021"
+          },
+          {
+            "name": "狂铁",
+            "id": "5031"
+          },
+          {
+            "name": "米莱狄",
+            "id": "5041"
+          },
+          {
+            "name": "亚连",
+            "id": "5141"
+          }
+        ],
+        "lineupKey": "7|1421|1591|1661|5021|5031|5041|5141",
+        "appearanceRate": 0.1319,
+        "avgPlacement": 4.5,
+        "similarity": 0.875,
+        "count": 12,
+        "lineupCode": "",
+        "firstRate": 0.0,
+        "top3Rate": 0.1667
+      },
+      {
+        "addedHeroes": [
+          {
+            "id": "1321"
+          }
+        ],
+        "removedHeroes": [
+          {
+            "id": "5051"
+          }
+        ],
+        "heroes": [
+          {
+            "name": "马可波罗",
+            "id": "1321"
+          },
+          {
+            "name": "安琪拉",
+            "id": "1421"
+          },
+          {
+            "name": "朵莉亚",
+            "id": "1591"
+          },
+          {
+            "name": "亚瑟",
+            "id": "1661"
+          },
+          {
+            "name": "裴擒虎",
+            "id": "5021"
+          },
+          {
+            "name": "狂铁",
+            "id": "5031"
+          },
+          {
+            "name": "米莱狄",
+            "id": "5041"
+          },
+          {
+            "name": "亚连",
+            "id": "5141"
+          }
+        ],
+        "lineupKey": "8|1321|1421|1591|1661|5021|5031|5041|5141",
+        "appearanceRate": 0.1209,
+        "avgPlacement": 3.5455,
+        "similarity": 0.7778,
+        "count": 11,
+        "lineupCode": "",
+        "firstRate": 0.0,
+        "top3Rate": 0.4545
+      },
+      {
+        "addedHeroes": [
+          {
+            "id": "5111"
+          }
+        ],
+        "removedHeroes": [
+          {
+            "id": "5051"
+          }
+        ],
+        "heroes": [
+          {
+            "name": "安琪拉",
+            "id": "1421"
+          },
+          {
+            "name": "朵莉亚",
+            "id": "1591"
+          },
+          {
+            "name": "亚瑟",
+            "id": "1661"
+          },
+          {
+            "name": "裴擒虎",
+            "id": "5021"
+          },
+          {
+            "name": "狂铁",
+            "id": "5031"
+          },
+          {
+            "name": "米莱狄",
+            "id": "5041"
+          },
+          {
+            "name": "猪八戒",
+            "id": "5111"
+          },
+          {
+            "name": "亚连",
+            "id": "5141"
+          }
+        ],
+        "lineupKey": "8|1421|1591|1661|5021|5031|5041|5111|5141",
+        "appearanceRate": 0.1099,
+        "avgPlacement": 3.4,
+        "similarity": 0.7778,
+        "count": 10,
+        "lineupCode": "",
+        "firstRate": 0.0,
+        "top3Rate": 0.5
+      },
+      {
+        "addedHeroes": [
+          {
+            "id": "1751"
+          }
+        ],
+        "removedHeroes": [
+          {
+            "id": "5021"
+          }
+        ],
+        "heroes": [
+          {
+            "name": "安琪拉",
+            "id": "1421"
+          },
+          {
+            "name": "朵莉亚",
+            "id": "1591"
+          },
+          {
+            "name": "亚瑟",
+            "id": "1661"
+          },
+          {
+            "name": "钟馗",
+            "id": "1751"
+          },
+          {
+            "name": "狂铁",
+            "id": "5031"
+          },
+          {
+            "name": "米莱狄",
+            "id": "5041"
+          },
+          {
+            "name": "瑶",
+            "id": "5051"
+          },
+          {
+            "name": "亚连",
+            "id": "5141"
+          }
+        ],
+        "lineupKey": "8|1421|1591|1661|1751|5031|5041|5051|5141",
+        "appearanceRate": 0.0989,
+        "avgPlacement": 2.2222,
+        "similarity": 0.7778,
+        "count": 9,
+        "lineupCode": "",
+        "firstRate": 0.1111,
+        "top3Rate": 0.8889
+      }
+    ],
+    "heroEquipment": [
+      {
+        "avgLevel": 736.6484,
+        "appearanceRate": 1.0,
+        "avgPlacement": 3.4286,
+        "count": 91,
+        "heroId": "1421",
+        "averageItemCount": 2.7143,
+        "top3Rate": 0.4945,
+        "mvpRate": 0.6374,
+        "builds": [
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.033,
+            "itemIds": [
+              "643105",
+              "643202",
+              "643803"
+            ],
+            "count": 3,
+            "firstRate": 0.3333,
+            "itemNames": [
+              "纯净苍穹",
+              "虚无法杖",
+              "炽热支配者"
+            ],
+            "top3Rate": 0.3333
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.033,
+            "itemIds": [
+              "643202",
+              "643402",
+              "643803"
+            ],
+            "count": 3,
+            "firstRate": 0.0,
+            "itemNames": [
+              "虚无法杖",
+              "法源之杯",
+              "炽热支配者"
+            ],
+            "top3Rate": 0.3333
+          },
+          {
+            "avgPlacement": 2.3333,
+            "appearanceRate": 0.033,
+            "itemIds": [
+              "643202",
+              "643703",
+              "643803"
+            ],
+            "count": 3,
+            "firstRate": 0.3333,
+            "itemNames": [
+              "虚无法杖",
+              "名刀·司命",
+              "炽热支配者"
+            ],
+            "top3Rate": 0.6667
+          },
+          {
+            "avgPlacement": 3.3333,
+            "appearanceRate": 0.033,
+            "itemIds": [
+              "643202",
+              "643703",
+              "810075"
+            ],
+            "count": 3,
+            "firstRate": 0.3333,
+            "itemNames": [
+              "虚无法杖",
+              "名刀·司命",
+              "砂之守卫"
+            ],
+            "top3Rate": 0.3333
+          },
+          {
+            "avgPlacement": 3.5,
+            "appearanceRate": 0.022,
+            "itemIds": [
+              "643202",
+              "643705",
+              "643803"
+            ],
+            "count": 2,
+            "firstRate": 0.0,
+            "itemNames": [
+              "虚无法杖",
+              "魔律之刃",
+              "炽热支配者"
+            ],
+            "top3Rate": 0.5
+          },
+          {
+            "avgPlacement": 3.5,
+            "appearanceRate": 0.022,
+            "itemIds": [
+              "643202",
+              "643803",
+              "810077"
+            ],
+            "count": 2,
+            "firstRate": 0.0,
+            "itemNames": [
+              "虚无法杖",
+              "炽热支配者",
+              "符文大剑"
+            ],
+            "top3Rate": 0.5
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "641003",
+              "643202",
+              "643803"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "聚灵法杖",
+              "虚无法杖",
+              "炽热支配者"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "641003",
+              "643401",
+              "643803"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "聚灵法杖",
+              "痛苦面具",
+              "炽热支配者"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "641003",
+              "643703",
+              "810251"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "聚灵法杖",
+              "名刀·司命",
+              "日暮之流"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "641003",
+              "643801",
+              "810098"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "聚灵法杖",
+              "噬神之书",
+              "暗影战斧"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "641004",
+              "643703",
+              "643803"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "分身镜",
+              "名刀·司命",
+              "炽热支配者"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "641004",
+              "643801",
+              "644116"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "分身镜",
+              "噬神之书",
+              "机器头"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "641006",
+              "643801",
+              "810223"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "鼓舞之戒",
+              "噬神之书",
+              "徐行·凛冬"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643104",
+              "643105",
+              "643202"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "制裁之剑",
+              "纯净苍穹",
+              "虚无法杖"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643105",
+              "643202",
+              "643402"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "纯净苍穹",
+              "虚无法杖",
+              "法源之杯"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643105",
+              "643202",
+              "810097"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "纯净苍穹",
+              "虚无法杖",
+              "极影·形昭"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643105",
+              "643401",
+              "643402"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "纯净苍穹",
+              "痛苦面具",
+              "法源之杯"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643105",
+              "643402",
+              "810223"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "纯净苍穹",
+              "法源之杯",
+              "徐行·凛冬"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643105",
+              "643703",
+              "644116"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "纯净苍穹",
+              "名刀·司命",
+              "机器头"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 5.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643105",
+              "643703",
+              "810077"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "纯净苍穹",
+              "名刀·司命",
+              "符文大剑"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643105",
+              "643703",
+              "810251"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "纯净苍穹",
+              "名刀·司命",
+              "日暮之流"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 5.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643105",
+              "643801",
+              "644107"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "纯净苍穹",
+              "噬神之书",
+              "魂祭绝刃"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 1.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643105",
+              "643803",
+              "810096"
+            ],
+            "count": 1,
+            "firstRate": 1.0,
+            "itemNames": [
+              "纯净苍穹",
+              "炽热支配者",
+              "夺魂刃"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643202",
+              "643402",
+              "810223"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "虚无法杖",
+              "法源之杯",
+              "徐行·凛冬"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643202",
+              "643402",
+              "810251"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "虚无法杖",
+              "法源之杯",
+              "日暮之流"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643202",
+              "643402",
+              "810252"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "虚无法杖",
+              "法源之杯",
+              "霸者重装"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 5.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643202",
+              "643703",
+              "810077"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "虚无法杖",
+              "名刀·司命",
+              "符文大剑"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643202",
+              "643705",
+              "810251"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "虚无法杖",
+              "魔律之刃",
+              "日暮之流"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643202",
+              "643803",
+              "644105"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "虚无法杖",
+              "炽热支配者",
+              "护命灵珠"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 6.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643202",
+              "643803",
+              "810098"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "虚无法杖",
+              "炽热支配者",
+              "暗影战斧"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643202",
+              "643803",
+              "810252"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "虚无法杖",
+              "炽热支配者",
+              "霸者重装"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643206",
+              "643208",
+              "810075"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "梦魇之牙",
+              "自然法杖",
+              "砂之守卫"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643206",
+              "643402",
+              "643803"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "梦魇之牙",
+              "法源之杯",
+              "炽热支配者"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643206",
+              "643402",
+              "810077"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "梦魇之牙",
+              "法源之杯",
+              "符文大剑"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643206",
+              "643705",
+              "643802"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "梦魇之牙",
+              "魔律之刃",
+              "贤者之书"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643206",
+              "643802",
+              "810251"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "梦魇之牙",
+              "贤者之书",
+              "日暮之流"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643206",
+              "644105",
+              "810096"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "梦魇之牙",
+              "护命灵珠",
+              "夺魂刃"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643401",
+              "643402",
+              "810098"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "痛苦面具",
+              "法源之杯",
+              "暗影战斧"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643402",
+              "643501",
+              "810076"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "法源之杯",
+              "霸者重铠",
+              "龙魂斗篷"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643402",
+              "643703",
+              "643803"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "法源之杯",
+              "名刀·司命",
+              "炽热支配者"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643402",
+              "643703",
+              "810251"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "法源之杯",
+              "名刀·司命",
+              "日暮之流"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643402",
+              "643705",
+              "643802"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "法源之杯",
+              "魔律之刃",
+              "贤者之书"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 6.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643402",
+              "643801",
+              "643803"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "法源之杯",
+              "噬神之书",
+              "炽热支配者"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643402",
+              "643802",
+              "810074"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "法源之杯",
+              "贤者之书",
+              "魔道之石"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 6.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643402",
+              "643802",
+              "810077"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "法源之杯",
+              "贤者之书",
+              "符文大剑"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643402",
+              "643803",
+              "810074"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "法源之杯",
+              "炽热支配者",
+              "魔道之石"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643402",
+              "643803",
+              "810077"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "法源之杯",
+              "炽热支配者",
+              "符文大剑"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643402",
+              "643803",
+              "810251"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "法源之杯",
+              "炽热支配者",
+              "日暮之流"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 6.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643402",
+              "644116",
+              "810098"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "法源之杯",
+              "机器头",
+              "暗影战斧"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 1.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643501",
+              "643803",
+              "810077"
+            ],
+            "count": 1,
+            "firstRate": 1.0,
+            "itemNames": [
+              "霸者重铠",
+              "炽热支配者",
+              "符文大剑"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 1.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643702",
+              "643802",
+              "810251"
+            ],
+            "count": 1,
+            "firstRate": 1.0,
+            "itemNames": [
+              "冥王",
+              "贤者之书",
+              "日暮之流"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643703",
+              "643803",
+              "810251"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "名刀·司命",
+              "炽热支配者",
+              "日暮之流"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643703",
+              "644116",
+              "810253"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "名刀·司命",
+              "机器头",
+              "近卫·星泉"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 5.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643705",
+              "643802",
+              "643803"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "魔律之刃",
+              "贤者之书",
+              "炽热支配者"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643705",
+              "644111",
+              "810252"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "魔律之刃",
+              "怒神项链",
+              "霸者重装"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643801",
+              "644111",
+              "810098"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "噬神之书",
+              "怒神项链",
+              "暗影战斧"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643802",
+              "643803",
+              "810077"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "贤者之书",
+              "炽热支配者",
+              "符文大剑"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 1.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643802",
+              "644109",
+              "810223"
+            ],
+            "count": 1,
+            "firstRate": 1.0,
+            "itemNames": [
+              "贤者之书",
+              "灵泉项链",
+              "徐行·凛冬"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643803",
+              "644104",
+              "810098"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "炽热支配者",
+              "法潮灵杖",
+              "暗影战斧"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643803",
+              "644104",
+              "810223"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "炽热支配者",
+              "法潮灵杖",
+              "徐行·凛冬"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643803",
+              "644107",
+              "810252"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "炽热支配者",
+              "魂祭绝刃",
+              "霸者重装"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643803",
+              "644109",
+              "810251"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "炽热支配者",
+              "灵泉项链",
+              "日暮之流"
+            ],
+            "top3Rate": 1.0
+          }
+        ],
+        "awakenedRate": 0.956,
+        "heroName": "安琪拉",
+        "firstRate": 0.0879,
+        "items": [
+          {
+            "itemId": "643803",
+            "itemName": "炽热支配者",
+            "avgPlacement": 3.3333,
+            "appearanceRate": 0.4286,
+            "count": 39,
+            "firstRate": 0.1026,
+            "top3Rate": 0.5128
+          },
+          {
+            "itemId": "643202",
+            "itemName": "虚无法杖",
+            "avgPlacement": 3.4375,
+            "appearanceRate": 0.3516,
+            "count": 32,
+            "firstRate": 0.125,
+            "top3Rate": 0.4688
+          },
+          {
+            "itemId": "643402",
+            "itemName": "法源之杯",
+            "avgPlacement": 3.6452,
+            "appearanceRate": 0.3407,
+            "count": 31,
+            "firstRate": 0.0,
+            "top3Rate": 0.4839
+          },
+          {
+            "itemId": "643703",
+            "itemName": "名刀·司命",
+            "avgPlacement": 3.0625,
+            "appearanceRate": 0.1758,
+            "count": 16,
+            "firstRate": 0.125,
+            "top3Rate": 0.5625
+          },
+          {
+            "itemId": "643105",
+            "itemName": "纯净苍穹",
+            "avgPlacement": 3.2857,
+            "appearanceRate": 0.1538,
+            "count": 14,
+            "firstRate": 0.1429,
+            "top3Rate": 0.4286
+          },
+          {
+            "itemId": "810251",
+            "itemName": "日暮之流",
+            "avgPlacement": 2.5455,
+            "appearanceRate": 0.1209,
+            "count": 11,
+            "firstRate": 0.0909,
+            "top3Rate": 0.8182
+          },
+          {
+            "itemId": "643705",
+            "itemName": "魔律之刃",
+            "avgPlacement": 3.3,
+            "appearanceRate": 0.1099,
+            "count": 10,
+            "firstRate": 0.1,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "643802",
+            "itemName": "贤者之书",
+            "avgPlacement": 2.8889,
+            "appearanceRate": 0.0989,
+            "count": 9,
+            "firstRate": 0.2222,
+            "top3Rate": 0.7778
+          },
+          {
+            "itemId": "810077",
+            "itemName": "符文大剑",
+            "avgPlacement": 3.4444,
+            "appearanceRate": 0.0989,
+            "count": 9,
+            "firstRate": 0.1111,
+            "top3Rate": 0.5556
+          },
+          {
+            "itemId": "643206",
+            "itemName": "梦魇之牙",
+            "avgPlacement": 2.8571,
+            "appearanceRate": 0.0769,
+            "count": 7,
+            "firstRate": 0.0,
+            "top3Rate": 0.7143
+          },
+          {
+            "itemId": "643801",
+            "itemName": "噬神之书",
+            "avgPlacement": 4.1429,
+            "appearanceRate": 0.0769,
+            "count": 7,
+            "firstRate": 0.0,
+            "top3Rate": 0.2857
+          },
+          {
+            "itemId": "644116",
+            "itemName": "机器头",
+            "avgPlacement": 3.5,
+            "appearanceRate": 0.0659,
+            "count": 6,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "810098",
+            "itemName": "暗影战斧",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.0659,
+            "count": 6,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "810075",
+            "itemName": "砂之守卫",
+            "avgPlacement": 3.4,
+            "appearanceRate": 0.0549,
+            "count": 5,
+            "firstRate": 0.2,
+            "top3Rate": 0.4
+          },
+          {
+            "itemId": "810223",
+            "itemName": "徐行·凛冬",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.0549,
+            "count": 5,
+            "firstRate": 0.2,
+            "top3Rate": 0.4
+          },
+          {
+            "itemId": "641003",
+            "itemName": "聚灵法杖",
+            "avgPlacement": 3.25,
+            "appearanceRate": 0.044,
+            "count": 4,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "644104",
+            "itemName": "法潮灵杖",
+            "avgPlacement": 3.25,
+            "appearanceRate": 0.044,
+            "count": 4,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "644105",
+            "itemName": "护命灵珠",
+            "avgPlacement": 3.5,
+            "appearanceRate": 0.044,
+            "count": 4,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "810252",
+            "itemName": "霸者重装",
+            "avgPlacement": 3.5,
+            "appearanceRate": 0.044,
+            "count": 4,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "643401",
+            "itemName": "痛苦面具",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.033,
+            "count": 3,
+            "firstRate": 0.0,
+            "top3Rate": 0.6667
+          },
+          {
+            "itemId": "641004",
+            "itemName": "分身镜",
+            "avgPlacement": 3.5,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "643501",
+            "itemName": "霸者重铠",
+            "avgPlacement": 2.5,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.5,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "644107",
+            "itemName": "魂祭绝刃",
+            "avgPlacement": 4.5,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "644109",
+            "itemName": "灵泉项链",
+            "avgPlacement": 1.5,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.5,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "644111",
+            "itemName": "怒神项链",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "810074",
+            "itemName": "魔道之石",
+            "avgPlacement": 3.5,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "810096",
+            "itemName": "夺魂刃",
+            "avgPlacement": 2.5,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.5,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "641006",
+            "itemName": "鼓舞之戒",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "643104",
+            "itemName": "制裁之剑",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643208",
+            "itemName": "自然法杖",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643702",
+            "itemName": "冥王",
+            "avgPlacement": 1.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 1.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "810076",
+            "itemName": "龙魂斗篷",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "810097",
+            "itemName": "极影·形昭",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "810253",
+            "itemName": "近卫·星泉",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          }
+        ]
+      },
+      {
+        "avgLevel": 595.4725,
+        "appearanceRate": 1.0,
+        "avgPlacement": 3.4286,
+        "count": 91,
+        "heroId": "1591",
+        "averageItemCount": 1.0,
+        "top3Rate": 0.4945,
+        "mvpRate": 0.011,
+        "builds": [
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "641006",
+              "643402",
+              "643705"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "鼓舞之戒",
+              "法源之杯",
+              "魔律之刃"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "641006",
+              "643603",
+              "643705"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "鼓舞之戒",
+              "近卫荣耀",
+              "魔律之刃"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643105",
+              "643502",
+              "643603"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "纯净苍穹",
+              "不死鸟之眼",
+              "近卫荣耀"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643207",
+              "643703",
+              "643705"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "金色圣剑",
+              "名刀·司命",
+              "魔律之刃"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 5.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643402",
+              "643502",
+              "643705"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "法源之杯",
+              "不死鸟之眼",
+              "魔律之刃"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643402",
+              "643603",
+              "643705"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "法源之杯",
+              "近卫荣耀",
+              "魔律之刃"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643402",
+              "643703",
+              "643705"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "法源之杯",
+              "名刀·司命",
+              "魔律之刃"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643402",
+              "643705",
+              "810097"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "法源之杯",
+              "魔律之刃",
+              "极影·形昭"
+            ],
+            "top3Rate": 1.0
+          }
+        ],
+        "awakenedRate": 0.9121,
+        "heroName": "朵莉亚",
+        "firstRate": 0.0879,
+        "items": [
+          {
+            "itemId": "643705",
+            "itemName": "魔律之刃",
+            "avgPlacement": 3.25,
+            "appearanceRate": 0.2637,
+            "count": 24,
+            "firstRate": 0.0833,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "643402",
+            "itemName": "法源之杯",
+            "avgPlacement": 3.1304,
+            "appearanceRate": 0.2527,
+            "count": 23,
+            "firstRate": 0.1304,
+            "top3Rate": 0.5217
+          },
+          {
+            "itemId": "643603",
+            "itemName": "近卫荣耀",
+            "avgPlacement": 2.9375,
+            "appearanceRate": 0.1758,
+            "count": 16,
+            "firstRate": 0.0625,
+            "top3Rate": 0.6875
+          },
+          {
+            "itemId": "641006",
+            "itemName": "鼓舞之戒",
+            "avgPlacement": 2.6,
+            "appearanceRate": 0.0549,
+            "count": 5,
+            "firstRate": 0.2,
+            "top3Rate": 0.6
+          },
+          {
+            "itemId": "643502",
+            "itemName": "不死鸟之眼",
+            "avgPlacement": 3.75,
+            "appearanceRate": 0.044,
+            "count": 4,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "643703",
+            "itemName": "名刀·司命",
+            "avgPlacement": 2.25,
+            "appearanceRate": 0.044,
+            "count": 4,
+            "firstRate": 0.25,
+            "top3Rate": 0.75
+          },
+          {
+            "itemId": "643207",
+            "itemName": "金色圣剑",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.033,
+            "count": 3,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "643105",
+            "itemName": "纯净苍穹",
+            "avgPlacement": 2.5,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "810097",
+            "itemName": "极影·形昭",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643208",
+            "itemName": "自然法杖",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "643301",
+            "itemName": "影牙",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "643304",
+            "itemName": "铸梦·逐风",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "643403",
+            "itemName": "破茧之衣",
+            "avgPlacement": 5.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "643504",
+            "itemName": "红莲炎甲",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643803",
+            "itemName": "炽热支配者",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "644103",
+            "itemName": "断念",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "810253",
+            "itemName": "近卫·星泉",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          }
+        ]
+      },
+      {
+        "avgLevel": 600.6154,
+        "appearanceRate": 1.0,
+        "avgPlacement": 3.4286,
+        "count": 91,
+        "heroId": "1661",
+        "averageItemCount": 1.2637,
+        "top3Rate": 0.4945,
+        "mvpRate": 0.022,
+        "builds": [
+          {
+            "avgPlacement": 3.5,
+            "appearanceRate": 0.022,
+            "itemIds": [
+              "643502",
+              "643504",
+              "643804"
+            ],
+            "count": 2,
+            "firstRate": 0.0,
+            "itemNames": [
+              "不死鸟之眼",
+              "红莲炎甲",
+              "生命魔典"
+            ],
+            "top3Rate": 0.5
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "641021",
+              "643803",
+              "810252"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "青莲剑谱",
+              "炽热支配者",
+              "霸者重装"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643404",
+              "643504",
+              "643804"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "聚灵水晶",
+              "红莲炎甲",
+              "生命魔典"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 5.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643501",
+              "643502",
+              "643504"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "霸者重铠",
+              "不死鸟之眼",
+              "红莲炎甲"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 5.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643501",
+              "643502",
+              "643703"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "霸者重铠",
+              "不死鸟之眼",
+              "名刀·司命"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643501",
+              "643502",
+              "810097"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "霸者重铠",
+              "不死鸟之眼",
+              "极影·形昭"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643501",
+              "643503",
+              "643703"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "霸者重铠",
+              "魔女斗篷",
+              "名刀·司命"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643502",
+              "643504",
+              "643702"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "不死鸟之眼",
+              "红莲炎甲",
+              "冥王"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643502",
+              "643604",
+              "643803"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "不死鸟之眼",
+              "反伤重甲",
+              "炽热支配者"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 6.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643502",
+              "643604",
+              "644119"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "不死鸟之眼",
+              "反伤重甲",
+              "磐石之心"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643504",
+              "643602",
+              "643604"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "红莲炎甲",
+              "极寒风暴",
+              "反伤重甲"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643504",
+              "643602",
+              "644102"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "红莲炎甲",
+              "极寒风暴",
+              "破阵战芒"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643504",
+              "644101",
+              "810096"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "红莲炎甲",
+              "破妄之刃",
+              "夺魂刃"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643601",
+              "643604",
+              "643804"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "不祥征兆",
+              "反伤重甲",
+              "生命魔典"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643705",
+              "643804",
+              "810253"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "魔律之刃",
+              "生命魔典",
+              "近卫·星泉"
+            ],
+            "top3Rate": 0.0
+          }
+        ],
+        "awakenedRate": 0.8901,
+        "heroName": "亚瑟",
+        "firstRate": 0.0879,
+        "items": [
+          {
+            "itemId": "643504",
+            "itemName": "红莲炎甲",
+            "avgPlacement": 3.5714,
+            "appearanceRate": 0.2308,
+            "count": 21,
+            "firstRate": 0.0476,
+            "top3Rate": 0.5238
+          },
+          {
+            "itemId": "643502",
+            "itemName": "不死鸟之眼",
+            "avgPlacement": 4.4,
+            "appearanceRate": 0.1648,
+            "count": 15,
+            "firstRate": 0.0,
+            "top3Rate": 0.2
+          },
+          {
+            "itemId": "643501",
+            "itemName": "霸者重铠",
+            "avgPlacement": 3.1818,
+            "appearanceRate": 0.1209,
+            "count": 11,
+            "firstRate": 0.0909,
+            "top3Rate": 0.6364
+          },
+          {
+            "itemId": "643602",
+            "itemName": "极寒风暴",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.1209,
+            "count": 11,
+            "firstRate": 0.1818,
+            "top3Rate": 0.7273
+          },
+          {
+            "itemId": "643604",
+            "itemName": "反伤重甲",
+            "avgPlacement": 3.3636,
+            "appearanceRate": 0.1209,
+            "count": 11,
+            "firstRate": 0.0909,
+            "top3Rate": 0.4545
+          },
+          {
+            "itemId": "643804",
+            "itemName": "生命魔典",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.0659,
+            "count": 6,
+            "firstRate": 0.0,
+            "top3Rate": 0.6667
+          },
+          {
+            "itemId": "643703",
+            "itemName": "名刀·司命",
+            "avgPlacement": 3.8,
+            "appearanceRate": 0.0549,
+            "count": 5,
+            "firstRate": 0.0,
+            "top3Rate": 0.6
+          },
+          {
+            "itemId": "643503",
+            "itemName": "魔女斗篷",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.033,
+            "count": 3,
+            "firstRate": 0.0,
+            "top3Rate": 0.6667
+          },
+          {
+            "itemId": "643601",
+            "itemName": "不祥征兆",
+            "avgPlacement": 2.3333,
+            "appearanceRate": 0.033,
+            "count": 3,
+            "firstRate": 0.3333,
+            "top3Rate": 0.6667
+          },
+          {
+            "itemId": "810252",
+            "itemName": "霸者重装",
+            "avgPlacement": 4.6667,
+            "appearanceRate": 0.033,
+            "count": 3,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "643603",
+            "itemName": "近卫荣耀",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "643705",
+            "itemName": "魔律之刃",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "643803",
+            "itemName": "炽热支配者",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "644102",
+            "itemName": "破阵战芒",
+            "avgPlacement": 1.5,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.5,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "644115",
+            "itemName": "银莲庇佑",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "644119",
+            "itemName": "磐石之心",
+            "avgPlacement": 4.5,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "810097",
+            "itemName": "极影·形昭",
+            "avgPlacement": 2.5,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "641010",
+            "itemName": "凝渊",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "641021",
+            "itemName": "青莲剑谱",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "643103",
+            "itemName": "无尽巨剑",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643404",
+            "itemName": "聚灵水晶",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643702",
+            "itemName": "冥王",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643704",
+            "itemName": "红魔",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643800",
+            "itemName": "圣者法典",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "644101",
+            "itemName": "破妄之刃",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "644106",
+            "itemName": "光辉圣铠",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "810096",
+            "itemName": "夺魂刃",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "810223",
+            "itemName": "徐行·凛冬",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "810253",
+            "itemName": "近卫·星泉",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          }
+        ]
+      },
+      {
+        "avgLevel": 586.3956,
+        "appearanceRate": 1.0,
+        "avgPlacement": 3.4286,
+        "count": 91,
+        "heroId": "5031",
+        "averageItemCount": 0.4835,
+        "top3Rate": 0.4945,
+        "mvpRate": 0.011,
+        "builds": [
+          {
+            "avgPlacement": 5.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "641021",
+              "643501",
+              "810252"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "青莲剑谱",
+              "霸者重铠",
+              "霸者重装"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 1.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643404",
+              "643504",
+              "643601"
+            ],
+            "count": 1,
+            "firstRate": 1.0,
+            "itemNames": [
+              "聚灵水晶",
+              "红莲炎甲",
+              "不祥征兆"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643504",
+              "643601",
+              "643804"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "红莲炎甲",
+              "不祥征兆",
+              "生命魔典"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 1.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643703",
+              "644105",
+              "644119"
+            ],
+            "count": 1,
+            "firstRate": 1.0,
+            "itemNames": [
+              "名刀·司命",
+              "护命灵珠",
+              "磐石之心"
+            ],
+            "top3Rate": 1.0
+          }
+        ],
+        "awakenedRate": 1.0,
+        "heroName": "狂铁",
+        "firstRate": 0.0879,
+        "items": [
+          {
+            "itemId": "643504",
+            "itemName": "红莲炎甲",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.0989,
+            "count": 9,
+            "firstRate": 0.1111,
+            "top3Rate": 0.6667
+          },
+          {
+            "itemId": "643601",
+            "itemName": "不祥征兆",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.0659,
+            "count": 6,
+            "firstRate": 0.1667,
+            "top3Rate": 0.6667
+          },
+          {
+            "itemId": "643604",
+            "itemName": "反伤重甲",
+            "avgPlacement": 3.25,
+            "appearanceRate": 0.044,
+            "count": 4,
+            "firstRate": 0.25,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "643404",
+            "itemName": "聚灵水晶",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.033,
+            "count": 3,
+            "firstRate": 0.3333,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643502",
+            "itemName": "不死鸟之眼",
+            "avgPlacement": 2.3333,
+            "appearanceRate": 0.033,
+            "count": 3,
+            "firstRate": 0.3333,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643501",
+            "itemName": "霸者重铠",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "643603",
+            "itemName": "近卫荣耀",
+            "avgPlacement": 3.5,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "643804",
+            "itemName": "生命魔典",
+            "avgPlacement": 1.5,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.5,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "644105",
+            "itemName": "护命灵珠",
+            "avgPlacement": 1.5,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.5,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "641010",
+            "itemName": "凝渊",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "641021",
+            "itemName": "青莲剑谱",
+            "avgPlacement": 5.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "643403",
+            "itemName": "破茧之衣",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "643600",
+            "itemName": "守护者之铠",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643702",
+            "itemName": "冥王",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643703",
+            "itemName": "名刀·司命",
+            "avgPlacement": 1.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 1.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643705",
+            "itemName": "魔律之刃",
+            "avgPlacement": 6.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "644102",
+            "itemName": "破阵战芒",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "644119",
+            "itemName": "磐石之心",
+            "avgPlacement": 1.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 1.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "810097",
+            "itemName": "极影·形昭",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "810252",
+            "itemName": "霸者重装",
+            "avgPlacement": 5.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          }
+        ]
+      },
+      {
+        "avgLevel": 523.0,
+        "appearanceRate": 1.0,
+        "avgPlacement": 3.4286,
+        "count": 91,
+        "heroId": "5041",
+        "averageItemCount": 0.8352,
+        "top3Rate": 0.4945,
+        "mvpRate": 0.0,
+        "builds": [
+          {
+            "avgPlacement": 5.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "641015",
+              "643504",
+              "643703"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "日渊",
+              "红莲炎甲",
+              "名刀·司命"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 6.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643105",
+              "643202",
+              "643803"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "纯净苍穹",
+              "虚无法杖",
+              "炽热支配者"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643105",
+              "643402",
+              "810096"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "纯净苍穹",
+              "法源之杯",
+              "夺魂刃"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643202",
+              "643207",
+              "643402"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "虚无法杖",
+              "金色圣剑",
+              "法源之杯"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643207",
+              "643802",
+              "644103"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "金色圣剑",
+              "贤者之书",
+              "断念"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643208",
+              "643402",
+              "643703"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "自然法杖",
+              "法源之杯",
+              "名刀·司命"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643208",
+              "643503",
+              "644104"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "自然法杖",
+              "魔女斗篷",
+              "法潮灵杖"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643208",
+              "643703",
+              "643705"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "自然法杖",
+              "名刀·司命",
+              "魔律之刃"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643301",
+              "643703",
+              "643803"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "影牙",
+              "名刀·司命",
+              "炽热支配者"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 6.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643703",
+              "643705",
+              "643802"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "名刀·司命",
+              "魔律之刃",
+              "贤者之书"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643703",
+              "643802",
+              "643803"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "名刀·司命",
+              "贤者之书",
+              "炽热支配者"
+            ],
+            "top3Rate": 1.0
+          }
+        ],
+        "awakenedRate": 0.8791,
+        "heroName": "米莱狄",
+        "firstRate": 0.0879,
+        "items": [
+          {
+            "itemId": "643105",
+            "itemName": "纯净苍穹",
+            "avgPlacement": 3.5455,
+            "appearanceRate": 0.1209,
+            "count": 11,
+            "firstRate": 0.0909,
+            "top3Rate": 0.5455
+          },
+          {
+            "itemId": "643402",
+            "itemName": "法源之杯",
+            "avgPlacement": 3.7,
+            "appearanceRate": 0.1099,
+            "count": 10,
+            "firstRate": 0.0,
+            "top3Rate": 0.4
+          },
+          {
+            "itemId": "643703",
+            "itemName": "名刀·司命",
+            "avgPlacement": 3.3,
+            "appearanceRate": 0.1099,
+            "count": 10,
+            "firstRate": 0.1,
+            "top3Rate": 0.6
+          },
+          {
+            "itemId": "643202",
+            "itemName": "虚无法杖",
+            "avgPlacement": 3.6667,
+            "appearanceRate": 0.0659,
+            "count": 6,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "643207",
+            "itemName": "金色圣剑",
+            "avgPlacement": 2.8,
+            "appearanceRate": 0.0549,
+            "count": 5,
+            "firstRate": 0.2,
+            "top3Rate": 0.8
+          },
+          {
+            "itemId": "643208",
+            "itemName": "自然法杖",
+            "avgPlacement": 3.6,
+            "appearanceRate": 0.0549,
+            "count": 5,
+            "firstRate": 0.0,
+            "top3Rate": 0.4
+          },
+          {
+            "itemId": "643802",
+            "itemName": "贤者之书",
+            "avgPlacement": 3.4,
+            "appearanceRate": 0.0549,
+            "count": 5,
+            "firstRate": 0.0,
+            "top3Rate": 0.8
+          },
+          {
+            "itemId": "643803",
+            "itemName": "炽热支配者",
+            "avgPlacement": 3.2,
+            "appearanceRate": 0.0549,
+            "count": 5,
+            "firstRate": 0.2,
+            "top3Rate": 0.8
+          },
+          {
+            "itemId": "643705",
+            "itemName": "魔律之刃",
+            "avgPlacement": 2.75,
+            "appearanceRate": 0.044,
+            "count": 4,
+            "firstRate": 0.25,
+            "top3Rate": 0.75
+          },
+          {
+            "itemId": "643104",
+            "itemName": "制裁之剑",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.033,
+            "count": 3,
+            "firstRate": 0.0,
+            "top3Rate": 0.3333
+          },
+          {
+            "itemId": "643504",
+            "itemName": "红莲炎甲",
+            "avgPlacement": 3.5,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "644109",
+            "itemName": "灵泉项链",
+            "avgPlacement": 1.5,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.5,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "641015",
+            "itemName": "日渊",
+            "avgPlacement": 5.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "643205",
+            "itemName": "寒霜侵袭",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643301",
+            "itemName": "影牙",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643403",
+            "itemName": "破茧之衣",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "643503",
+            "itemName": "魔女斗篷",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "644103",
+            "itemName": "断念",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "644104",
+            "itemName": "法潮灵杖",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "810096",
+            "itemName": "夺魂刃",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          }
+        ]
+      },
+      {
+        "avgLevel": 503.2418,
+        "appearanceRate": 1.0,
+        "avgPlacement": 3.4286,
+        "count": 91,
+        "heroId": "5141",
+        "averageItemCount": 0.4945,
+        "top3Rate": 0.4945,
+        "mvpRate": 0.0,
+        "builds": [
+          {
+            "avgPlacement": 1.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643104",
+              "643105",
+              "643602"
+            ],
+            "count": 1,
+            "firstRate": 1.0,
+            "itemNames": [
+              "制裁之剑",
+              "纯净苍穹",
+              "极寒风暴"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643105",
+              "643207",
+              "643301"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "纯净苍穹",
+              "金色圣剑",
+              "影牙"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643105",
+              "643301",
+              "643703"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "纯净苍穹",
+              "影牙",
+              "名刀·司命"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 1.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643301",
+              "643501",
+              "643604"
+            ],
+            "count": 1,
+            "firstRate": 1.0,
+            "itemNames": [
+              "影牙",
+              "霸者重铠",
+              "反伤重甲"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 1.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643301",
+              "643702",
+              "644109"
+            ],
+            "count": 1,
+            "firstRate": 1.0,
+            "itemNames": [
+              "影牙",
+              "冥王",
+              "灵泉项链"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 5.0,
+            "appearanceRate": 0.011,
+            "itemIds": [
+              "643501",
+              "643604",
+              "644101"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "霸者重铠",
+              "反伤重甲",
+              "破妄之刃"
+            ],
+            "top3Rate": 0.0
+          }
+        ],
+        "awakenedRate": 0.8791,
+        "heroName": "亚连",
+        "firstRate": 0.0879,
+        "items": [
+          {
+            "itemId": "643301",
+            "itemName": "影牙",
+            "avgPlacement": 2.6,
+            "appearanceRate": 0.1099,
+            "count": 10,
+            "firstRate": 0.3,
+            "top3Rate": 0.6
+          },
+          {
+            "itemId": "643105",
+            "itemName": "纯净苍穹",
+            "avgPlacement": 2.6,
+            "appearanceRate": 0.0549,
+            "count": 5,
+            "firstRate": 0.2,
+            "top3Rate": 0.6
+          },
+          {
+            "itemId": "643501",
+            "itemName": "霸者重铠",
+            "avgPlacement": 2.6667,
+            "appearanceRate": 0.033,
+            "count": 3,
+            "firstRate": 0.3333,
+            "top3Rate": 0.6667
+          },
+          {
+            "itemId": "643602",
+            "itemName": "极寒风暴",
+            "avgPlacement": 3.3333,
+            "appearanceRate": 0.033,
+            "count": 3,
+            "firstRate": 0.3333,
+            "top3Rate": 0.6667
+          },
+          {
+            "itemId": "643703",
+            "itemName": "名刀·司命",
+            "avgPlacement": 3.6667,
+            "appearanceRate": 0.033,
+            "count": 3,
+            "firstRate": 0.0,
+            "top3Rate": 0.6667
+          },
+          {
+            "itemId": "641010",
+            "itemName": "凝渊",
+            "avgPlacement": 1.5,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.5,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643504",
+            "itemName": "红莲炎甲",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643603",
+            "itemName": "近卫荣耀",
+            "avgPlacement": 2.5,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643604",
+            "itemName": "反伤重甲",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.5,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "643803",
+            "itemName": "炽热支配者",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "644109",
+            "itemName": "灵泉项链",
+            "avgPlacement": 1.5,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.5,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "810097",
+            "itemName": "极影·形昭",
+            "avgPlacement": 3.5,
+            "appearanceRate": 0.022,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "641006",
+            "itemName": "鼓舞之戒",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643104",
+            "itemName": "制裁之剑",
+            "avgPlacement": 1.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 1.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643207",
+            "itemName": "金色圣剑",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643304",
+            "itemName": "铸梦·逐风",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643502",
+            "itemName": "不死鸟之眼",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643702",
+            "itemName": "冥王",
+            "avgPlacement": 1.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 1.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "644101",
+            "itemName": "破妄之刃",
+            "avgPlacement": 5.0,
+            "appearanceRate": 0.011,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          }
+        ]
+      },
+      {
+        "avgLevel": 606.2464,
+        "appearanceRate": 0.7582,
+        "avgPlacement": 3.4783,
+        "count": 69,
+        "heroId": "5021",
+        "averageItemCount": 1.5797,
+        "top3Rate": 0.4783,
+        "mvpRate": 0.2174,
+        "builds": [
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.029,
+            "itemIds": [
+              "641010",
+              "643304",
+              "643703"
+            ],
+            "count": 2,
+            "firstRate": 0.0,
+            "itemNames": [
+              "凝渊",
+              "铸梦·逐风",
+              "名刀·司命"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 5.0,
+            "appearanceRate": 0.0145,
+            "itemIds": [
+              "641002",
+              "643301",
+              "810252"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "百锻刀",
+              "影牙",
+              "霸者重装"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.0145,
+            "itemIds": [
+              "641010",
+              "643301",
+              "643302"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "凝渊",
+              "影牙",
+              "破晓"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.0145,
+            "itemIds": [
+              "641010",
+              "643301",
+              "643702"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "凝渊",
+              "影牙",
+              "冥王"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.0145,
+            "itemIds": [
+              "641010",
+              "643301",
+              "643703"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "凝渊",
+              "影牙",
+              "名刀·司命"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.0145,
+            "itemIds": [
+              "641010",
+              "643301",
+              "810096"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "凝渊",
+              "影牙",
+              "夺魂刃"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.0145,
+            "itemIds": [
+              "641010",
+              "643302",
+              "643304"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "凝渊",
+              "破晓",
+              "铸梦·逐风"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.0145,
+            "itemIds": [
+              "641010",
+              "643702",
+              "643703"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "凝渊",
+              "冥王",
+              "名刀·司命"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.0145,
+            "itemIds": [
+              "641010",
+              "643703",
+              "810096"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "凝渊",
+              "名刀·司命",
+              "夺魂刃"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.0145,
+            "itemIds": [
+              "641021",
+              "643103",
+              "643304"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "青莲剑谱",
+              "无尽巨剑",
+              "铸梦·逐风"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 1.0,
+            "appearanceRate": 0.0145,
+            "itemIds": [
+              "643103",
+              "643304",
+              "643601"
+            ],
+            "count": 1,
+            "firstRate": 1.0,
+            "itemNames": [
+              "无尽巨剑",
+              "铸梦·逐风",
+              "不祥征兆"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.0145,
+            "itemIds": [
+              "643103",
+              "643304",
+              "643703"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "无尽巨剑",
+              "铸梦·逐风",
+              "名刀·司命"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.0145,
+            "itemIds": [
+              "643103",
+              "643304",
+              "644114"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "无尽巨剑",
+              "铸梦·逐风",
+              "怒莲之刺"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 5.0,
+            "appearanceRate": 0.0145,
+            "itemIds": [
+              "643105",
+              "643304",
+              "643503"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "纯净苍穹",
+              "铸梦·逐风",
+              "魔女斗篷"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.0145,
+            "itemIds": [
+              "643105",
+              "643304",
+              "643703"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "纯净苍穹",
+              "铸梦·逐风",
+              "名刀·司命"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.0145,
+            "itemIds": [
+              "643205",
+              "643303",
+              "643803"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "寒霜侵袭",
+              "末世",
+              "炽热支配者"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.0145,
+            "itemIds": [
+              "643301",
+              "643503",
+              "644101"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "影牙",
+              "魔女斗篷",
+              "破妄之刃"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.0145,
+            "itemIds": [
+              "643301",
+              "643702",
+              "643703"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "影牙",
+              "冥王",
+              "名刀·司命"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 1.0,
+            "appearanceRate": 0.0145,
+            "itemIds": [
+              "643301",
+              "643702",
+              "810252"
+            ],
+            "count": 1,
+            "firstRate": 1.0,
+            "itemNames": [
+              "影牙",
+              "冥王",
+              "霸者重装"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.0145,
+            "itemIds": [
+              "643301",
+              "644105",
+              "644112"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "影牙",
+              "护命灵珠",
+              "强敌克星"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.0145,
+            "itemIds": [
+              "643304",
+              "643501",
+              "810250"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "铸梦·逐风",
+              "霸者重铠",
+              "碎星锤"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 1.0,
+            "appearanceRate": 0.0145,
+            "itemIds": [
+              "643304",
+              "643703",
+              "643803"
+            ],
+            "count": 1,
+            "firstRate": 1.0,
+            "itemNames": [
+              "铸梦·逐风",
+              "名刀·司命",
+              "炽热支配者"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.0145,
+            "itemIds": [
+              "643701",
+              "643703",
+              "643803"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "征服之剑",
+              "名刀·司命",
+              "炽热支配者"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.0145,
+            "itemIds": [
+              "643703",
+              "643803",
+              "810075"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "名刀·司命",
+              "炽热支配者",
+              "砂之守卫"
+            ],
+            "top3Rate": 0.0
+          }
+        ],
+        "awakenedRate": 0.4928,
+        "heroName": "裴擒虎",
+        "firstRate": 0.0725,
+        "items": [
+          {
+            "itemId": "643304",
+            "itemName": "铸梦·逐风",
+            "avgPlacement": 2.875,
+            "appearanceRate": 0.2319,
+            "count": 16,
+            "firstRate": 0.1875,
+            "top3Rate": 0.625
+          },
+          {
+            "itemId": "641010",
+            "itemName": "凝渊",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.2174,
+            "count": 15,
+            "firstRate": 0.0667,
+            "top3Rate": 0.6
+          },
+          {
+            "itemId": "643703",
+            "itemName": "名刀·司命",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.2174,
+            "count": 15,
+            "firstRate": 0.0667,
+            "top3Rate": 0.6667
+          },
+          {
+            "itemId": "643301",
+            "itemName": "影牙",
+            "avgPlacement": 2.8182,
+            "appearanceRate": 0.1594,
+            "count": 11,
+            "firstRate": 0.0909,
+            "top3Rate": 0.7273
+          },
+          {
+            "itemId": "643803",
+            "itemName": "炽热支配者",
+            "avgPlacement": 3.5714,
+            "appearanceRate": 0.1014,
+            "count": 7,
+            "firstRate": 0.1429,
+            "top3Rate": 0.4286
+          },
+          {
+            "itemId": "643702",
+            "itemName": "冥王",
+            "avgPlacement": 2.8,
+            "appearanceRate": 0.0725,
+            "count": 5,
+            "firstRate": 0.2,
+            "top3Rate": 0.6
+          },
+          {
+            "itemId": "643103",
+            "itemName": "无尽巨剑",
+            "avgPlacement": 2.5,
+            "appearanceRate": 0.058,
+            "count": 4,
+            "firstRate": 0.25,
+            "top3Rate": 0.75
+          },
+          {
+            "itemId": "643302",
+            "itemName": "破晓",
+            "avgPlacement": 3.3333,
+            "appearanceRate": 0.0435,
+            "count": 3,
+            "firstRate": 0.0,
+            "top3Rate": 0.3333
+          },
+          {
+            "itemId": "810096",
+            "itemName": "夺魂刃",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.0435,
+            "count": 3,
+            "firstRate": 0.0,
+            "top3Rate": 0.6667
+          },
+          {
+            "itemId": "643105",
+            "itemName": "纯净苍穹",
+            "avgPlacement": 3.5,
+            "appearanceRate": 0.029,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "643207",
+            "itemName": "金色圣剑",
+            "avgPlacement": 4.5,
+            "appearanceRate": 0.029,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "643303",
+            "itemName": "末世",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.029,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "643501",
+            "itemName": "霸者重铠",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.029,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "643503",
+            "itemName": "魔女斗篷",
+            "avgPlacement": 3.5,
+            "appearanceRate": 0.029,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "643701",
+            "itemName": "征服之剑",
+            "avgPlacement": 4.5,
+            "appearanceRate": 0.029,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "644114",
+            "itemName": "怒莲之刺",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.029,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "810250",
+            "itemName": "碎星锤",
+            "avgPlacement": 3.5,
+            "appearanceRate": 0.029,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "810252",
+            "itemName": "霸者重装",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.029,
+            "count": 2,
+            "firstRate": 0.5,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "641002",
+            "itemName": "百锻刀",
+            "avgPlacement": 5.0,
+            "appearanceRate": 0.0145,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "641021",
+            "itemName": "青莲剑谱",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.0145,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643205",
+            "itemName": "寒霜侵袭",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.0145,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "643403",
+            "itemName": "破茧之衣",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.0145,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "643502",
+            "itemName": "不死鸟之眼",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.0145,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643601",
+            "itemName": "不祥征兆",
+            "avgPlacement": 1.0,
+            "appearanceRate": 0.0145,
+            "count": 1,
+            "firstRate": 1.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643603",
+            "itemName": "近卫荣耀",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.0145,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "644101",
+            "itemName": "破妄之刃",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.0145,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "644105",
+            "itemName": "护命灵珠",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.0145,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "644112",
+            "itemName": "强敌克星",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.0145,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "810075",
+            "itemName": "砂之守卫",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.0145,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "810098",
+            "itemName": "暗影战斧",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.0145,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          }
+        ]
+      },
+      {
+        "avgLevel": 310.125,
+        "appearanceRate": 0.3516,
+        "avgPlacement": 2.7188,
+        "count": 32,
+        "heroId": "5051",
+        "averageItemCount": 1.2188,
+        "top3Rate": 0.75,
+        "mvpRate": 0.0,
+        "builds": [
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.0313,
+            "itemIds": [
+              "643104",
+              "643301",
+              "643603"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "制裁之剑",
+              "影牙",
+              "近卫荣耀"
+            ],
+            "top3Rate": 0.0
+          }
+        ],
+        "awakenedRate": 0.5,
+        "heroName": "瑶",
+        "firstRate": 0.1563,
+        "items": [
+          {
+            "itemId": "643403",
+            "itemName": "破茧之衣",
+            "avgPlacement": 2.5,
+            "appearanceRate": 0.3125,
+            "count": 10,
+            "firstRate": 0.1,
+            "top3Rate": 0.8
+          },
+          {
+            "itemId": "643603",
+            "itemName": "近卫荣耀",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.1875,
+            "count": 6,
+            "firstRate": 0.0,
+            "top3Rate": 0.6667
+          },
+          {
+            "itemId": "643703",
+            "itemName": "名刀·司命",
+            "avgPlacement": 3.2,
+            "appearanceRate": 0.1563,
+            "count": 5,
+            "firstRate": 0.2,
+            "top3Rate": 0.6
+          },
+          {
+            "itemId": "643504",
+            "itemName": "红莲炎甲",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.0938,
+            "count": 3,
+            "firstRate": 0.3333,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643104",
+            "itemName": "制裁之剑",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.0625,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "643301",
+            "itemName": "影牙",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.0625,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "643803",
+            "itemName": "炽热支配者",
+            "avgPlacement": 3.5,
+            "appearanceRate": 0.0625,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "641006",
+            "itemName": "鼓舞之戒",
+            "avgPlacement": 1.0,
+            "appearanceRate": 0.0313,
+            "count": 1,
+            "firstRate": 1.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "641009",
+            "itemName": "静谧之铃",
+            "avgPlacement": 1.0,
+            "appearanceRate": 0.0313,
+            "count": 1,
+            "firstRate": 1.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643402",
+            "itemName": "法源之杯",
+            "avgPlacement": 1.0,
+            "appearanceRate": 0.0313,
+            "count": 1,
+            "firstRate": 1.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643502",
+            "itemName": "不死鸟之眼",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.0313,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643604",
+            "itemName": "反伤重甲",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.0313,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643705",
+            "itemName": "魔律之刃",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.0313,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "644103",
+            "itemName": "断念",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.0313,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "644117",
+            "itemName": "阿科米亚之子",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.0313,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "810097",
+            "itemName": "极影·形昭",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.0313,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          }
+        ]
+      },
+      {
+        "avgLevel": 469.9167,
+        "appearanceRate": 0.2637,
+        "avgPlacement": 3.7917,
+        "count": 24,
+        "heroId": "1321",
+        "averageItemCount": 1.5417,
+        "top3Rate": 0.375,
+        "mvpRate": 0.125,
+        "builds": [
+          {
+            "avgPlacement": 1.0,
+            "appearanceRate": 0.0417,
+            "itemIds": [
+              "643103",
+              "643302",
+              "643703"
+            ],
+            "count": 1,
+            "firstRate": 1.0,
+            "itemNames": [
+              "无尽巨剑",
+              "破晓",
+              "名刀·司命"
+            ],
+            "top3Rate": 1.0
+          },
+          {
+            "avgPlacement": 5.0,
+            "appearanceRate": 0.0417,
+            "itemIds": [
+              "643103",
+              "643302",
+              "810222"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "无尽巨剑",
+              "破晓",
+              "逐日之弓"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.0417,
+            "itemIds": [
+              "643104",
+              "643301",
+              "643302"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "制裁之剑",
+              "影牙",
+              "破晓"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.0417,
+            "itemIds": [
+              "643105",
+              "643304",
+              "643703"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "纯净苍穹",
+              "铸梦·逐风",
+              "名刀·司命"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 5.0,
+            "appearanceRate": 0.0417,
+            "itemIds": [
+              "643205",
+              "643302",
+              "810076"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "寒霜侵袭",
+              "破晓",
+              "龙魂斗篷"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 5.0,
+            "appearanceRate": 0.0417,
+            "itemIds": [
+              "643205",
+              "643703",
+              "643803"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "寒霜侵袭",
+              "名刀·司命",
+              "炽热支配者"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 6.0,
+            "appearanceRate": 0.0417,
+            "itemIds": [
+              "643205",
+              "644101",
+              "810250"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "寒霜侵袭",
+              "破妄之刃",
+              "碎星锤"
+            ],
+            "top3Rate": 0.0
+          },
+          {
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.0417,
+            "itemIds": [
+              "643301",
+              "643302",
+              "643705"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "影牙",
+              "破晓",
+              "魔律之刃"
+            ],
+            "top3Rate": 1.0
+          }
+        ],
+        "awakenedRate": 0.8333,
+        "heroName": "马可波罗",
+        "firstRate": 0.0833,
+        "items": [
+          {
+            "itemId": "643703",
+            "itemName": "名刀·司命",
+            "avgPlacement": 3.875,
+            "appearanceRate": 0.3333,
+            "count": 8,
+            "firstRate": 0.125,
+            "top3Rate": 0.25
+          },
+          {
+            "itemId": "643302",
+            "itemName": "破晓",
+            "avgPlacement": 3.8571,
+            "appearanceRate": 0.2917,
+            "count": 7,
+            "firstRate": 0.1429,
+            "top3Rate": 0.4286
+          },
+          {
+            "itemId": "643103",
+            "itemName": "无尽巨剑",
+            "avgPlacement": 3.3333,
+            "appearanceRate": 0.125,
+            "count": 3,
+            "firstRate": 0.3333,
+            "top3Rate": 0.3333
+          },
+          {
+            "itemId": "643205",
+            "itemName": "寒霜侵袭",
+            "avgPlacement": 5.3333,
+            "appearanceRate": 0.125,
+            "count": 3,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "643803",
+            "itemName": "炽热支配者",
+            "avgPlacement": 4.3333,
+            "appearanceRate": 0.125,
+            "count": 3,
+            "firstRate": 0.0,
+            "top3Rate": 0.3333
+          },
+          {
+            "itemId": "810222",
+            "itemName": "逐日之弓",
+            "avgPlacement": 5.0,
+            "appearanceRate": 0.125,
+            "count": 3,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "643301",
+            "itemName": "影牙",
+            "avgPlacement": 3.5,
+            "appearanceRate": 0.0833,
+            "count": 2,
+            "firstRate": 0.0,
+            "top3Rate": 0.5
+          },
+          {
+            "itemId": "643104",
+            "itemName": "制裁之剑",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.0417,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "643105",
+            "itemName": "纯净苍穹",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.0417,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "643304",
+            "itemName": "铸梦·逐风",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.0417,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "643705",
+            "itemName": "魔律之刃",
+            "avgPlacement": 3.0,
+            "appearanceRate": 0.0417,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "644101",
+            "itemName": "破妄之刃",
+            "avgPlacement": 6.0,
+            "appearanceRate": 0.0417,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "810076",
+            "itemName": "龙魂斗篷",
+            "avgPlacement": 5.0,
+            "appearanceRate": 0.0417,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "810250",
+            "itemName": "碎星锤",
+            "avgPlacement": 6.0,
+            "appearanceRate": 0.0417,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "810253",
+            "itemName": "近卫·星泉",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.0417,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          }
+        ]
+      },
+      {
+        "avgLevel": 376.3636,
+        "appearanceRate": 0.2418,
+        "avgPlacement": 3.0,
+        "count": 22,
+        "heroId": "1751",
+        "averageItemCount": 0.1818,
+        "top3Rate": 0.5909,
+        "mvpRate": 0.0,
+        "builds": [],
+        "awakenedRate": 0.5,
+        "heroName": "钟馗",
+        "firstRate": 0.0909,
+        "items": [
+          {
+            "itemId": "641006",
+            "itemName": "鼓舞之戒",
+            "avgPlacement": 1.0,
+            "appearanceRate": 0.0455,
+            "count": 1,
+            "firstRate": 1.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643208",
+            "itemName": "自然法杖",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.0455,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "643404",
+            "itemName": "聚灵水晶",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.0455,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "810096",
+            "itemName": "夺魂刃",
+            "avgPlacement": 1.0,
+            "appearanceRate": 0.0455,
+            "count": 1,
+            "firstRate": 1.0,
+            "top3Rate": 1.0
+          }
+        ]
+      },
+      {
+        "avgLevel": 277.6923,
+        "appearanceRate": 0.1429,
+        "avgPlacement": 4.0,
+        "count": 13,
+        "heroId": "5641",
+        "averageItemCount": 0.0769,
+        "top3Rate": 0.3077,
+        "mvpRate": 0.0,
+        "builds": [],
+        "awakenedRate": 0.5385,
+        "heroName": "姬小满",
+        "firstRate": 0.1538,
+        "items": [
+          {
+            "itemId": "643805",
+            "itemName": "御灵之纱",
+            "avgPlacement": 4.0,
+            "appearanceRate": 0.0769,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          }
+        ]
+      },
+      {
+        "avgLevel": 316.3,
+        "appearanceRate": 0.1099,
+        "avgPlacement": 3.4,
+        "count": 10,
+        "heroId": "5111",
+        "averageItemCount": 0.5,
+        "top3Rate": 0.5,
+        "mvpRate": 0.0,
+        "builds": [
+          {
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.1,
+            "itemIds": [
+              "643502",
+              "643504",
+              "810253"
+            ],
+            "count": 1,
+            "firstRate": 0.0,
+            "itemNames": [
+              "不死鸟之眼",
+              "红莲炎甲",
+              "近卫·星泉"
+            ],
+            "top3Rate": 1.0
+          }
+        ],
+        "awakenedRate": 0.2,
+        "heroName": "猪八戒",
+        "firstRate": 0.0,
+        "items": [
+          {
+            "itemId": "643502",
+            "itemName": "不死鸟之眼",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.1,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "643504",
+            "itemName": "红莲炎甲",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.1,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "644106",
+            "itemName": "光辉圣铠",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.1,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          },
+          {
+            "itemId": "810252",
+            "itemName": "霸者重装",
+            "avgPlacement": 5.0,
+            "appearanceRate": 0.1,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 0.0
+          },
+          {
+            "itemId": "810253",
+            "itemName": "近卫·星泉",
+            "avgPlacement": 2.0,
+            "appearanceRate": 0.1,
+            "count": 1,
+            "firstRate": 0.0,
+            "top3Rate": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "source": "https://www.datawxq.com/lineups?gameType=4&subModeName=大师场",
+    "api": "https://api.datatft.com/wzwxq/lineups/detail",
+    "query": {
+      "version": "v261029",
+      "gameType": "4",
+      "subModeName": "大师场",
+      "time": 3,
+      "operator": "AND",
+      "advancedMode": false,
+      "filters": [],
+      "exclusions": [],
+      "page": 1,
+      "pageSize": 12,
+      "minimumCount": 50,
+      "sortBy": "appearanceRate"
+    },
+    "downloadedAt": "2026-11-02T13:55:04.692228+00:00",
+    "total": 26,
+    "sourceTotal": 27,
+    "duplicateRows": 1,
+    "note": "少量跨页重复标识保留首次记录，不合并统计；如重复过多则停止更新。",
+    "sampleCount": 32430,
+    "detailFailures": 22
+  }
+}
