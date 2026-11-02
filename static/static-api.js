@@ -1,6 +1,7 @@
 /* 用静态快照和浏览器算法替代 Flask API；所有路径兼容 GitHub 项目子目录。 */
 (()=>{
 const nativeFetch=window.fetch.bind(window),base=new URL('../',document.currentScript.src),cache=new Map(),recordKey='diamond-records-v1';
+window.DiamondPublishedData={clearCache:()=>cache.clear()};
 const response=(obj,status=200)=>new Response(JSON.stringify(obj),{status,headers:{'Content-Type':'application/json;charset=utf-8'}});
 async function read(path){if(!cache.has(path)){const url=new URL(path,base);url.searchParams.set('v','20261026smooth5');cache.set(path,nativeFetch(url,{cache:'no-cache'}).then(async r=>{if(!r.ok)throw Error('快照读取失败：'+path);return r.json()}).catch(e=>{cache.delete(path);throw e}));}return cache.get(path);}
 function records(){try{return JSON.parse(localStorage.getItem(recordKey)||'[]')}catch{return []}}
