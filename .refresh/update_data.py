@@ -65,7 +65,7 @@ def fetch_packs(stamp):
         if not isinstance(d.get('rounds'),list) or not isinstance(d.get('heroes'),list):raise ValueError('卡包详情缺少轮次或英雄。')
         return pack,d,raw.get('meta',{}),url
     with ThreadPoolExecutor(max_workers=3) as pool:details=list(pool.map(fetch,packs))
-    items=[];heroes=[];rounds=set();sources={}
+    items=[];heroes=[];rounds=set();sources={};empty_packs=[]
     for pack,d,meta,url in details:
         number(pack,'top1Rate',0,100);number(pack,'averageRank',1,6)
         hero_rows=d['heroes']
@@ -91,10 +91,12 @@ def fetch_packs(stamp):
                     icon=urljoin(WXQ,item['icon']);sources['talent:'+item['name']]=icon
                     sources[('talent-id:' if item['type']=='talent' else 'item:')+str(item['id'])]=icon
                 count+=1
-        if not count or not hero_rows:raise ValueError('卡包拍品或英雄数据为空：'+pack['name'])
+        if not count or not hero_rows:
+            empty_packs.append(dict(key=pack['key'],name=pack['name'],offers=count,heroes=len(hero_rows)))
+    if not items or not any(p['heroes'] for p in heroes):raise ValueError('全部拍品或英雄统计为空，保留旧数据。')
     local=datetime.fromisoformat(stamp).astimezone(timezone(timedelta(hours=8))).strftime('%Y-%m-%d %H:%M:%S')
-    meta=dict(days=3,venue='master',updatedAt=local,fetchedAt=stamp,snapshot=local[:10],auctionRounds=sorted(rounds),source=WXQ,algorithm='maxent-v1',top3Observed=all(t['前三比例(%)'] is not None for t in items),sampleCountsObserved=all(t['样本数'] is not None for t in items),note='自动更新的大师场最近3天公开快照；亚军、季军及用于估值的前三率为模型推算，缺失字段不编造。')
-    return dict(packs=packs,talents=items,meta=meta),dict(packs=heroes,meta=dict(days=3,venue='master',updatedAt=stamp,source=WXQ,expectedPacks=len(packs),downloadedPacks=len(heroes),failed=[])),sources
+    meta=dict(days=3,venue='master',updatedAt=local,fetchedAt=stamp,snapshot=local[:10],auctionRounds=sorted(rounds),source=WXQ,algorithm='maxent-v1',emptyPacks=empty_packs,top3Observed=all(t['前三比例(%)'] is not None for t in items),sampleCountsObserved=all(t['样本数'] is not None for t in items),note='自动更新的大师场最近3天公开快照；部分卡包可能暂无拍品或英雄统计，不使用旧数值填充。亚军、季军及用于估值的前三率为模型推算，缺失字段不编造。')
+    return dict(packs=packs,talents=items,meta=meta),dict(packs=heroes,meta=dict(days=3,venue='master',updatedAt=stamp,source=WXQ,expectedPacks=len(packs),downloadedPacks=len(heroes),failed=[],emptyPacks=empty_packs)),sources
 
 def fetch_lineups(data,stamp):
     old_mapping=read(data/'pack_lineup_matches.json');original=graph(old_mapping)
