@@ -19,7 +19,7 @@
         "minimumCount": 50,
         "sortBy": "appearanceRate"
       },
-      "fetchedAt": "2026-11-02T13:55:04.692228+00:00"
+      "fetchedAt": "2026-11-05T15:57:25.073964+00:00"
     },
     "heroes": [
       {
@@ -77,12 +77,12 @@
       "minimumCount": 50,
       "sortBy": "appearanceRate"
     },
-    "downloadedAt": "2026-11-02T13:55:04.692228+00:00",
-    "total": 26,
-    "sourceTotal": 27,
-    "duplicateRows": 1,
+    "downloadedAt": "2026-11-05T15:57:25.073964+00:00",
+    "total": 25,
+    "sourceTotal": 25,
+    "duplicateRows": 0,
     "note": "少量跨页重复标识保留首次记录，不合并统计；如重复过多则停止更新。",
-    "sampleCount": 32430,
-    "detailFailures": 22
+    "sampleCount": 48102,
+    "detailFailures": 19
   }
 }
