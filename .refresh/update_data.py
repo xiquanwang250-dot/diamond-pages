@@ -50,7 +50,8 @@ def latest_version():
     desktop=re.search(r'(?:\./|assets/)(desktop-main-[A-Za-z0-9_-]+\.js)',r.text)
     if desktop:
         r=s.get(DATAWXQ+'/assets/'+desktop.group(1),timeout=35);r.raise_for_status()
-    choices=re.search(r'\[\{value:"(v\d{6})",label:"\1"',r.text)
+    # The display label may use a different version scheme from the API value.
+    choices = re.search(r'\[\s*\{\s*value\s*:\s*"(v\d{6}[a-z]*)"\s*,\s*label\s*:\s*"[^"]+"', r.text)
     if not choices:raise ValueError('无法读取上游当前版本，不使用旧版本冒充更新。')
     return choices.group(1)
 
