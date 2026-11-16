@@ -4,9 +4,9 @@
     "lookupKey": "7|1421|1591|1661|1831|5041|5141|5631",
     "_snapshot": {
       "status": "fetch_failed",
-      "message": "来源接口本次无法提供该阵容详情。仅保留原对应关系和英雄身份；未使用旧统计填充，可稍后重新更新。",
+      "message": "来源接口本次无法提供该阵容详情。仅展示本次排行摘要；未使用旧统计填充，可稍后重新更新。",
       "query": {
-        "version": "v261029",
+        "version": "v261112",
         "gameType": "4",
         "subModeName": "大师场",
         "time": 3,
@@ -19,7 +19,7 @@
         "minimumCount": 50,
         "sortBy": "appearanceRate"
       },
-      "fetchedAt": "2026-11-05T15:57:25.073964+00:00"
+      "fetchedAt": "2026-11-16T07:55:12.408372+00:00"
     },
     "heroes": [
       {
@@ -51,12 +51,102 @@
         "id": "5631"
       }
     ],
-    "count": null,
-    "appearanceRate": null,
-    "avgPlacement": null,
-    "firstRate": null,
-    "top3Rate": null,
-    "recommendedUnits": [],
+    "count": 99,
+    "appearanceRate": 0.0168,
+    "avgPlacement": 3.7475,
+    "firstRate": 0.1515,
+    "top3Rate": 0.3636,
+    "recommendedUnits": [
+      {
+        "avgLevel": 429.0707,
+        "recommendationCount": 2,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.3939,
+        "itemIds": [
+          "643105",
+          "643202",
+          "643803"
+        ],
+        "count": 99,
+        "heroId": "1421",
+        "awakenedRate": 0.7879,
+        "recommendationType": "three_item"
+      },
+      {
+        "avgLevel": 382.0899,
+        "recommendationCount": 3,
+        "appearanceRate": 0.899,
+        "threeItemRate": 0.4045,
+        "itemIds": [
+          "643402",
+          "643705",
+          "643802"
+        ],
+        "count": 89,
+        "heroId": "5631",
+        "awakenedRate": 0.618,
+        "recommendationType": "three_item"
+      },
+      {
+        "avgLevel": 329.9495,
+        "recommendationCount": 7,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.0707,
+        "itemIds": [
+          "643603"
+        ],
+        "count": 99,
+        "heroId": "1591",
+        "awakenedRate": 0.798,
+        "recommendationType": "single_item"
+      },
+      {
+        "avgLevel": 312.0,
+        "recommendationCount": 7,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.0606,
+        "itemIds": [
+          "41126"
+        ],
+        "count": 99,
+        "heroId": "5141",
+        "awakenedRate": 0.8182,
+        "recommendationType": "single_item"
+      },
+      {
+        "avgLevel": 329.7576,
+        "recommendationCount": 0,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.1212,
+        "itemIds": [],
+        "count": 99,
+        "heroId": "1831",
+        "awakenedRate": 0.6465,
+        "recommendationType": "none"
+      },
+      {
+        "avgLevel": 300.9853,
+        "recommendationCount": 0,
+        "appearanceRate": 0.6869,
+        "threeItemRate": 0.0588,
+        "itemIds": [],
+        "count": 68,
+        "heroId": "5041",
+        "awakenedRate": 0.5882,
+        "recommendationType": "none"
+      },
+      {
+        "avgLevel": 421.2766,
+        "recommendationCount": 0,
+        "appearanceRate": 0.4747,
+        "threeItemRate": 0.0213,
+        "itemIds": [],
+        "count": 47,
+        "heroId": "1661",
+        "awakenedRate": 0.766,
+        "recommendationType": "none"
+      }
+    ],
     "variants": [],
     "heroEquipment": []
   },
@@ -64,7 +154,7 @@
     "source": "https://www.datawxq.com/lineups?gameType=4&subModeName=大师场",
     "api": "https://api.datatft.com/wzwxq/lineups/detail",
     "query": {
-      "version": "v261029",
+      "version": "v261112",
       "gameType": "4",
       "subModeName": "大师场",
       "time": 3,
@@ -77,12 +167,12 @@
       "minimumCount": 50,
       "sortBy": "appearanceRate"
     },
-    "downloadedAt": "2026-11-05T15:57:25.073964+00:00",
-    "total": 25,
-    "sourceTotal": 25,
+    "downloadedAt": "2026-11-16T07:55:12.408372+00:00",
+    "total": 30,
+    "sourceTotal": 30,
     "duplicateRows": 0,
     "note": "少量跨页重复标识保留首次记录，不合并统计；如重复过多则停止更新。",
-    "sampleCount": 48102,
-    "detailFailures": 19
+    "sampleCount": 35310,
+    "detailFailures": 30
   }
 }

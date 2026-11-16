@@ -1,0 +1,189 @@
+{
+  "detail": {
+    "lineupKey": "8|1121|1131|1211|1391|1861|5231|5241|5311",
+    "lookupKey": "8|1121|1131|1211|1391|1861|5231|5241|5311",
+    "_snapshot": {
+      "status": "fetch_failed",
+      "message": "来源接口本次无法提供该阵容详情。仅展示本次排行摘要；未使用旧统计填充，可稍后重新更新。",
+      "query": {
+        "version": "v261112",
+        "gameType": "4",
+        "subModeName": "大师场",
+        "time": 3,
+        "operator": "AND",
+        "advancedMode": false,
+        "filters": [],
+        "exclusions": [],
+        "page": 1,
+        "pageSize": 12,
+        "minimumCount": 50,
+        "sortBy": "appearanceRate"
+      },
+      "fetchedAt": "2026-11-16T07:55:12.408372+00:00"
+    },
+    "heroes": [
+      {
+        "name": "鲁班七号",
+        "id": "1121"
+      },
+      {
+        "name": "庄周",
+        "id": "1131"
+      },
+      {
+        "name": "芈月",
+        "id": "1211"
+      },
+      {
+        "name": "老夫子",
+        "id": "1391"
+      },
+      {
+        "name": "太乙真人",
+        "id": "1861"
+      },
+      {
+        "name": "西施",
+        "id": "5231"
+      },
+      {
+        "name": "蒙犽",
+        "id": "5241"
+      },
+      {
+        "name": "镜",
+        "id": "5311"
+      }
+    ],
+    "count": 67,
+    "appearanceRate": 0.0114,
+    "avgPlacement": 2.791,
+    "firstRate": 0.209,
+    "top3Rate": 0.6866,
+    "recommendedUnits": [
+      {
+        "avgLevel": 954.3684,
+        "recommendationCount": 2,
+        "appearanceRate": 0.8507,
+        "threeItemRate": 0.8246,
+        "itemIds": [
+          "641021",
+          "643803",
+          "810250"
+        ],
+        "count": 57,
+        "heroId": "5311",
+        "awakenedRate": 1.0,
+        "recommendationType": "three_item"
+      },
+      {
+        "avgLevel": 404.4179,
+        "recommendationCount": 3,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.2537,
+        "itemIds": [
+          "643501"
+        ],
+        "count": 67,
+        "heroId": "1131",
+        "awakenedRate": 0.9104,
+        "recommendationType": "single_item"
+      },
+      {
+        "avgLevel": 384.9552,
+        "recommendationCount": 1,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.3433,
+        "itemIds": [
+          "641005"
+        ],
+        "count": 67,
+        "heroId": "5241",
+        "awakenedRate": 0.9104,
+        "recommendationType": "single_item"
+      },
+      {
+        "avgLevel": 372.791,
+        "recommendationCount": 0,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.0149,
+        "itemIds": [],
+        "count": 67,
+        "heroId": "5231",
+        "awakenedRate": 0.9403,
+        "recommendationType": "none"
+      },
+      {
+        "avgLevel": 391.0702,
+        "recommendationCount": 0,
+        "appearanceRate": 0.8507,
+        "threeItemRate": 0.2105,
+        "itemIds": [],
+        "count": 57,
+        "heroId": "1121",
+        "awakenedRate": 0.9123,
+        "recommendationType": "none"
+      },
+      {
+        "avgLevel": 351.4561,
+        "recommendationCount": 0,
+        "appearanceRate": 0.8507,
+        "threeItemRate": 0.0526,
+        "itemIds": [],
+        "count": 57,
+        "heroId": "1211",
+        "awakenedRate": 0.9298,
+        "recommendationType": "none"
+      },
+      {
+        "avgLevel": 364.2,
+        "recommendationCount": 0,
+        "appearanceRate": 0.6716,
+        "threeItemRate": 0.1556,
+        "itemIds": [],
+        "count": 45,
+        "heroId": "1391",
+        "awakenedRate": 0.6222,
+        "recommendationType": "none"
+      },
+      {
+        "avgLevel": 230.9118,
+        "recommendationCount": 0,
+        "appearanceRate": 0.5075,
+        "threeItemRate": 0.0294,
+        "itemIds": [],
+        "count": 34,
+        "heroId": "1861",
+        "awakenedRate": 0.0588,
+        "recommendationType": "none"
+      }
+    ],
+    "variants": [],
+    "heroEquipment": []
+  },
+  "meta": {
+    "source": "https://www.datawxq.com/lineups?gameType=4&subModeName=大师场",
+    "api": "https://api.datatft.com/wzwxq/lineups/detail",
+    "query": {
+      "version": "v261112",
+      "gameType": "4",
+      "subModeName": "大师场",
+      "time": 3,
+      "operator": "AND",
+      "advancedMode": false,
+      "filters": [],
+      "exclusions": [],
+      "page": 1,
+      "pageSize": 12,
+      "minimumCount": 50,
+      "sortBy": "appearanceRate"
+    },
+    "downloadedAt": "2026-11-16T07:55:12.408372+00:00",
+    "total": 30,
+    "sourceTotal": 30,
+    "duplicateRows": 0,
+    "note": "少量跨页重复标识保留首次记录，不合并统计；如重复过多则停止更新。",
+    "sampleCount": 35310,
+    "detailFailures": 30
+  }
+}

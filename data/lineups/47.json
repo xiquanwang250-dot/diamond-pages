@@ -1,0 +1,129 @@
+{
+  "detail": {
+    "lineupKey": "4|1161|1461|1671|5021",
+    "lookupKey": "4|1161|1461|1671|5021",
+    "_snapshot": {
+      "status": "fetch_failed",
+      "message": "来源接口本次无法提供该阵容详情。仅展示本次排行摘要；未使用旧统计填充，可稍后重新更新。",
+      "query": {
+        "version": "v261112",
+        "gameType": "4",
+        "subModeName": "大师场",
+        "time": 3,
+        "operator": "AND",
+        "advancedMode": false,
+        "filters": [],
+        "exclusions": [],
+        "page": 1,
+        "pageSize": 12,
+        "minimumCount": 50,
+        "sortBy": "appearanceRate"
+      },
+      "fetchedAt": "2026-11-16T07:55:12.408372+00:00"
+    },
+    "heroes": [
+      {
+        "name": "阿轲",
+        "id": "1161"
+      },
+      {
+        "name": "露娜",
+        "id": "1461"
+      },
+      {
+        "name": "孙悟空",
+        "id": "1671"
+      },
+      {
+        "name": "裴擒虎",
+        "id": "5021"
+      }
+    ],
+    "count": 109,
+    "appearanceRate": 0.0185,
+    "avgPlacement": 5.5321,
+    "firstRate": 0.0,
+    "top3Rate": 0.0183,
+    "recommendedUnits": [
+      {
+        "avgLevel": 23.5413,
+        "recommendationCount": 1,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.0092,
+        "itemIds": [
+          "643304",
+          "643701",
+          "644105"
+        ],
+        "count": 109,
+        "heroId": "5021",
+        "awakenedRate": 0.4495,
+        "recommendationType": "three_item"
+      },
+      {
+        "avgLevel": 14.1009,
+        "recommendationCount": 5,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.0,
+        "itemIds": [
+          "643703"
+        ],
+        "count": 109,
+        "heroId": "1161",
+        "awakenedRate": 0.1651,
+        "recommendationType": "single_item"
+      },
+      {
+        "avgLevel": 11.9817,
+        "recommendationCount": 1,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.0,
+        "itemIds": [
+          "643304"
+        ],
+        "count": 109,
+        "heroId": "1671",
+        "awakenedRate": 0.0367,
+        "recommendationType": "single_item"
+      },
+      {
+        "avgLevel": 14.1594,
+        "recommendationCount": 0,
+        "appearanceRate": 0.633,
+        "threeItemRate": 0.0,
+        "itemIds": [],
+        "count": 69,
+        "heroId": "1461",
+        "awakenedRate": 0.0145,
+        "recommendationType": "none"
+      }
+    ],
+    "variants": [],
+    "heroEquipment": []
+  },
+  "meta": {
+    "source": "https://www.datawxq.com/lineups?gameType=4&subModeName=大师场",
+    "api": "https://api.datatft.com/wzwxq/lineups/detail",
+    "query": {
+      "version": "v261112",
+      "gameType": "4",
+      "subModeName": "大师场",
+      "time": 3,
+      "operator": "AND",
+      "advancedMode": false,
+      "filters": [],
+      "exclusions": [],
+      "page": 1,
+      "pageSize": 12,
+      "minimumCount": 50,
+      "sortBy": "appearanceRate"
+    },
+    "downloadedAt": "2026-11-16T07:55:12.408372+00:00",
+    "total": 30,
+    "sourceTotal": 30,
+    "duplicateRows": 0,
+    "note": "少量跨页重复标识保留首次记录，不合并统计；如重复过多则停止更新。",
+    "sampleCount": 35310,
+    "detailFailures": 30
+  }
+}

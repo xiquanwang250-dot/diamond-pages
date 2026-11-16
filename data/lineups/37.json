@@ -6,7 +6,7 @@
       "status": "fetch_failed",
       "message": "来源接口本次无法提供该阵容详情。仅展示本次排行摘要；未使用旧统计填充，可稍后重新更新。",
       "query": {
-        "version": "v261029",
+        "version": "v261112",
         "gameType": "4",
         "subModeName": "大师场",
         "time": 3,
@@ -19,7 +19,7 @@
         "minimumCount": 50,
         "sortBy": "appearanceRate"
       },
-      "fetchedAt": "2026-11-05T15:57:25.073964+00:00"
+      "fetchedAt": "2026-11-16T07:55:12.408372+00:00"
     },
     "heroes": [
       {
@@ -47,88 +47,88 @@
         "id": "5131"
       }
     ],
-    "count": 84,
-    "appearanceRate": 0.0105,
-    "avgPlacement": 3.869,
-    "firstRate": 0.0714,
-    "top3Rate": 0.4048,
+    "count": 79,
+    "appearanceRate": 0.0134,
+    "avgPlacement": 4.4051,
+    "firstRate": 0.038,
+    "top3Rate": 0.2658,
     "recommendedUnits": [
       {
-        "avgLevel": 438.5714,
+        "avgLevel": 277.6835,
         "recommendationCount": 1,
         "appearanceRate": 1.0,
-        "threeItemRate": 0.4643,
+        "threeItemRate": 0.2532,
         "itemIds": [
-          "641001",
-          "643103",
-          "810098"
+          "641002",
+          "641021",
+          "810253"
         ],
-        "count": 84,
+        "count": 79,
         "heroId": "1541",
-        "awakenedRate": 0.7381,
+        "awakenedRate": 0.6835,
         "recommendationType": "three_item"
       },
       {
-        "avgLevel": 443.5,
-        "recommendationCount": 2,
+        "avgLevel": 286.7722,
+        "recommendationCount": 1,
         "appearanceRate": 1.0,
-        "threeItemRate": 0.4524,
+        "threeItemRate": 0.3797,
         "itemIds": [
-          "641010",
-          "643301",
-          "643703"
+          "641002",
+          "643103",
+          "643705"
         ],
-        "count": 84,
+        "count": 79,
         "heroId": "5071",
-        "awakenedRate": 0.9405,
+        "awakenedRate": 0.9747,
         "recommendationType": "three_item"
       },
       {
-        "avgLevel": 250.7262,
+        "avgLevel": 145.4051,
         "recommendationCount": 4,
         "appearanceRate": 1.0,
-        "threeItemRate": 0.0714,
+        "threeItemRate": 0.0,
         "itemIds": [
           "643208"
         ],
-        "count": 84,
+        "count": 79,
         "heroId": "1751",
-        "awakenedRate": 0.7381,
+        "awakenedRate": 0.6835,
         "recommendationType": "single_item"
       },
       {
-        "avgLevel": 268.0563,
-        "recommendationCount": 2,
-        "appearanceRate": 0.8452,
-        "threeItemRate": 0.0845,
+        "avgLevel": 217.2391,
+        "recommendationCount": 5,
+        "appearanceRate": 0.5823,
+        "threeItemRate": 0.0435,
         "itemIds": [
-          "643602"
+          "643502"
         ],
-        "count": 71,
+        "count": 46,
         "heroId": "1441",
-        "awakenedRate": 0.6761,
+        "awakenedRate": 0.6304,
         "recommendationType": "single_item"
       },
       {
-        "avgLevel": 327.7024,
+        "avgLevel": 189.7089,
         "recommendationCount": 0,
         "appearanceRate": 1.0,
-        "threeItemRate": 0.1667,
+        "threeItemRate": 0.0127,
         "itemIds": [],
-        "count": 84,
+        "count": 79,
         "heroId": "1931",
-        "awakenedRate": 0.6071,
+        "awakenedRate": 0.5949,
         "recommendationType": "none"
       },
       {
-        "avgLevel": 199.2738,
+        "avgLevel": 108.7848,
         "recommendationCount": 0,
         "appearanceRate": 1.0,
-        "threeItemRate": 0.0595,
+        "threeItemRate": 0.0127,
         "itemIds": [],
-        "count": 84,
+        "count": 79,
         "heroId": "5131",
-        "awakenedRate": 0.5952,
+        "awakenedRate": 0.4304,
         "recommendationType": "none"
       }
     ],
@@ -139,7 +139,7 @@
     "source": "https://www.datawxq.com/lineups?gameType=4&subModeName=大师场",
     "api": "https://api.datatft.com/wzwxq/lineups/detail",
     "query": {
-      "version": "v261029",
+      "version": "v261112",
       "gameType": "4",
       "subModeName": "大师场",
       "time": 3,
@@ -152,12 +152,12 @@
       "minimumCount": 50,
       "sortBy": "appearanceRate"
     },
-    "downloadedAt": "2026-11-05T15:57:25.073964+00:00",
-    "total": 25,
-    "sourceTotal": 25,
+    "downloadedAt": "2026-11-16T07:55:12.408372+00:00",
+    "total": 30,
+    "sourceTotal": 30,
     "duplicateRows": 0,
     "note": "少量跨页重复标识保留首次记录，不合并统计；如重复过多则停止更新。",
-    "sampleCount": 48102,
-    "detailFailures": 19
+    "sampleCount": 35310,
+    "detailFailures": 30
   }
 }

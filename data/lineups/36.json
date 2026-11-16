@@ -4,9 +4,9 @@
     "lookupKey": "8|1311|1361|1441|1731|1751|1991|5091|5131",
     "_snapshot": {
       "status": "fetch_failed",
-      "message": "来源接口本次无法提供该阵容详情。仅展示本次排行摘要；未使用旧统计填充，可稍后重新更新。",
+      "message": "来源接口本次无法提供该阵容详情。仅保留原对应关系和英雄身份；未使用旧统计填充，可稍后重新更新。",
       "query": {
-        "version": "v261029",
+        "version": "v261112",
         "gameType": "4",
         "subModeName": "大师场",
         "time": 3,
@@ -19,7 +19,7 @@
         "minimumCount": 50,
         "sortBy": "appearanceRate"
       },
-      "fetchedAt": "2026-11-05T15:57:25.073964+00:00"
+      "fetchedAt": "2026-11-16T07:55:12.408372+00:00"
     },
     "heroes": [
       {
@@ -55,109 +55,12 @@
         "id": "5131"
       }
     ],
-    "count": 137,
-    "appearanceRate": 0.0171,
-    "avgPlacement": 3.1752,
-    "firstRate": 0.1752,
-    "top3Rate": 0.5839,
-    "recommendedUnits": [
-      {
-        "avgLevel": 799.0,
-        "recommendationCount": 2,
-        "appearanceRate": 0.3139,
-        "threeItemRate": 0.8605,
-        "itemIds": [
-          "641015",
-          "643103",
-          "643803"
-        ],
-        "count": 43,
-        "heroId": "1991",
-        "awakenedRate": 1.0,
-        "recommendationType": "three_item"
-      },
-      {
-        "avgLevel": 305.4745,
-        "recommendationCount": 9,
-        "appearanceRate": 1.0,
-        "threeItemRate": 0.1533,
-        "itemIds": [
-          "643502"
-        ],
-        "count": 137,
-        "heroId": "1441",
-        "awakenedRate": 0.8832,
-        "recommendationType": "single_item"
-      },
-      {
-        "avgLevel": 223.7153,
-        "recommendationCount": 13,
-        "appearanceRate": 1.0,
-        "threeItemRate": 0.0219,
-        "itemIds": [
-          "643208"
-        ],
-        "count": 137,
-        "heroId": "1751",
-        "awakenedRate": 0.781,
-        "recommendationType": "single_item"
-      },
-      {
-        "avgLevel": 222.754,
-        "recommendationCount": 0,
-        "appearanceRate": 0.9197,
-        "threeItemRate": 0.0317,
-        "itemIds": [],
-        "count": 126,
-        "heroId": "1361",
-        "awakenedRate": 0.6429,
-        "recommendationType": "none"
-      },
-      {
-        "avgLevel": 204.4286,
-        "recommendationCount": 0,
-        "appearanceRate": 0.9197,
-        "threeItemRate": 0.0238,
-        "itemIds": [],
-        "count": 126,
-        "heroId": "5131",
-        "awakenedRate": 0.6984,
-        "recommendationType": "none"
-      },
-      {
-        "avgLevel": 316.6091,
-        "recommendationCount": 0,
-        "appearanceRate": 0.8029,
-        "threeItemRate": 0.2455,
-        "itemIds": [],
-        "count": 110,
-        "heroId": "1311",
-        "awakenedRate": 0.7455,
-        "recommendationType": "none"
-      },
-      {
-        "avgLevel": 192.3486,
-        "recommendationCount": 0,
-        "appearanceRate": 0.7956,
-        "threeItemRate": 0.0183,
-        "itemIds": [],
-        "count": 109,
-        "heroId": "5091",
-        "awakenedRate": 0.633,
-        "recommendationType": "none"
-      },
-      {
-        "avgLevel": 482.5806,
-        "recommendationCount": 0,
-        "appearanceRate": 0.6788,
-        "threeItemRate": 0.3333,
-        "itemIds": [],
-        "count": 93,
-        "heroId": "1731",
-        "awakenedRate": 0.8817,
-        "recommendationType": "none"
-      }
-    ],
+    "count": null,
+    "appearanceRate": null,
+    "avgPlacement": null,
+    "firstRate": null,
+    "top3Rate": null,
+    "recommendedUnits": [],
     "variants": [],
     "heroEquipment": []
   },
@@ -165,7 +68,7 @@
     "source": "https://www.datawxq.com/lineups?gameType=4&subModeName=大师场",
     "api": "https://api.datatft.com/wzwxq/lineups/detail",
     "query": {
-      "version": "v261029",
+      "version": "v261112",
       "gameType": "4",
       "subModeName": "大师场",
       "time": 3,
@@ -178,12 +81,12 @@
       "minimumCount": 50,
       "sortBy": "appearanceRate"
     },
-    "downloadedAt": "2026-11-05T15:57:25.073964+00:00",
-    "total": 25,
-    "sourceTotal": 25,
+    "downloadedAt": "2026-11-16T07:55:12.408372+00:00",
+    "total": 30,
+    "sourceTotal": 30,
     "duplicateRows": 0,
     "note": "少量跨页重复标识保留首次记录，不合并统计；如重复过多则停止更新。",
-    "sampleCount": 48102,
-    "detailFailures": 19
+    "sampleCount": 35310,
+    "detailFailures": 30
   }
 }

@@ -6,7 +6,7 @@
       "status": "fetch_failed",
       "message": "来源接口本次无法提供该阵容详情。仅展示本次排行摘要；未使用旧统计填充，可稍后重新更新。",
       "query": {
-        "version": "v261029",
+        "version": "v261112",
         "gameType": "4",
         "subModeName": "大师场",
         "time": 3,
@@ -19,7 +19,7 @@
         "minimumCount": 50,
         "sortBy": "appearanceRate"
       },
-      "fetchedAt": "2026-11-05T15:57:25.073964+00:00"
+      "fetchedAt": "2026-11-16T07:55:12.408372+00:00"
     },
     "heroes": [
       {
@@ -55,114 +55,114 @@
         "id": "5111"
       }
     ],
-    "count": 386,
-    "appearanceRate": 0.0481,
-    "avgPlacement": 3.0389,
-    "firstRate": 0.2876,
-    "top3Rate": 0.5674,
+    "count": 256,
+    "appearanceRate": 0.0435,
+    "avgPlacement": 3.0039,
+    "firstRate": 0.2617,
+    "top3Rate": 0.6016,
     "recommendedUnits": [
       {
-        "avgLevel": 627.0233,
-        "recommendationCount": 7,
+        "avgLevel": 651.2891,
+        "recommendationCount": 9,
         "appearanceRate": 1.0,
-        "threeItemRate": 0.5415,
+        "threeItemRate": 0.5703,
         "itemIds": [
           "641015",
-          "643205",
-          "643302"
+          "643302",
+          "643803"
         ],
-        "count": 386,
+        "count": 256,
         "heroId": "1991",
-        "awakenedRate": 0.8472,
+        "awakenedRate": 0.8633,
         "recommendationType": "three_item"
       },
       {
-        "avgLevel": 846.0259,
-        "recommendationCount": 17,
+        "avgLevel": 851.5313,
+        "recommendationCount": 8,
         "appearanceRate": 1.0,
-        "threeItemRate": 0.8135,
+        "threeItemRate": 0.832,
         "itemIds": [
+          "643103",
           "643304",
-          "643703",
           "643803"
         ],
-        "count": 386,
+        "count": 256,
         "heroId": "5021",
         "awakenedRate": 1.0,
         "recommendationType": "three_item"
       },
       {
-        "avgLevel": 720.4845,
-        "recommendationCount": 14,
+        "avgLevel": 726.9805,
+        "recommendationCount": 7,
         "appearanceRate": 1.0,
-        "threeItemRate": 0.5622,
+        "threeItemRate": 0.4883,
         "itemIds": [
+          "643501",
           "643502",
-          "643504",
           "643604"
         ],
-        "count": 386,
+        "count": 256,
         "heroId": "5111",
-        "awakenedRate": 0.9456,
+        "awakenedRate": 0.9688,
         "recommendationType": "three_item"
       },
       {
-        "avgLevel": 523.6373,
-        "recommendationCount": 12,
+        "avgLevel": 514.207,
+        "recommendationCount": 6,
         "appearanceRate": 1.0,
-        "threeItemRate": 0.0725,
+        "threeItemRate": 0.0469,
         "itemIds": [
-          "643103"
+          "643703"
         ],
-        "count": 386,
+        "count": 256,
         "heroId": "1161",
-        "awakenedRate": 0.9145,
+        "awakenedRate": 0.9063,
         "recommendationType": "single_item"
       },
       {
-        "avgLevel": 513.3705,
-        "recommendationCount": 24,
+        "avgLevel": 510.6289,
+        "recommendationCount": 17,
         "appearanceRate": 1.0,
-        "threeItemRate": 0.0907,
+        "threeItemRate": 0.1133,
         "itemIds": [
-          "643403"
+          "643402"
         ],
-        "count": 386,
+        "count": 256,
         "heroId": "5011",
-        "awakenedRate": 0.9456,
+        "awakenedRate": 0.9453,
         "recommendationType": "single_item"
       },
       {
-        "avgLevel": 343.6492,
+        "avgLevel": 346.7403,
         "recommendationCount": 0,
-        "appearanceRate": 0.842,
-        "threeItemRate": 0.0462,
+        "appearanceRate": 0.9023,
+        "threeItemRate": 0.0476,
         "itemIds": [],
-        "count": 325,
+        "count": 231,
         "heroId": "1771",
-        "awakenedRate": 0.7662,
+        "awakenedRate": 0.7706,
         "recommendationType": "none"
       },
       {
-        "avgLevel": 246.953,
+        "avgLevel": 217.7716,
         "recommendationCount": 0,
-        "appearanceRate": 0.8264,
-        "threeItemRate": 0.0063,
+        "appearanceRate": 0.7695,
+        "threeItemRate": 0.0051,
         "itemIds": [],
-        "count": 319,
+        "count": 197,
         "heroId": "1681",
-        "awakenedRate": 0.7649,
+        "awakenedRate": 0.7208,
         "recommendationType": "none"
       },
       {
-        "avgLevel": 206.7376,
+        "avgLevel": 202.716,
         "recommendationCount": 0,
-        "appearanceRate": 0.3653,
-        "threeItemRate": 0.0071,
+        "appearanceRate": 0.3164,
+        "threeItemRate": 0.0,
         "itemIds": [],
-        "count": 141,
+        "count": 81,
         "heroId": "1971",
-        "awakenedRate": 0.6879,
+        "awakenedRate": 0.5926,
         "recommendationType": "none"
       }
     ],
@@ -173,7 +173,7 @@
     "source": "https://www.datawxq.com/lineups?gameType=4&subModeName=大师场",
     "api": "https://api.datatft.com/wzwxq/lineups/detail",
     "query": {
-      "version": "v261029",
+      "version": "v261112",
       "gameType": "4",
       "subModeName": "大师场",
       "time": 3,
@@ -186,12 +186,12 @@
       "minimumCount": 50,
       "sortBy": "appearanceRate"
     },
-    "downloadedAt": "2026-11-05T15:57:25.073964+00:00",
-    "total": 25,
-    "sourceTotal": 25,
+    "downloadedAt": "2026-11-16T07:55:12.408372+00:00",
+    "total": 30,
+    "sourceTotal": 30,
     "duplicateRows": 0,
     "note": "少量跨页重复标识保留首次记录，不合并统计；如重复过多则停止更新。",
-    "sampleCount": 48102,
-    "detailFailures": 19
+    "sampleCount": 35310,
+    "detailFailures": 30
   }
 }
