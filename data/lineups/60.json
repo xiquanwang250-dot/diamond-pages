@@ -1,0 +1,125 @@
+{
+  "detail": {
+    "lineupKey": "4|1741|1891|5051|5771",
+    "lookupKey": "4|1741|1891|5051|5771",
+    "_snapshot": {
+      "status": "fetch_failed",
+      "message": "来源接口本次无法提供该阵容详情。仅展示本次排行摘要；未使用旧统计填充，可稍后重新更新。",
+      "query": {
+        "version": "v261112",
+        "gameType": "4",
+        "subModeName": "大师场",
+        "time": 3,
+        "operator": "AND",
+        "advancedMode": false,
+        "filters": [],
+        "exclusions": [],
+        "page": 1,
+        "pageSize": 12,
+        "minimumCount": 50,
+        "sortBy": "appearanceRate"
+      },
+      "fetchedAt": "2026-11-19T18:00:53.109379+00:00"
+    },
+    "heroes": [
+      {
+        "name": "虞姬",
+        "id": "1741"
+      },
+      {
+        "name": "鬼谷子",
+        "id": "1891"
+      },
+      {
+        "name": "瑶",
+        "id": "5051"
+      },
+      {
+        "name": "少司缘",
+        "id": "5771"
+      }
+    ],
+    "count": 56,
+    "appearanceRate": 0.0123,
+    "avgPlacement": 5.4464,
+    "firstRate": 0.0,
+    "top3Rate": 0.0179,
+    "recommendedUnits": [
+      {
+        "avgLevel": 14.5536,
+        "recommendationCount": 2,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.0,
+        "itemIds": [
+          "42101"
+        ],
+        "count": 56,
+        "heroId": "1741",
+        "awakenedRate": 0.9286,
+        "recommendationType": "single_item"
+      },
+      {
+        "avgLevel": 6.3036,
+        "recommendationCount": 6,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.0,
+        "itemIds": [
+          "42101"
+        ],
+        "count": 56,
+        "heroId": "5771",
+        "awakenedRate": 0.0179,
+        "recommendationType": "single_item"
+      },
+      {
+        "avgLevel": 6.1429,
+        "recommendationCount": 0,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.0,
+        "itemIds": [],
+        "count": 56,
+        "heroId": "1891",
+        "awakenedRate": 0.0,
+        "recommendationType": "none"
+      },
+      {
+        "avgLevel": 6.7857,
+        "recommendationCount": 0,
+        "appearanceRate": 1.0,
+        "threeItemRate": 0.0,
+        "itemIds": [],
+        "count": 56,
+        "heroId": "5051",
+        "awakenedRate": 0.0357,
+        "recommendationType": "none"
+      }
+    ],
+    "variants": [],
+    "heroEquipment": []
+  },
+  "meta": {
+    "source": "https://www.datawxq.com/lineups?gameType=4&subModeName=大师场",
+    "api": "https://api.datatft.com/wzwxq/lineups/detail",
+    "query": {
+      "version": "v261112",
+      "gameType": "4",
+      "subModeName": "大师场",
+      "time": 3,
+      "operator": "AND",
+      "advancedMode": false,
+      "filters": [],
+      "exclusions": [],
+      "page": 1,
+      "pageSize": 12,
+      "minimumCount": 50,
+      "sortBy": "appearanceRate"
+    },
+    "downloadedAt": "2026-11-19T18:00:53.109379+00:00",
+    "total": 29,
+    "sourceTotal": 29,
+    "duplicateRows": 0,
+    "note": "少量跨页重复标识保留首次记录，不合并统计；如重复过多则停止更新。",
+    "sampleCount": 27210,
+    "detailFailures": 43
+  }
+}

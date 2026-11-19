@@ -19,7 +19,7 @@
         "minimumCount": 50,
         "sortBy": "appearanceRate"
       },
-      "fetchedAt": "2026-11-16T07:55:12.408372+00:00"
+      "fetchedAt": "2026-11-19T18:00:53.109379+00:00"
     },
     "heroes": [
       {
@@ -55,110 +55,106 @@
         "id": "5141"
       }
     ],
-    "count": 150,
-    "appearanceRate": 0.0255,
-    "avgPlacement": 3.18,
-    "firstRate": 0.1467,
-    "top3Rate": 0.5867,
+    "count": 81,
+    "appearanceRate": 0.0179,
+    "avgPlacement": 3.037,
+    "firstRate": 0.1728,
+    "top3Rate": 0.5802,
     "recommendedUnits": [
       {
-        "avgLevel": 817.7333,
-        "recommendationCount": 5,
+        "avgLevel": 787.5679,
+        "recommendationCount": 3,
         "appearanceRate": 1.0,
-        "threeItemRate": 0.84,
+        "threeItemRate": 0.8395,
         "itemIds": [
-          "643105",
           "643202",
+          "643402",
           "643803"
         ],
-        "count": 150,
+        "count": 81,
         "heroId": "1421",
-        "awakenedRate": 1.0,
+        "awakenedRate": 0.9877,
         "recommendationType": "three_item"
       },
       {
-        "avgLevel": 689.0909,
-        "recommendationCount": 2,
-        "appearanceRate": 0.88,
-        "threeItemRate": 0.447,
-        "itemIds": [
-          "641010",
-          "643103",
-          "643304"
-        ],
-        "count": 132,
-        "heroId": "5021",
-        "awakenedRate": 0.5909,
-        "recommendationType": "three_item"
-      },
-      {
-        "avgLevel": 649.2867,
-        "recommendationCount": 8,
+        "avgLevel": 670.6049,
+        "recommendationCount": 9,
         "appearanceRate": 1.0,
-        "threeItemRate": 0.1867,
+        "threeItemRate": 0.1728,
         "itemIds": [
           "643402"
         ],
-        "count": 150,
+        "count": 81,
         "heroId": "1591",
-        "awakenedRate": 0.9,
+        "awakenedRate": 0.9012,
         "recommendationType": "single_item"
       },
       {
-        "avgLevel": 644.8933,
-        "recommendationCount": 6,
+        "avgLevel": 665.284,
+        "recommendationCount": 4,
         "appearanceRate": 1.0,
-        "threeItemRate": 0.2533,
+        "threeItemRate": 0.1605,
         "itemIds": [
           "643504"
         ],
-        "count": 150,
+        "count": 81,
         "heroId": "1661",
-        "awakenedRate": 0.9267,
+        "awakenedRate": 0.9012,
         "recommendationType": "single_item"
       },
       {
-        "avgLevel": 646.82,
+        "avgLevel": 668.8519,
         "recommendationCount": 0,
         "appearanceRate": 1.0,
-        "threeItemRate": 0.0467,
+        "threeItemRate": 0.037,
         "itemIds": [],
-        "count": 150,
+        "count": 81,
         "heroId": "5031",
-        "awakenedRate": 0.98,
+        "awakenedRate": 1.0,
         "recommendationType": "none"
       },
       {
-        "avgLevel": 602.6333,
+        "avgLevel": 626.7407,
         "recommendationCount": 0,
         "appearanceRate": 1.0,
-        "threeItemRate": 0.1,
+        "threeItemRate": 0.0864,
         "itemIds": [],
-        "count": 150,
+        "count": 81,
         "heroId": "5041",
-        "awakenedRate": 0.9467,
+        "awakenedRate": 0.9506,
         "recommendationType": "none"
       },
       {
-        "avgLevel": 593.4733,
+        "avgLevel": 592.6914,
         "recommendationCount": 0,
         "appearanceRate": 1.0,
-        "threeItemRate": 0.0533,
+        "threeItemRate": 0.0617,
         "itemIds": [],
-        "count": 150,
+        "count": 81,
         "heroId": "5141",
-        "awakenedRate": 0.94,
+        "awakenedRate": 0.9259,
         "recommendationType": "none"
       },
       {
-        "avgLevel": 327.339,
+        "avgLevel": 644.75,
         "recommendationCount": 0,
-        "appearanceRate": 0.3933,
-        "threeItemRate": 0.0847,
+        "appearanceRate": 0.8889,
+        "threeItemRate": 0.3889,
         "itemIds": [],
-        "count": 59,
+        "count": 72,
+        "heroId": "5021",
+        "awakenedRate": 0.5833,
+        "recommendationType": "none"
+      },
+      {
+        "avgLevel": 410.7879,
+        "recommendationCount": 0,
+        "appearanceRate": 0.4074,
+        "threeItemRate": 0.1212,
+        "itemIds": [],
+        "count": 33,
         "heroId": "5051",
-        "awakenedRate": 0.4576,
+        "awakenedRate": 0.5152,
         "recommendationType": "none"
       }
     ],
@@ -182,12 +178,12 @@
       "minimumCount": 50,
       "sortBy": "appearanceRate"
     },
-    "downloadedAt": "2026-11-16T07:55:12.408372+00:00",
-    "total": 30,
-    "sourceTotal": 30,
+    "downloadedAt": "2026-11-19T18:00:53.109379+00:00",
+    "total": 29,
+    "sourceTotal": 29,
     "duplicateRows": 0,
     "note": "少量跨页重复标识保留首次记录，不合并统计；如重复过多则停止更新。",
-    "sampleCount": 35310,
-    "detailFailures": 30
+    "sampleCount": 27210,
+    "detailFailures": 43
   }
 }

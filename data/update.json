@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-16T07:55:12.408372+00:00",
-  "runId": "43827125493",
+  "updatedAt": "2026-11-19T18:00:53.109379+00:00",
+  "runId": "44583212689",
   "days": 3,
   "venue": "master",
   "version": "v261112",
   "packs": 52,
-  "offers": 2043,
-  "lineups": 30,
-  "detailSlots": 51,
-  "detailFailures": 30,
-  "iconFailures": 142,
+  "offers": 1957,
+  "lineups": 29,
+  "detailSlots": 61,
+  "detailFailures": 43,
+  "iconFailures": 139,
   "relationshipStrategy": "reuse-original"
 }

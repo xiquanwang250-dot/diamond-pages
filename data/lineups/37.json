@@ -4,7 +4,7 @@
     "lookupKey": "6|1441|1541|1751|1931|5071|5131",
     "_snapshot": {
       "status": "fetch_failed",
-      "message": "来源接口本次无法提供该阵容详情。仅展示本次排行摘要；未使用旧统计填充，可稍后重新更新。",
+      "message": "来源接口本次无法提供该阵容详情。仅保留原对应关系和英雄身份；未使用旧统计填充，可稍后重新更新。",
       "query": {
         "version": "v261112",
         "gameType": "4",
@@ -19,7 +19,7 @@
         "minimumCount": 50,
         "sortBy": "appearanceRate"
       },
-      "fetchedAt": "2026-11-16T07:55:12.408372+00:00"
+      "fetchedAt": "2026-11-19T18:00:53.109379+00:00"
     },
     "heroes": [
       {
@@ -47,91 +47,12 @@
         "id": "5131"
       }
     ],
-    "count": 79,
-    "appearanceRate": 0.0134,
-    "avgPlacement": 4.4051,
-    "firstRate": 0.038,
-    "top3Rate": 0.2658,
-    "recommendedUnits": [
-      {
-        "avgLevel": 277.6835,
-        "recommendationCount": 1,
-        "appearanceRate": 1.0,
-        "threeItemRate": 0.2532,
-        "itemIds": [
-          "641002",
-          "641021",
-          "810253"
-        ],
-        "count": 79,
-        "heroId": "1541",
-        "awakenedRate": 0.6835,
-        "recommendationType": "three_item"
-      },
-      {
-        "avgLevel": 286.7722,
-        "recommendationCount": 1,
-        "appearanceRate": 1.0,
-        "threeItemRate": 0.3797,
-        "itemIds": [
-          "641002",
-          "643103",
-          "643705"
-        ],
-        "count": 79,
-        "heroId": "5071",
-        "awakenedRate": 0.9747,
-        "recommendationType": "three_item"
-      },
-      {
-        "avgLevel": 145.4051,
-        "recommendationCount": 4,
-        "appearanceRate": 1.0,
-        "threeItemRate": 0.0,
-        "itemIds": [
-          "643208"
-        ],
-        "count": 79,
-        "heroId": "1751",
-        "awakenedRate": 0.6835,
-        "recommendationType": "single_item"
-      },
-      {
-        "avgLevel": 217.2391,
-        "recommendationCount": 5,
-        "appearanceRate": 0.5823,
-        "threeItemRate": 0.0435,
-        "itemIds": [
-          "643502"
-        ],
-        "count": 46,
-        "heroId": "1441",
-        "awakenedRate": 0.6304,
-        "recommendationType": "single_item"
-      },
-      {
-        "avgLevel": 189.7089,
-        "recommendationCount": 0,
-        "appearanceRate": 1.0,
-        "threeItemRate": 0.0127,
-        "itemIds": [],
-        "count": 79,
-        "heroId": "1931",
-        "awakenedRate": 0.5949,
-        "recommendationType": "none"
-      },
-      {
-        "avgLevel": 108.7848,
-        "recommendationCount": 0,
-        "appearanceRate": 1.0,
-        "threeItemRate": 0.0127,
-        "itemIds": [],
-        "count": 79,
-        "heroId": "5131",
-        "awakenedRate": 0.4304,
-        "recommendationType": "none"
-      }
-    ],
+    "count": null,
+    "appearanceRate": null,
+    "avgPlacement": null,
+    "firstRate": null,
+    "top3Rate": null,
+    "recommendedUnits": [],
     "variants": [],
     "heroEquipment": []
   },
@@ -152,12 +73,12 @@
       "minimumCount": 50,
       "sortBy": "appearanceRate"
     },
-    "downloadedAt": "2026-11-16T07:55:12.408372+00:00",
-    "total": 30,
-    "sourceTotal": 30,
+    "downloadedAt": "2026-11-19T18:00:53.109379+00:00",
+    "total": 29,
+    "sourceTotal": 29,
     "duplicateRows": 0,
     "note": "少量跨页重复标识保留首次记录，不合并统计；如重复过多则停止更新。",
-    "sampleCount": 35310,
-    "detailFailures": 30
+    "sampleCount": 27210,
+    "detailFailures": 43
   }
 }
